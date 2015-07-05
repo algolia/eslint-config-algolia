@@ -7,10 +7,14 @@
     "eslint",
     "eslintconfig"
   ],
+  "main": "index.js",
   "author": "Algolia <support@algolia.com>",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/algolia/eslint-config-algolia"
   },
-  "homepage": "https://github.com/algolia/eslint-config-algolia"
+  "homepage": "https://github.com/algolia/eslint-config-algolia",
+  "dependencies": {
+    "strip-json-comments": "1.0.2"
+  }
 }
