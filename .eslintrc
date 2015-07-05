@@ -3,7 +3,7 @@
   "ecmaFeatures": {
     // https://github.com/eslint/eslint/issues/2785#issuecomment-113254153
     // we do not use ES6 right now, once we use it, we can
-    remove this whole configuration part and use airbnb default
+    // remove this whole configuration part and use airbnb default
     "modules": false
   },
   "rules": {
