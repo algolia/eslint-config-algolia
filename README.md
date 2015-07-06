@@ -2,6 +2,8 @@
 
 This is [Algolia](https://www.algolia.com/)'s [ESLint](http://eslint.org/) configuration.
 
+We [extend](http://eslint.org/docs/user-guide/configuring.html#extending-configuration-files) [airbnb/javascript](https://github.com/airbnb/javascript) rules.
+
 ## How to use it?
 
 In your project:
