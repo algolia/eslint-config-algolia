@@ -36,7 +36,6 @@ The rules are the ones from the [Airbnb JavaScript style guide](https://github.c
 - disable [no-param-reassign](http://eslint.org/docs/rules/no-param-reassign) `function(param) { param = param }`
 - warn on long lines [max-len](http://eslint.org/docs/rules/max-len)
 - enable [no-use-before-define](http://eslint.org/docs/rules/no-use-before-define) for functions
-- disallow [semi](http://eslint.org/docs/rules/semi)colon
 - prefer function declarations [func-style](http://eslint.org/docs/rules/)
 
 ## Ignoring files
