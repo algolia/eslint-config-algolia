@@ -1,5 +1,9 @@
 ### UNRELEASED
 
+### 2.1.0 (2015-07-08):
+
+Consistency around spacing
+
 ### 2.0.4 (2015-07-03):
 
 Semi colons are back
