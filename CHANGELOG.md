@@ -1,5 +1,11 @@
 ### UNRELEASED
 
+### 2.1.1 (2015-07-09):
+
+Disable func-names warnings. They are useful is uncaught exceptions.
+There's no point in enforcing func-names, since most browsers
+will now show the property name in an uncaught exception.
+
 ### 2.1.0 (2015-07-08):
 
 Consistency around spacing
