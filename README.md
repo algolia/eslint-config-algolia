@@ -42,3 +42,25 @@ The rules are the ones from the [Airbnb JavaScript style guide](https://github.c
 
 See "Ignoring Files and Directories" on [ESLint website](http://eslint.org/docs/user-guide/configuring.html#ignoring-files-and-directories).
 
+## Using as a global eslint config
+
+You can have a `~/.eslintrc` config that will be used if your project has no `.eslintrc`.
+
+Create a `~/.eslintrc` with:
+
+```json
+{
+  "extends": [
+    "eslint-config-airbnb",
+    "eslint-config-algolia"
+  ]
+}
+```
+
+Then:
+
+```sh
+cd ~
+npm install eslint-config-airbnb eslint-config-algolia
+```
+
