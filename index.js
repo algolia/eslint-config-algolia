@@ -1,10 +1,12 @@
-var fs = require('fs')
-var path = require('path')
-var stripComments = require('strip-json-comments')
+'use strict';
 
-var filename = path.join(__dirname, '.eslintrc')
-var data = fs.readFileSync(filename, {encoding: 'utf-8'})
-var dataWithoutComments = stripComments(data)
-var parsed = JSON.parse(dataWithoutComments)
+var fs = require('fs');
+var path = require('path');
+var stripComments = require('strip-json-comments');
 
-module.exports = parsed
+var filename = path.join(__dirname, '.eslintrc');
+var data = fs.readFileSync(filename, {encoding: 'utf8'});
+var dataWithoutComments = stripComments(data);
+var parsed = JSON.parse(dataWithoutComments);
+
+module.exports = parsed;
