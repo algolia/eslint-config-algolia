@@ -1,5 +1,9 @@
 ### UNRELEASED
 
+### 2.1.2 (2015-07-31):
+
+Disable enforcing comma dangle on multiline strings (forced by airbnb)
+
 ### 2.1.1 (2015-07-09):
 
 Disable func-names warnings. They are useful is uncaught exceptions.

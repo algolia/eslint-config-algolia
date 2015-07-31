@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-algolia",
-  "version": "2.1.1",
+  "version": "2.1.2",
   "description": "Algolia's ESLint config. Based on the Airbnb ESLint config, with some modifications.",
   "repository": "algolia/eslint-config-algolia",
   "keywords": [
