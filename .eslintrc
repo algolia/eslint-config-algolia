@@ -7,6 +7,7 @@
     "modules": false
   },
   "rules": {
+    "quote-props": [2, "as-needed"],
     "array-bracket-spacing": [2, "never"],
     "vars-on-top": 0,
     "no-param-reassign": 0,
