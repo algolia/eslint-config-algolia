@@ -1,4 +1,7 @@
-### UNRELEASED
+# 2.2.0 (2015-09-08)
+
+Enable `quotes-props` to `as-needed` to disallow unecessary quotes (consistency).
+http://eslint.org/docs/rules/quote-props.html#as-needed
 
 ### 2.1.2 (2015-07-31):
 
