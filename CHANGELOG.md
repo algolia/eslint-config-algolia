@@ -1,3 +1,31 @@
+# 3.0.0 (2015-09-11)
+
+  You can now lint es5 and es6 code by doing:
+
+  ```json
+  {
+    "extends": [
+      "eslint:recommended"
+      "airbnb/base",
+      "agolia/es5"
+    ]
+  }
+  ```
+
+  Or
+
+  ```json
+  {
+    "extends": [
+      "eslint:recommended"
+      "airbnb",
+      "algolia/es6"
+    ]
+  }
+  ```
+
+  See the [readme](README.md) for more details.
+
 # 2.2.0 (2015-09-08)
 
 Enable `quotes-props` to `as-needed` to disallow unecessary quotes (consistency).

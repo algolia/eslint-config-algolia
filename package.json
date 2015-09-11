@@ -1,11 +1,13 @@
 {
   "name": "eslint-config-algolia",
-  "version": "2.2.0",
+  "version": "3.0.0",
   "description": "Algolia's ESLint config. Based on the Airbnb ESLint config, with some modifications.",
   "repository": "algolia/eslint-config-algolia",
   "keywords": [
     "eslint",
-    "eslintconfig"
+    "eslintconfig",
+    "es5",
+    "es6"
   ],
   "main": "index.js",
   "author": "Algolia <support@algolia.com>",
@@ -15,6 +17,6 @@
   },
   "homepage": "https://github.com/algolia/eslint-config-algolia",
   "dependencies": {
-    "strip-json-comments": "1.0.2"
+    "strip-json-comments": "1.0.4"
   }
 }

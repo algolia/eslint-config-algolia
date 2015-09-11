@@ -1,12 +1,12 @@
 # eslint-config-algolia
 
-This is [Algolia](https://www.algolia.com/)'s [ESLint](http://eslint.org/) configuration.
+This is [Algolia](https://www.algolia.com/)'s [ESLint](http://eslint.org/) configuration for es5 and es6.
 
 We [extend](http://eslint.org/docs/user-guide/configuring.html#extending-configuration-files) [airbnb/javascript](https://github.com/airbnb/javascript) rules.
 
-## How to use it?
+## Usage
 
-In your project:
+### es5
 
 ```sh
 npm install eslint eslint-config-algolia eslint-config-airbnb --save-dev
@@ -16,11 +16,31 @@ create an `.eslintrc` file:
 ```json
 {
   "extends": [
-    "eslint-config-airbnb",
-    "eslint-config-algolia"
+    "eslint:recommended"
+    "airbnb/base",
+    "agolia/es5"
   ]
 }
 ```
+
+### es6
+
+```sh
+npm install eslint eslint-config-algolia eslint-config-airbnb eslint-plugin-react --save-dev
+```
+
+create an `.eslintrc` file:
+```json
+{
+  "extends": [
+    "eslint:recommended"
+    "airbnb",
+    "algolia/es6"
+  ]
+}
+```
+
+### Tips
 
 If you are using [any editors plugin](http://eslint.org/docs/user-guide/integrations.html#editors) for ESLint then it will show you warnings/errors.
 
@@ -51,8 +71,9 @@ Create a `~/.eslintrc` with:
 ```json
 {
   "extends": [
-    "eslint-config-airbnb",
-    "eslint-config-algolia"
+    "eslint:recommended",
+    "airbnb",
+    "algolia/es6"
   ]
 }
 ```
@@ -61,6 +82,6 @@ Then:
 
 ```sh
 cd ~
-npm install eslint-config-airbnb eslint-config-algolia
+npm install eslint eslint-config-algolia eslint-config-airbnb eslint-plugin-react
 ```
 
