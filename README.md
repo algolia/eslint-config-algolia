@@ -6,8 +6,6 @@ We [extend](http://eslint.org/docs/user-guide/configuring.html#extending-configu
 
 ## Usage
 
-### es5
-
 ```sh
 npm install eslint eslint-config-algolia eslint-config-airbnb --save-dev
 ```
@@ -15,28 +13,7 @@ npm install eslint eslint-config-algolia eslint-config-airbnb --save-dev
 create an `.eslintrc` file:
 ```json
 {
-  "extends": [
-    "eslint:recommended"
-    "airbnb/base",
-    "agolia/es5"
-  ]
-}
-```
-
-### es6
-
-```sh
-npm install eslint eslint-config-algolia eslint-config-airbnb eslint-plugin-react babel-eslint --save-dev
-```
-
-create an `.eslintrc` file:
-```json
-{
-  "extends": [
-    "eslint:recommended"
-    "airbnb",
-    "algolia/es6"
-  ]
+  "extends": "algolia"
 }
 ```
 
@@ -70,11 +47,7 @@ Create a `~/.eslintrc` with:
 
 ```json
 {
-  "extends": [
-    "eslint:recommended",
-    "airbnb",
-    "algolia/es6"
-  ]
+  "extends": "algolia"
 }
 ```
 

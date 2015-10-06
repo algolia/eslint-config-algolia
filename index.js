@@ -1,12 +1,8 @@
-'use strict';
-
-var fs = require('fs');
-var path = require('path');
-var stripComments = require('strip-json-comments');
-
-var filename = path.join(__dirname, '.eslintrc');
-var data = fs.readFileSync(filename, {encoding: 'utf8'});
-var dataWithoutComments = stripComments(data);
-var parsed = JSON.parse(dataWithoutComments);
-
-module.exports = parsed;
+module.exports = {
+  extends: [
+    'eslint:recommended',
+    'airbnb/base',
+    'algolia/rules/base',
+    'algolia/rules/react'
+  ]
+};
