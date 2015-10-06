@@ -1,3 +1,20 @@
+# 4.0.0 (2015-10-06)
+
+  Easier usage instructions and linting:
+
+  ```sh
+  npm install eslint eslint-config-algolia eslint-config-airbnb --save-dev
+  ```
+
+  create an `.eslintrc` file:
+  ```json
+  {
+    "extends": "algolia"
+  }
+  ```
+
+  No more `algolia/es5` or `algolia/es6`, move to `es6` if you need to upgrade.
+
 # 3.0.0 (2015-09-11)
 
   You can now lint es5 and es6 code by doing:
