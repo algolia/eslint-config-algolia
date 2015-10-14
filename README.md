@@ -7,7 +7,7 @@ We [extend](http://eslint.org/docs/user-guide/configuring.html#extending-configu
 ## Usage
 
 ```sh
-npm install eslint eslint-config-algolia eslint-config-airbnb eslint-plugin-react --save-dev
+npm install eslint eslint-config-algolia eslint-config-airbnb eslint-plugin-react babel-eslint --save-dev
 ```
 
 create an `.eslintrc` file:
