@@ -1,7 +1,7 @@
 module.exports = {
   extends: [
     'eslint:recommended',
-    'airbnb/base',
+    'airbnb',
     'algolia/rules/base',
     'algolia/rules/react'
   ]
