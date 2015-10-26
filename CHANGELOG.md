@@ -1,3 +1,7 @@
+# 4.2.0 (2015-10-26)
+
+  Use [airbnb/javascripts/eslint-config-airbnb/rules/react](https://github.com/airbnb/javascript/blob/98a76908fcf605221e6b85849f0d058b886741bd/packages/eslint-config-airbnb/rules/react.js).
+
 # 4.0.0 (2015-10-06)
 
   Easier usage instructions and linting:
