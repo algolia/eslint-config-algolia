@@ -2,6 +2,6 @@ module.exports = {
   parser: 'babel-eslint',
   plugins: ['algolia'],
   rules: {
-    'relative-require': 2
+    'algolia/relative-require': 2
   }
 };
