@@ -25,7 +25,7 @@
     "eslint": "^1.7.3",
     "eslint-config-airbnb": "^0.1.0",
     "eslint-config-algolia": "latest",
-    "eslint-plugin-algolia": "^1.0.2",
+    "eslint-plugin-algolia": "^1.0.3",
     "eslint-plugin-react": "^3.6.3"
   }
 }
