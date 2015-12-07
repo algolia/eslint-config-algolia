@@ -5,11 +5,9 @@ if test -n "$(git status --porcelain)"; then
   exit
 fi
 
-current=`cat VERSION`
+current=`cat package.json | json version`
 read -p "New version number (current is ${current}): " version
 npm version $version
-rm -f VERSION && echo $version > VERSION
-git commit VERSION --amend -m "v$version"
 git push
 git push --tags
 npm publish
