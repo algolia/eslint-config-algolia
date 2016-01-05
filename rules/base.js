@@ -7,7 +7,11 @@ module.exports = {
     'max-len': [
       1,
       110,
-      2
+      2,
+      {
+        "ignoreComments": true,
+        "ignoreUrls": true
+      }
     ],
     'comma-dangle': [2, 'never'],
     'no-use-before-define': [2, 'nofunc'],
