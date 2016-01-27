@@ -1,6 +1,6 @@
 module.exports = {
   rules: {
-    'quote-props': [2, 'as-needed'],
+    'quote-props': [2, 'as-needed', {keywords: true}],
     'array-bracket-spacing': [2, 'never'],
     'vars-on-top': 0,
     'no-param-reassign': 0,
