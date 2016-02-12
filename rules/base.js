@@ -39,6 +39,7 @@ module.exports = {
     'computed-property-spacing': [2, 'never'],
     'func-names': 0,
     'valid-jsdoc': [2, {requireReturnDescription: false}],
-    'id-length': 0
+    'id-length': 0,
+    'no-unused-vars': [2, {args: 'after-used', argsIgnorePattern: '^_'}]
   }
 };
