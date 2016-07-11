@@ -1,3 +1,13 @@
+<a name="5.0.0"></a>
+# [5.0.0](https://github.com/algolia/eslint-config-algolia/compare/v4.7.0...v5.0.0) (2016-07-11)
+
+
+### Features
+
+* **major:** eslint 3, stop relying on airbnb and too much invisible defaults ([2de318a](https://github.com/algolia/eslint-config-algolia/commit/2de318a))
+
+
+
 # 4.2.0 (2015-10-26)
 
   Use [airbnb/javascripts/eslint-config-airbnb/rules/react](https://github.com/airbnb/javascript/blob/98a76908fcf605221e6b85849f0d058b886741bd/packages/eslint-config-airbnb/rules/react.js).
