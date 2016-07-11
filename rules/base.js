@@ -1,13 +1,17 @@
 module.exports = {
   rules: {
-    'quote-props': [2, 'as-needed'],
+    'quote-props': [2, 'as-needed', {keywords: true}],
     'array-bracket-spacing': [2, 'never'],
     'vars-on-top': 0,
     'no-param-reassign': 0,
     'max-len': [
       1,
       110,
-      2
+      2,
+      {
+        "ignoreComments": true,
+        "ignoreUrls": true
+      }
     ],
     'comma-dangle': [2, 'never'],
     'no-use-before-define': [2, 'nofunc'],
@@ -35,6 +39,7 @@ module.exports = {
     'computed-property-spacing': [2, 'never'],
     'func-names': 0,
     'valid-jsdoc': [2, {requireReturnDescription: false}],
-    'id-length': 0
+    'id-length': 0,
+    'no-unused-vars': [2, {args: 'after-used', argsIgnorePattern: '^_'}]
   }
 };
