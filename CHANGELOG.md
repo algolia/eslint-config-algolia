@@ -1,3 +1,13 @@
+<a name="5.1.0"></a>
+# [5.1.0](https://github.com/algolia/eslint-config-algolia/compare/v5.0.0...v5.1.0) (2016-07-12)
+
+
+### Features
+
+* **import:** disallow commonjs, only check .js imports ([949e567](https://github.com/algolia/eslint-config-algolia/commit/949e567))
+
+
+
 <a name="5.0.0"></a>
 # [5.0.0](https://github.com/algolia/eslint-config-algolia/compare/v4.7.0...v5.0.0) (2016-07-11)
 
