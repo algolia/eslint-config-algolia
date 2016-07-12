@@ -20,6 +20,9 @@ module.exports = {
     "plugin:import/errors",
     "plugin:import/warnings"
   ],
+  "settings": {
+    "import/extensions": [".js"]
+  },
   "rules": {
     // Possible errors
     // http://eslint.org/docs/rules/#possible-errors
@@ -260,6 +263,10 @@ module.exports = {
     "yield-star-spacing": ["error"],
 
     "react/no-danger": ["off"],
-    "react/display-name": ["off"]
+    "react/display-name": ["off"],
+    "import/no-commonjs": ["error"],
+    "import/no-amd": ["error"],
+    "import/no-commonjs": ["error"],
+    "import/no-extraneous-dependencies": ["error"]
   }
 };
