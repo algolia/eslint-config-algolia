@@ -1,3 +1,13 @@
+<a name="5.2.0"></a>
+# [5.2.0](https://github.com/algolia/eslint-config-algolia/compare/v5.1.0...v5.2.0) (2016-07-13)
+
+
+### Features
+
+* **parser:** use babel-eslint, allows for more es features ([25f1936](https://github.com/algolia/eslint-config-algolia/commit/25f1936))
+
+
+
 <a name="5.1.0"></a>
 # [5.1.0](https://github.com/algolia/eslint-config-algolia/compare/v5.0.0...v5.1.0) (2016-07-12)
 
