@@ -3,6 +3,10 @@
   "version": "5.2.0",
   "description": "Algolia's ESLint config.",
   "repository": "algolia/eslint-config-algolia",
+  "scripts": {
+    "test": "./scripts/test.sh",
+    "release": "./scripts/release.sh"
+  },
   "keywords": [
     "eslint",
     "eslintconfig",

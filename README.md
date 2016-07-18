@@ -1,5 +1,7 @@
 # eslint-config-algolia
 
+[![Version][version-svg]][package-url] [![Build Status][travis-svg]][travis-url] [![License][license-image]][license-url] [![Downloads][downloads-image]][downloads-url]
+
 This is [Algolia](https://www.algolia.com/)'s [ESLint](http://eslint.org/) configuration.
 
 ## Usage
@@ -43,3 +45,26 @@ Then:
 cd ~
 npm install eslint-config-algolia
 ```
+
+## Test
+
+We have a [sample-project](sample-project).
+
+```sh
+npm test
+```
+
+## Release
+
+```sh
+npm run release
+```
+
+[version-svg]: https://img.shields.io/npm/v/eslint-config-algolia.svg?style=flat-square
+[package-url]: https://npmjs.org/package/eslint-config-algolia
+[travis-svg]: https://img.shields.io/travis/algolia/eslint-config-algolia/master.svg?style=flat-square
+[travis-url]: https://travis-ci.org/algolia/eslint-config-algolia
+[license-image]: http://img.shields.io/badge/license-MIT-green.svg?style=flat-square
+[license-url]: LICENSE
+[downloads-image]: https://img.shields.io/npm/dm/eslint-config-algolia.svg?style=flat-square
+[downloads-url]: http://npm-stat.com/charts.html?package=eslint-config-algolia

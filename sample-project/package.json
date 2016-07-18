@@ -1,0 +1,19 @@
+{
+  "name": "sample-project",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "./test.sh"
+  },
+  "private": true,
+  "keywords": [],
+  "author": "Algolia <support@algolia.com> (https://github.com/algolia/)",
+  "license": "MIT",
+  "dependencies": {
+    "react-addons-shallow-compare": "^15.2.1"
+  },
+  "devDependencies": {
+    "react": "^15.2.1"
+  }
+}
