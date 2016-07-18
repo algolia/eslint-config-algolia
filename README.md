@@ -1,3 +1,16 @@
+<!-- START doctoc generated TOC please keep comment here to allow auto update -->
+<!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
+**Table of Contents**  *generated with [DocToc](https://github.com/thlorenz/doctoc)*
+
+- [eslint-config-algolia](#eslint-config-algolia)
+  - [Usage](#usage)
+  - [Ignoring files](#ignoring-files)
+  - [Using as a global eslint config](#using-as-a-global-eslint-config)
+  - [Test](#test)
+  - [Release](#release)
+
+<!-- END doctoc generated TOC please keep comment here to allow auto update -->
+
 # eslint-config-algolia
 
 [![Version][version-svg]][package-url] [![Build Status][travis-svg]][travis-url] [![License][license-image]][license-url] [![Downloads][downloads-image]][downloads-url]
