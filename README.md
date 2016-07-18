@@ -9,12 +9,12 @@ This is [Algolia](https://www.algolia.com/)'s [ESLint](http://eslint.org/) confi
 <!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
 **Table of Contents**
 
-- [eslint-config-algolia](#eslint-config-algolia)
-  - [Usage](#usage)
-  - [Ignoring files](#ignoring-files)
-  - [Using as a global eslint config](#using-as-a-global-eslint-config)
-  - [Test](#test)
-  - [Release](#release)
+- [Usage](#usage)
+  - [Tips](#tips)
+- [Ignoring files](#ignoring-files)
+- [Using as a global eslint config](#using-as-a-global-eslint-config)
+- [Test](#test)
+- [Release](#release)
 
 <!-- END doctoc generated TOC please keep comment here to allow auto update -->
 
