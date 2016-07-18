@@ -25,5 +25,10 @@
     "eslint": "^3.1.0",
     "eslint-plugin-import": "^1.11.0",
     "eslint-plugin-react": "^5.2.2"
+  },
+  "devDependencies": {
+    "conventional-changelog-cli": "^1.2.0",
+    "doctoc": "^1.2.0",
+    "json": "^9.0.4"
   }
 }
