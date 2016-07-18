@@ -10,7 +10,6 @@ This is [Algolia](https://www.algolia.com/)'s [ESLint](http://eslint.org/) confi
 **Table of Contents**
 
 - [Usage](#usage)
-  - [Tips](#tips)
 - [Ignoring files](#ignoring-files)
 - [Using as a global eslint config](#using-as-a-global-eslint-config)
 - [Test](#test)
