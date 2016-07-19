@@ -30,6 +30,17 @@ module.exports = {
 };
 ```
 
+### Jasmine
+
+We have a specific set of rules if you are using [Jasmine](https://jasmine.github.io/) (or [Jest](https://facebook.github.io/jest/)).
+
+create an `.eslintrc.js` file:
+```js
+module.exports = {
+  "extends": ["algolia", "algolia/jasmine"]
+};
+```
+
 ### Tips
 
 If you are using [any editors plugin](http://eslint.org/docs/user-guide/integrations.html#editors) for ESLint then it will show you warnings/errors.
