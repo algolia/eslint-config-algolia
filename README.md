@@ -45,7 +45,9 @@ module.exports = {
 
 If you are using [any editors plugin](http://eslint.org/docs/user-guide/integrations.html#editors) for ESLint then it will show you warnings/errors.
 
-Now you can create an npm `lint` [script](https://docs.npmjs.com/files/package.json#scripts) that will run `eslint "**/*.js"` to lint all files.
+Also activate fix errors on save in your editor. ESLint is able to fix many errors for you given your ESLint configuration.
+
+Now you can create an npm `lint` [script](https://docs.npmjs.com/files/package.json#scripts) that will run `eslint .` to lint all files.
 
 ## Ignoring files
 

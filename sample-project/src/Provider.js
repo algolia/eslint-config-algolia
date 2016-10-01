@@ -6,11 +6,11 @@ import storeShape from './storeShape.js';
 class Provider extends Component {
   static propTypes = {
     helper: PropTypes.object.isRequired,
-    children: PropTypes.node.isRequired
+    children: PropTypes.node.isRequired,
   };
 
   static childContextTypes = {
-    algoliaStore: storeShape.isRequired
+    algoliaStore: storeShape.isRequired,
   };
 
   constructor(props) {
@@ -21,7 +21,7 @@ class Provider extends Component {
 
   getChildContext() {
     return {
-      algoliaStore: this.store
+      algoliaStore: this.store,
     };
   }
 
