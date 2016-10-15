@@ -9,11 +9,11 @@ export default function createStore(helper) {
   const dispatch = () => { listeners.forEach(listener => listener()); };
 
   helper.on('change', searchParameters => {
-    state = {
-      ...state,
-      searchParameters,
-    };
-    dispatch();
+    const {
+      coucou,
+      ...otherProps
+    } = searchParameters;
+    dispatch(coucou, otherProps);
   });
 
   helper.on('search', () => {
