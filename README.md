@@ -20,7 +20,7 @@ This is [Algolia](https://www.algolia.com/)'s [ESLint](http://eslint.org/) confi
 ## Usage
 
 ```sh
-npm install eslint-config-algolia --save-dev
+npm install eslint-config-algolia babel-eslint eslint eslint-import-resolver-webpack eslint-plugin-import eslint-plugin-jasmine eslint-plugin-react --save-dev
 ```
 
 create an `.eslintrc.js` file:
