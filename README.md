@@ -20,7 +20,7 @@ This is [Algolia](https://www.algolia.com/)'s [ESLint](http://eslint.org/) confi
 ## Usage
 
 ```sh
-npm install eslint-config-algolia babel-eslint eslint eslint-import-resolver-webpack eslint-plugin-import eslint-plugin-jasmine eslint-plugin-react --save-dev
+yarn add eslint-config-algolia babel-eslint eslint eslint-import-resolver-webpack eslint-plugin-import eslint-plugin-jasmine eslint-plugin-react --dev
 ```
 
 create an `.eslintrc.js` file:
@@ -53,37 +53,18 @@ Now you can create an npm `lint` [script](https://docs.npmjs.com/files/package.j
 
 See "Ignoring Files and Directories" on [ESLint website](http://eslint.org/docs/user-guide/configuring.html#ignoring-files-and-directories).
 
-## Using as a global eslint config
-
-You can have a `~/.eslintrc.js` config that will be used if your project has no `.eslintrc.js`.
-
-Create a `~/.eslintrc.js` with:
-
-```json
-{
-  "extends": "algolia"
-}
-```
-
-Then:
-
-```sh
-cd ~
-npm install eslint-config-algolia
-```
-
 ## Test
 
 We have a [sample-project](sample-project).
 
 ```sh
-npm test
+yarn test
 ```
 
 ## Release
 
 ```sh
-npm run release
+yarn release
 ```
 
 [version-svg]: https://img.shields.io/npm/v/eslint-config-algolia.svg?style=flat-square
