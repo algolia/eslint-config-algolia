@@ -8,9 +8,9 @@ This is [Algolia](https://www.algolia.com/)'s [ESLint](http://eslint.org/) confi
 <!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
 **Table of Contents**
 
-- [Usage](#usage)
+- [Linting (ESLint)](#linting-eslint)
+- [Formatting (Prettier)](#formatting-prettier)
 - [Ignoring files](#ignoring-files)
-- [Using as a global eslint config](#using-as-a-global-eslint-config)
 - [Test](#test)
 - [Release](#release)
 
