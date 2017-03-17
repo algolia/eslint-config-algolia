@@ -45,7 +45,7 @@ yarn add prettier lint-staged husky --dev
 
 Then add this to your package.json:
 
-```
+```json
 {
   "scripts": {
     "precommit": "lint-staged"
