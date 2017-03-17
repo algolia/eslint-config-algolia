@@ -1,3 +1,88 @@
+<a name="7.0.0"></a>
+# [7.0.0](https://github.com/algolia/eslint-config-algolia/compare/v6.0.1...v7.0.0) (2017-03-17)
+
+
+### Features
+
+* **prettier:** prepare prettier migration ([83ca621](https://github.com/algolia/eslint-config-algolia/commit/83ca621))
+
+
+
+<a name="6.0.1"></a>
+## [6.0.1](https://github.com/algolia/eslint-config-algolia/compare/v6.0.0...v6.0.1) (2016-10-15)
+
+
+
+<a name="6.0.0"></a>
+# [6.0.0](https://github.com/algolia/eslint-config-algolia/compare/v5.5.1...v6.0.0) (2016-10-01)
+
+
+### Features
+
+* **rules:** new default rules ([ce194dd](https://github.com/algolia/eslint-config-algolia/commit/ce194dd))
+
+
+
+<a name="5.5.1"></a>
+## [5.5.1](https://github.com/algolia/eslint-config-algolia/compare/v5.5.0...v5.5.1) (2016-09-16)
+
+
+### Bug Fixes
+
+* **dep:** upgrade eslint, fix bad err message ([1b44598](https://github.com/algolia/eslint-config-algolia/commit/1b44598))
+
+
+
+<a name="5.5.0"></a>
+# [5.5.0](https://github.com/algolia/eslint-config-algolia/compare/v5.4.0...v5.5.0) (2016-09-06)
+
+
+### Features
+
+* **import:** allow using webpack resolver, to lint resolve{alias} ([e2054f4](https://github.com/algolia/eslint-config-algolia/commit/e2054f4))
+
+
+
+<a name="5.4.0"></a>
+# [5.4.0](https://github.com/algolia/eslint-config-algolia/compare/v5.3.1...v5.4.0) (2016-09-01)
+
+
+### Features
+
+* **eslint:** add new rules since July ([6f07294](https://github.com/algolia/eslint-config-algolia/commit/6f07294))
+
+
+
+<a name="5.3.1"></a>
+## [5.3.1](https://github.com/algolia/eslint-config-algolia/compare/v5.3.0...v5.3.1) (2016-07-19)
+
+
+### Bug Fixes
+
+* **dep:** add forgotten dep ([6bec583](https://github.com/algolia/eslint-config-algolia/commit/6bec583))
+
+
+
+<a name="5.3.0"></a>
+# [5.3.0](https://github.com/algolia/eslint-config-algolia/compare/v5.2.2...v5.3.0) (2016-07-19)
+
+
+### Features
+
+* **Jasmine:** provide set of rules for Jasmine tests ([333288c](https://github.com/algolia/eslint-config-algolia/commit/333288c))
+
+
+
+<a name="5.2.2"></a>
+## [5.2.2](https://github.com/algolia/eslint-config-algolia/compare/v5.2.1...v5.2.2) (2016-07-18)
+
+
+
+<a name="5.2.1"></a>
+## [5.2.1](https://github.com/algolia/eslint-config-algolia/compare/v5.2.0...v5.2.1) (2016-07-18)
+
+
+
 <a name="5.2.0"></a>
 # [5.2.0](https://github.com/algolia/eslint-config-algolia/compare/v5.1.0...v5.2.0) (2016-07-13)
 
@@ -28,78 +113,185 @@
 
 
 
-# 4.2.0 (2015-10-26)
+<a name="4.7.0"></a>
+# [4.7.0](https://github.com/algolia/eslint-config-algolia/compare/v4.6.0...v4.7.0) (2016-02-12)
 
-  Use [airbnb/javascripts/eslint-config-airbnb/rules/react](https://github.com/airbnb/javascript/blob/98a76908fcf605221e6b85849f0d058b886741bd/packages/eslint-config-airbnb/rules/react.js).
 
-# 4.0.0 (2015-10-06)
+### Features
 
-  Easier usage instructions and linting:
+* **no-unused-vars:** Allow unused arguments prefixed with _ ([b528744](https://github.com/algolia/eslint-config-algolia/commit/b528744))
 
-  ```sh
-  npm install eslint eslint-config-algolia eslint-config-airbnb --save-dev
-  ```
 
-  create an `.eslintrc` file:
-  ```json
-  {
-    "extends": "algolia"
-  }
-  ```
 
-  No more `algolia/es5` or `algolia/es6`, move to `es6` if you need to upgrade.
+<a name="4.6.0"></a>
+# [4.6.0](https://github.com/algolia/eslint-config-algolia/compare/v4.5.0...v4.6.0) (2016-01-27)
 
-# 3.0.0 (2015-09-11)
 
-  You can now lint es5 and es6 code by doing:
+### Features
 
-  ```json
-  {
-    "extends": [
-      "eslint:recommended"
-      "airbnb/base",
-      "agolia/es5"
-    ]
-  }
-  ```
+* **max-len:** adds ignore comments and URL's for max-len ([6492450](https://github.com/algolia/eslint-config-algolia/commit/6492450))
+* **quote-props:** Add the `keywords: true` option ([da5deec](https://github.com/algolia/eslint-config-algolia/commit/da5deec))
 
-  Or
 
-  ```json
-  {
-    "extends": [
-      "eslint:recommended"
-      "airbnb",
-      "algolia/es6"
-    ]
-  }
-  ```
 
-  See the [readme](README.md) for more details.
+<a name="4.5.0"></a>
+# [4.5.0](https://github.com/algolia/eslint-config-algolia/compare/v4.4.0...v4.5.0) (2015-12-07)
 
-# 2.2.0 (2015-09-08)
 
-Enable `quotes-props` to `as-needed` to disallow unecessary quotes (consistency).
-http://eslint.org/docs/rules/quote-props.html#as-needed
+### Features
 
-### 2.1.2 (2015-07-31):
+* **no-module-exports:** Use v1.5.0 of the eslint-plugin-algolia ([c98003f](https://github.com/algolia/eslint-config-algolia/commit/c98003f))
 
-Disable enforcing comma dangle on multiline strings (forced by airbnb)
 
-### 2.1.1 (2015-07-09):
 
-Disable func-names warnings. They are useful is uncaught exceptions.
-There's no point in enforcing func-names, since most browsers
-will now show the property name in an uncaught exception.
+<a name="4.4.0"></a>
+# [4.4.0](https://github.com/algolia/eslint-config-algolia/compare/v4.3.2...v4.4.0) (2015-12-07)
 
-### 2.1.0 (2015-07-08):
 
-Consistency around spacing
+### Features
 
-### 2.0.4 (2015-07-03):
+* **eslint-plugin-algolia:** Use v1.4.2 ([8789350](https://github.com/algolia/eslint-config-algolia/commit/8789350))
 
-Semi colons are back
 
-### 2.0.3 (2015-07-02):
 
-"First" working release, 1.0.0 was doomed (cannot npm unpublish)
+<a name="4.3.2"></a>
+## [4.3.2](https://github.com/algolia/eslint-config-algolia/compare/v4.3.1...v4.3.2) (2015-12-02)
+
+
+### Bug Fixes
+
+* **relative-require:** Use v1.0.3 of eslint-plugin-algolia ([e2bee8f](https://github.com/algolia/eslint-config-algolia/commit/e2bee8f))
+
+
+
+<a name="4.3.1"></a>
+## [4.3.1](https://github.com/algolia/eslint-config-algolia/compare/v4.3.0...v4.3.1) (2015-12-02)
+
+
+### Bug Fixes
+
+* **relative-require:** Prefix with plugin name ([3ed7299](https://github.com/algolia/eslint-config-algolia/commit/3ed7299))
+
+
+
+<a name="4.3.0"></a>
+# [4.3.0](https://github.com/algolia/eslint-config-algolia/compare/v4.2.0...v4.3.0) (2015-12-02)
+
+
+### Features
+
+* **plugin-algolia:** Add eslint-plugin-algolia ([395ce7a](https://github.com/algolia/eslint-config-algolia/commit/395ce7a))
+
+
+
+<a name="4.2.0"></a>
+# [4.2.0](https://github.com/algolia/eslint-config-algolia/compare/v4.1.0...v4.2.0) (2015-10-26)
+
+
+### Features
+
+* **airbnb:** use airbnb react rules ([abf15a3](https://github.com/algolia/eslint-config-algolia/commit/abf15a3))
+
+
+
+<a name="4.1.0"></a>
+# [4.1.0](https://github.com/algolia/eslint-config-algolia/compare/v4.0.0...v4.1.0) (2015-10-09)
+
+
+### Features
+
+* **react:** Add rules on React props ([be0e978](https://github.com/algolia/eslint-config-algolia/commit/be0e978))
+
+
+
+<a name="4.0.0"></a>
+# [4.0.0](https://github.com/algolia/eslint-config-algolia/compare/v3.0.0...v4.0.0) (2015-10-06)
+
+
+### Features
+
+* **usage:** simplify usage, remove es5 specific linter ([93c2771](https://github.com/algolia/eslint-config-algolia/commit/93c2771))
+
+
+
+<a name="3.0.0"></a>
+# [3.0.0](https://github.com/algolia/eslint-config-algolia/compare/v2.2.0...v3.0.0) (2015-09-11)
+
+
+
+<a name="2.2.0"></a>
+# [2.2.0](https://github.com/algolia/eslint-config-algolia/compare/2.1.2...v2.2.0) (2015-09-08)
+
+
+### Features
+
+* force quoting rule ([0f1fd9a](https://github.com/algolia/eslint-config-algolia/commit/0f1fd9a))
+
+
+
+<a name="2.1.2"></a>
+## [2.1.2](https://github.com/algolia/eslint-config-algolia/compare/2.1.1...2.1.2) (2015-07-31)
+
+
+### Bug Fixes
+
+* specify comma dangle parameter ([f31cbca](https://github.com/algolia/eslint-config-algolia/commit/f31cbca))
+
+
+
+<a name="2.1.1"></a>
+## [2.1.1](https://github.com/algolia/eslint-config-algolia/compare/2.1.0...2.1.1) (2015-07-09)
+
+
+### Bug Fixes
+
+* disable enforcing function express names ([ad97e6c](https://github.com/algolia/eslint-config-algolia/commit/ad97e6c))
+
+
+
+<a name="2.1.0"></a>
+# [2.1.0](https://github.com/algolia/eslint-config-algolia/compare/2.0.4...2.1.0) (2015-07-08)
+
+
+### Features
+
+* enforce some more spacing ([af9595b](https://github.com/algolia/eslint-config-algolia/commit/af9595b))
+
+
+
+<a name="2.0.4"></a>
+## [2.0.4](https://github.com/algolia/eslint-config-algolia/compare/2.0.3...2.0.4) (2015-07-06)
+
+
+### Bug Fixes
+
+* semi colon forced (default airbnb ([84bc291](https://github.com/algolia/eslint-config-algolia/commit/84bc291))
+
+
+
+<a name="2.0.3"></a>
+## [2.0.3](https://github.com/algolia/eslint-config-algolia/compare/2.0.1...2.0.3) (2015-07-05)
+
+
+### Bug Fixes
+
+* bad comment ([b0cc948](https://github.com/algolia/eslint-config-algolia/commit/b0cc948))
+* eslint extends features works strangely ([a278ac4](https://github.com/algolia/eslint-config-algolia/commit/a278ac4))
+
+
+
+<a name="2.0.1"></a>
+## [2.0.1](https://github.com/algolia/eslint-config-algolia/compare/2.0.0...2.0.1) (2015-07-05)
+
+
+### Bug Fixes
+
+* remove unused index.js ([1006801](https://github.com/algolia/eslint-config-algolia/commit/1006801))
+
+
+
+<a name="2.0.0"></a>
+# 2.0.0 (2015-07-05)
+
+
+
