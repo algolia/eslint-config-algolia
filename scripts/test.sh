@@ -3,5 +3,5 @@
 set -e # exit when error
 
 cd sample-project
-npm install
+yarn
 eslint .

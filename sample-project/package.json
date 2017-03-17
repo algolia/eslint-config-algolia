@@ -3,9 +3,6 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
-  "scripts": {
-    "test": "./test.sh"
-  },
   "private": true,
   "keywords": [],
   "author": "Algolia <support@algolia.com> (https://github.com/algolia/)",
@@ -14,6 +11,13 @@
     "react-addons-shallow-compare": "^15.2.1"
   },
   "devDependencies": {
+    "babel-eslint": "^7.1.1",
+    "eslint": "^3.17.1",
+    "eslint-config-algolia": "^6.0.1",
+    "eslint-config-prettier": "^1.5.0",
+    "eslint-plugin-import": "^2.2.0",
+    "eslint-plugin-jest": "^19.0.1",
+    "prettier": "^0.22.0",
     "react": "^15.2.1"
   }
 }

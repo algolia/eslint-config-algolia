@@ -4,7 +4,6 @@
 
 This is [Algolia](https://www.algolia.com/)'s [ESLint](http://eslint.org/) configuration.
 
-
 <!-- START doctoc generated TOC please keep comment here to allow auto update -->
 <!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
 **Table of Contents**
@@ -17,10 +16,13 @@ This is [Algolia](https://www.algolia.com/)'s [ESLint](http://eslint.org/) confi
 
 <!-- END doctoc generated TOC please keep comment here to allow auto update -->
 
-## Usage
+## Linting (ESLint)
+
+We use linting as a way to ease our development mostly, getting info on a variable being global in your editor
+is better than discovering it in production.
 
 ```sh
-yarn add eslint-config-algolia babel-eslint eslint eslint-import-resolver-webpack eslint-plugin-import eslint-plugin-jasmine eslint-plugin-react --dev
+yarn add eslint-config-algolia babel-eslint eslint eslint-plugin-import eslint-plugin-jest eslint-config-prettier prettier [eslint-plugin-react eslint-import-resolver-webpack] --dev
 ```
 
 create an `.eslintrc.js` file:
@@ -30,24 +32,40 @@ module.exports = {
 };
 ```
 
-### Jasmine
+Then add [an editor plugin](http://eslint.org/docs/user-guide/integrations.html#editors) that will show you linting errors, do not activate
+auto formatting fix, we use prettier for this.
 
-We have a specific set of rules if you are using [Jasmine](https://jasmine.github.io/) (or [Jest](https://facebook.github.io/jest/)).
+## Formatting (Prettier)
 
-create an `.eslintrc.js` file:
-```js
-module.exports = {
-  "extends": ["algolia", "algolia/jasmine"]
-};
+Please add [Prettier](https://github.com/prettier/prettier) to your JavaScript project:
+
+```sh
+yarn add prettier lint-staged husky --dev
 ```
 
-### Tips
+Then add this to your package.json:
 
-If you are using [any editors plugin](http://eslint.org/docs/user-guide/integrations.html#editors) for ESLint then it will show you warnings/errors.
+```
+{
+  "scripts": {
+    "precommit": "lint-staged"
+  },
+  "lint-staged": {
+    "*.js": [
+      "prettier --write --single-quote --trailing-comma es5",
+      "git add"
+    ]
+  }
+}
+```
 
-Also activate fix errors on save in your editor. ESLint is able to fix many errors for you given your ESLint configuration.
+This will automatically reformat staged files.
 
-Now you can create an npm `lint` [script](https://docs.npmjs.com/files/package.json#scripts) that will run `eslint .` to lint all files.
+Rules:
+  - single-quote YES
+  - trailing-comma YES
+
+Add [an editor plugin](https://github.com/prettier/prettier#atom), configure the rules, done.
 
 ## Ignoring files
 
@@ -64,7 +82,7 @@ yarn test
 ## Release
 
 ```sh
-yarn release
+npm run release
 ```
 
 [version-svg]: https://img.shields.io/npm/v/eslint-config-algolia.svg?style=flat-square
