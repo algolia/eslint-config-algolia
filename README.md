@@ -62,8 +62,8 @@ Then add this to your package.json:
 This will automatically reformat staged files.
 
 Rules:
-  - single-quote YES
-  - trailing-comma YES
+  - single-quote es5
+  - trailing-comma true
 
 Add [an editor plugin](https://github.com/prettier/prettier#atom), configure the rules, done.
 
