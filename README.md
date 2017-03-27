@@ -22,7 +22,7 @@ We use linting as a way to ease our development mostly, getting info on a variab
 is better than discovering it in production.
 
 ```sh
-yarn add eslint-config-algolia babel-eslint eslint eslint-plugin-import eslint-plugin-jest eslint-config-prettier [eslint-plugin-react eslint-import-resolver-webpack] --dev
+yarn add eslint-config-algolia babel-eslint eslint eslint-plugin-import eslint-plugin-jest eslint-config-prettier eslint-plugin-react eslint-import-resolver-webpack --dev
 ```
 
 create an `.eslintrc.js` file:
