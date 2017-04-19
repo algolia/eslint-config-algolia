@@ -67,6 +67,16 @@ Rules:
 
 Add [an editor plugin](https://github.com/prettier/prettier#atom), configure the rules, done.
 
+### Reformating all files
+
+When installing prettier on an existing project, you might want to reformat all files:
+
+```sh
+./node_modules/.bin/prettier --write --single-quote --trailing-comma es5 "*.js"
+# ./node_modules/.bin/prettier --write --single-quote --trailing-comma es5 "folder/**/*.js"
+# ./node_modules/.bin/prettier --write --single-quote --trailing-comma es5 "{folder,folder}/**/*.js"
+```
+
 ## Ignoring files
 
 See "Ignoring Files and Directories" on [ESLint website](http://eslint.org/docs/user-guide/configuring.html#ignoring-files-and-directories).
