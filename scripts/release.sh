@@ -45,15 +45,15 @@ conventional-changelog --preset angular --output-unreleased | less
 printf "\n=> Release: please type the new chosen version > "
 read -e newVersion
 
-# update changelog
-printf "\n\nRelease: update changelog"
-conventional-changelog --preset angular --infile CHANGELOG.md --same-file
-
 # regenerate readme TOC
 printf "\n\nRelease: generate TOCS"
 doctoc README.md --maxlevel 2
 
 npm version "$newVersion" --no-git-tag-version
+
+# update changelog
+printf "\n\nRelease: update changelog"
+conventional-changelog --preset angular --infile CHANGELOG.md --same-file
 
 # git add and tag
 commitMessage="release v$newVersion

@@ -1,3 +1,43 @@
+<a name="8.0.0"></a>
+# [8.0.0](https://github.com/algolia/eslint-config-algolia/compare/v7.0.3...v8.0.0) (2017-05-11)
+
+
+### Features
+
+* **formatting:** use eslint-plugin-prettier ([ddf37d4](https://github.com/algolia/eslint-config-algolia/commit/ddf37d4))
+
+
+
+<a name="7.0.3"></a>
+## [7.0.3](https://github.com/algolia/eslint-config-algolia/compare/v7.0.2...v7.0.3) (2017-04-26)
+
+
+### Bug Fixes
+
+* **rules:** wrap our own rules in rules:{} ([8b50dce](https://github.com/algolia/eslint-config-algolia/commit/8b50dce)), closes [#33](https://github.com/algolia/eslint-config-algolia/issues/33)
+
+
+
+<a name="7.0.2"></a>
+## [7.0.2](https://github.com/algolia/eslint-config-algolia/compare/v7.0.1...v7.0.2) (2017-03-24)
+
+
+### Bug Fixes
+
+* **prettier:** enforce prettier rules to pass after ours ([5476a88](https://github.com/algolia/eslint-config-algolia/commit/5476a88))
+
+
+
+<a name="7.0.1"></a>
+## [7.0.1](https://github.com/algolia/eslint-config-algolia/compare/v7.0.0...v7.0.1) (2017-03-17)
+
+
+### Bug Fixes
+
+* **style:** remove stylistic error ([17c90ca](https://github.com/algolia/eslint-config-algolia/commit/17c90ca))
+
+
+
 <a name="7.0.0"></a>
 # [7.0.0](https://github.com/algolia/eslint-config-algolia/compare/v6.0.1...v7.0.0) (2017-03-17)
 

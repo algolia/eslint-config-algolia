@@ -9,7 +9,7 @@ This is [Algolia](https://www.algolia.com/)'s [ESLint](http://eslint.org/) confi
 **Table of Contents**
 
 - [Linting (ESLint)](#linting-eslint)
-- [Auto formatting staged files](#auto-formatting-staged-files)
+- [Formatting (Prettier)](#formatting-prettier)
 - [Ignoring files](#ignoring-files)
 - [Test](#test)
 - [Release](#release)
@@ -22,7 +22,7 @@ We use linting as a way to ease our development mostly, getting info on a variab
 is better than discovering it in production.
 
 ```sh
-yarn add eslint-config-algolia babel-eslint eslint eslint-plugin-import eslint-plugin-jest eslint-config-prettier eslint-plugin-pretteir --dev
+yarn add eslint-config-algolia babel-eslint eslint eslint-plugin-import eslint-plugin-jest eslint-config-prettier eslint-plugin-prettier --dev
 # if you are using them:
 # yarn add eslint-plugin-react --dev
 # yarn add eslint-import-resolver-webpack --dev
