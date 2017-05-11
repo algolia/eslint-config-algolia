@@ -16,7 +16,7 @@ module.exports = {
       jsx: true,
     },
   },
-  plugins: ['react', 'import', 'jest'],
+  plugins: ['react', 'import', 'jest', 'prettier'],
   extends: [
     'plugin:react/recommended',
     'plugin:import/errors',

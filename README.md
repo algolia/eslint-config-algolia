@@ -22,7 +22,10 @@ We use linting as a way to ease our development mostly, getting info on a variab
 is better than discovering it in production.
 
 ```sh
-yarn add eslint-config-algolia babel-eslint eslint eslint-plugin-import eslint-plugin-jest eslint-config-prettier eslint-plugin-react eslint-import-resolver-webpack --dev
+yarn add eslint-config-algolia babel-eslint eslint eslint-plugin-import eslint-plugin-jest eslint-config-prettier eslint-plugin-pretteir --dev
+# if you are using them:
+# yarn add eslint-plugin-react --dev
+# yarn add eslint-import-resolver-webpack --dev
 ```
 
 create an `.eslintrc.js` file:
@@ -32,12 +35,14 @@ module.exports = {
 };
 ```
 
-Then add [an editor plugin](http://eslint.org/docs/user-guide/integrations.html#editors) that will show you linting errors, do not activate
-auto formatting fix, we use prettier for this.
+Then add [an editor plugin](http://eslint.org/docs/user-guide/integrations.html#editors) that will show you linting errors.
 
-## Formatting (Prettier)
+Do activate "fix on save" option of your plugin, it will automatically fix and format your file as much as possible.
 
-Please add [Prettier](https://github.com/prettier/prettier) to your JavaScript project:
+## Auto formatting staged files
+
+Please add [Prettier](https://github.com/prettier/prettier) to your JavaScript project, along
+with precommit tooling:
 
 ```sh
 yarn add prettier lint-staged husky --dev
@@ -52,29 +57,21 @@ Then add this to your package.json:
   },
   "lint-staged": {
     "*.js": [
-      "prettier --write --single-quote --trailing-comma es5",
+      "eslint --fix",
       "git add"
     ]
   }
 }
 ```
 
-This will automatically reformat staged files.
-
-Rules:
-  - single-quote true
-  - trailing-comma es5
-
-Add [an editor plugin](https://github.com/prettier/prettier#atom), configure the rules, done.
+This will automatically reformat staged files. Do not use a prettier plugin for your IDE, you only need the ESLint one.
 
 ### Reformating all files
 
-When installing prettier on an existing project, you might want to reformat all files:
+When installing linting on an existing project, you might want to reformat all files:
 
 ```sh
-./node_modules/.bin/prettier --write --single-quote --trailing-comma es5 "*.js"
-# ./node_modules/.bin/prettier --write --single-quote --trailing-comma es5 "folder/**/*.js"
-# ./node_modules/.bin/prettier --write --single-quote --trailing-comma es5 "{folder,folder}/**/*.js"
+./node_modules/.bin/eslint . --fix
 ```
 
 ## Ignoring files

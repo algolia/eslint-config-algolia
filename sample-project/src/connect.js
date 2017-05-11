@@ -1,4 +1,4 @@
-import React, {Component} from 'react';
+import React, { Component } from 'react';
 import shallowCompare from 'react-addons-shallow-compare';
 
 import storeShape from './storeShape.js';
@@ -9,7 +9,7 @@ const getDisplayName = WrappedComponent =>
 export default function connect(mapStateToProps) {
   return WrappedComponent =>
     class Connect extends Component {
-      static contextTypes = {algoliaStore: storeShape.isRequired};
+      static contextTypes = { algoliaStore: storeShape.isRequired };
       static displayName = `AlgoliaSearchHelperConnect(${getDisplayName(WrappedComponent)})`;
 
       constructor(props, context) {

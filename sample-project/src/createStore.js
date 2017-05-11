@@ -6,13 +6,12 @@ export default function createStore(helper) {
     searchError: null,
   };
   const listeners = [];
-  const dispatch = () => { listeners.forEach(listener => listener()); };
+  const dispatch = () => {
+    listeners.forEach(listener => listener());
+  };
 
   helper.on('change', searchParameters => {
-    const {
-      coucou,
-      ...otherProps
-    } = searchParameters;
+    const { coucou, ...otherProps } = searchParameters;
     dispatch(coucou, otherProps);
   });
 

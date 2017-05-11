@@ -1,4 +1,5 @@
-import {Component, PropTypes, Children} from 'react';
+import { Component, Children } from 'react';
+import PropTypes from 'prop-types';
 
 import createStore from './createStore.js';
 import storeShape from './storeShape.js';
