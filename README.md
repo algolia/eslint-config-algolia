@@ -9,7 +9,7 @@ This is [Algolia](https://www.algolia.com/)'s [ESLint](http://eslint.org/) confi
 **Table of Contents**
 
 - [Linting (ESLint)](#linting-eslint)
-- [Formatting (Prettier)](#formatting-prettier)
+- [Auto formatting staged files](#auto-formatting-staged-files)
 - [Ignoring files](#ignoring-files)
 - [Test](#test)
 - [Release](#release)
