@@ -1,3 +1,13 @@
+<a name="9.0.0"></a>
+# [9.0.0](https://github.com/algolia/eslint-config-algolia/compare/v8.0.0...v9.0.0) (2017-05-30)
+
+
+### Features
+
+* **style:** re add stylistic rules ([ed8dd5a](https://github.com/algolia/eslint-config-algolia/commit/ed8dd5a))
+
+
+
 <a name="8.0.0"></a>
 # [8.0.0](https://github.com/algolia/eslint-config-algolia/compare/v7.0.3...v8.0.0) (2017-05-11)
 
