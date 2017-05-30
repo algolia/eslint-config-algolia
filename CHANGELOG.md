@@ -1,3 +1,13 @@
+<a name="10.0.0"></a>
+# [10.0.0](https://github.com/algolia/eslint-config-algolia/compare/v9.0.0...v10.0.0) (2017-05-30)
+
+
+### Features
+
+* **rules:** no reassign of fn param props ([b087877](https://github.com/algolia/eslint-config-algolia/commit/b087877))
+
+
+
 <a name="9.0.0"></a>
 # [9.0.0](https://github.com/algolia/eslint-config-algolia/compare/v8.0.0...v9.0.0) (2017-05-30)
 
