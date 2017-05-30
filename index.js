@@ -18,6 +18,7 @@ module.exports = {
   },
   plugins: ['react', 'import', 'jest', 'prettier'],
   extends: [
+    'eslint:recommended',
     'plugin:react/recommended',
     'plugin:import/errors',
     'plugin:jest/recommended',
