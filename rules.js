@@ -263,6 +263,6 @@ module.exports = {
     'import/no-amd': ['error'],
     'import/no-commonjs': ['error'],
     'import/no-extraneous-dependencies': ['error'],
-    'prettier/prettier': ['error', { trailingComma: 'es5', singleQuote: true }],
+    'prettier/prettier': ['error', { trailingComma: 'es5', singleQuote: true, printWidth: 120 }],
   },
 };
