@@ -164,7 +164,7 @@ module.exports = {
     'max-len': [
       'error',
       {
-        code: 120,
+        code: 80,
         ignoreComments: true,
         ignoreTrailingComments: true,
         ignoreUrls: true,
@@ -264,6 +264,9 @@ module.exports = {
     'import/no-commonjs': ['error'],
     'import/no-extraneous-dependencies': ['error'],
     'import/no-duplicates': ['error'],
-    'prettier/prettier': ['error', { trailingComma: 'es5', singleQuote: true }],
+    'prettier/prettier': [
+      'error',
+      { trailingComma: 'es5', singleQuote: true, printWidth: 80 },
+    ],
   },
 };
