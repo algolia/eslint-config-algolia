@@ -10,7 +10,9 @@ export default function connect(mapStateToProps) {
   return WrappedComponent =>
     class Connect extends Component {
       static contextTypes = { algoliaStore: storeShape.isRequired };
-      static displayName = `AlgoliaSearchHelperConnect(${getDisplayName(WrappedComponent)})`;
+      static displayName = `AlgoliaSearchHelperConnect(${getDisplayName(
+        WrappedComponent
+      )})`;
 
       constructor(props, context) {
         super();
