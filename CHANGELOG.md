@@ -1,3 +1,19 @@
+<a name="10.1.0"></a>
+# [10.1.0](https://github.com/algolia/eslint-config-algolia/compare/v10.0.0...v10.1.0) (2017-06-13)
+
+
+### Bug Fixes
+
+* **eslint:** disable `no-duplicate-imports` ([8029357](https://github.com/algolia/eslint-config-algolia/commit/8029357))
+* **prettier:** use same `printWidth` as `max-len` ([fe7e304](https://github.com/algolia/eslint-config-algolia/commit/fe7e304))
+
+
+### Features
+
+* **max-len:** explictly set max-len && printWidth to 80 ([be940ad](https://github.com/algolia/eslint-config-algolia/commit/be940ad))
+
+
+
 <a name="10.0.0"></a>
 # [10.0.0](https://github.com/algolia/eslint-config-algolia/compare/v9.0.0...v10.0.0) (2017-05-30)
 
