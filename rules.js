@@ -235,7 +235,7 @@ module.exports = {
     'no-confusing-arrow': ['off'],
     'no-const-assign': ['error'],
     'no-dupe-class-members': ['error'],
-    'no-duplicate-imports': ['error'],
+    'no-duplicate-imports': ['off'],
     'no-new-symbol': ['error'],
     'no-restricted-imports': ['off'],
     'no-this-before-super': ['error'],
@@ -263,6 +263,7 @@ module.exports = {
     'import/no-amd': ['error'],
     'import/no-commonjs': ['error'],
     'import/no-extraneous-dependencies': ['error'],
+    'import/no-duplicates': ['error'],
     'prettier/prettier': [
       'error',
       { trailingComma: 'es5', singleQuote: true, printWidth: 80 },
