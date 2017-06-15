@@ -257,9 +257,6 @@ module.exports = {
     'template-curly-spacing': ['error'],
     'yield-star-spacing': ['error'],
 
-    'react/no-danger': ['off'],
-    'react/display-name': ['off'],
-    'react/jsx-key': ['error'],
     'import/no-amd': ['error'],
     'import/no-commonjs': ['error'],
     'import/no-extraneous-dependencies': ['error'],

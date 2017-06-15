@@ -47,7 +47,7 @@ read -e newVersion
 
 # regenerate readme TOC
 printf "\n\nRelease: generate TOCS"
-doctoc README.md --maxlevel 2
+doctoc README.md --maxlevel 3
 
 npm version "$newVersion" --no-git-tag-version
 

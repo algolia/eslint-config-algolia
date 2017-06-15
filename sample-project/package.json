@@ -5,6 +5,10 @@
   "main": "index.js",
   "private": true,
   "keywords": [],
+  "scripts": {
+    "lint": "eslint .",
+    "lint:fix": "eslint . --fix"
+  },
   "author": "Algolia <support@algolia.com> (https://github.com/algolia/)",
   "license": "MIT",
   "dependencies": {
