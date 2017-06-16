@@ -2,6 +2,7 @@
 
 set -e # exit when error
 
+yarn lint
 cd sample-project
 yarn
-eslint .
+yarn lint

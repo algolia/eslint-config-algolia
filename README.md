@@ -2,83 +2,200 @@
 
 [![Version][version-svg]][package-url] [![Build Status][travis-svg]][travis-url] [![License][license-image]][license-url] [![Downloads][downloads-image]][downloads-url]
 
-This is [Algolia](https://www.algolia.com/)'s [ESLint](http://eslint.org/) configuration.
+This is [Algolia](https://www.algolia.com/)'s linting and formatting of
+JavaScript projects (Vanilla, React, Vue) repository.
+
+It explains to you how to setup your project to use it and never
+worry again about indentation, curly spaces, let vs const etc...
+
+This code style is only as useful as you activate travis for your project
+so that it runs linting in your test phase and warns you.
+
+Just **focus** on coding.
 
 <!-- START doctoc generated TOC please keep comment here to allow auto update -->
 <!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
 **Table of Contents**
 
-- [Linting (ESLint)](#linting-eslint)
-- [Auto formatting staged files](#auto-formatting-staged-files)
+- [Setup your project](#setup-your-project)
+  - [Base requirements](#base-requirements)
+  - [Vanilla](#vanilla)
+  - [React](#react)
+  - [Flow](#flow)
+  - [Vue](#vue)
+- [Existing codebase setup](#existing-codebase-setup)
+- [Automatically fixing errors](#automatically-fixing-errors)
+  - [In your editor](#in-your-editor)
+  - [Before committing](#before-committing)
 - [Ignoring files](#ignoring-files)
 - [Test](#test)
 - [Release](#release)
 
 <!-- END doctoc generated TOC please keep comment here to allow auto update -->
 
-## Linting (ESLint)
+## Setup your project
 
-We use linting as a way to ease our development mostly, getting info on a variable being global in your editor
-is better than discovering it in production.
+### Base requirements
 
 ```sh
-yarn add eslint-config-algolia babel-eslint eslint eslint-plugin-import eslint-plugin-jest eslint-config-prettier eslint-plugin-prettier --dev
-# if you are using them:
-# yarn add eslint-plugin-react --dev
-# yarn add eslint-import-resolver-webpack --dev
+yarn add \
+eslint babel-eslint prettier \
+eslint-config-algolia eslint-config-prettier \
+eslint-plugin-import eslint-plugin-jest eslint-plugin-prettier \
+--dev
 ```
 
-create an `.eslintrc.js` file:
+### Vanilla
+
+**.eslintrc.js**
 ```js
 module.exports = {
-  extends: ['algolia']
+  extends: 'algolia'
 };
 ```
 
-Then add [an editor plugin](http://eslint.org/docs/user-guide/integrations.html#editors) that will show you linting errors.
-
-Do activate "fix on save" option of your plugin, it will automatically fix and format your file as much as possible.
-
-## Auto formatting staged files
-
-Please add [Prettier](https://github.com/prettier/prettier) to your JavaScript project, along
-with precommit tooling:
-
-```sh
-yarn add prettier lint-staged husky --dev
-```
-
-Then add this to your package.json:
-
+**package.json**
 ```json
 {
   "scripts": {
-    "precommit": "lint-staged"
-  },
-  "lint-staged": {
-    "*.js": [
-      "eslint --fix",
-      "git add"
-    ]
+    "test": "npm run lint",
+    "lint": "eslint .",
+    "lint:fix": "npm run lint -- --fix",
   }
 }
 ```
 
-This will automatically reformat staged files. Do not use a prettier plugin for your IDE, you only need the ESLint one.
+### React
 
-### Reformating all files
-
-When installing linting on an existing project, you might want to reformat all files:
-
+**terminal**
 ```sh
-./node_modules/.bin/eslint . --fix
+yarn add eslint-plugin-react --dev
 ```
+
+**.eslintrc.js**
+```js
+module.exports = {
+  extends: 'algolia/react'
+};
+```
+
+**package.json**
+```json
+{
+  "scripts": {
+    "test": "npm run lint",
+    "lint": "eslint .",
+    "lint:fix": "npm run lint -- --fix",
+  }
+}
+```
+
+### Flow
+
+**terminal**
+```sh
+yarn add eslint-plugin-flowtype --dev
+```
+
+**.eslintrc.js**
+```js
+module.exports = {
+  extends: 'algolia/flowtype'
+};
+```
+
+### Flow with React
+
+**terminal**
+```sh
+yarn add eslint-plugin-flowtype eslint-plugin-react --dev
+```
+
+**.eslintrc.js**
+```js
+module.exports = {
+  extends: ['algolia/flowtype', 'algolia/react']
+};
+```
+
+**package.json**
+```json
+{
+  "scripts": {
+    "test": "npm run lint",
+    "lint": "eslint .",
+    "lint:fix": "npm run lint -- --fix",
+  }
+}
+```
+
+### Vue
+
+**terminal**
+```sh
+yarn add eslint-plugin-html --dev
+```
+
+**.eslintrc.js**
+```js
+module.exports = {
+  extends: 'algolia/vue'
+};
+```
+
+**package.json**
+```json
+{
+  "scripts": {
+    "test": "npm run lint",
+    "lint": "eslint --ext .js,.vue .",
+    "lint:fix": "eslint --ext .js,.vue . --fix",
+  }
+}
+```
+
+Drawbacks: prettier will format first line of script tags badly,
+they are working on it.
+
+We will soon afterwards switch to good prettier formatting for vue
+and proper eslint-plugin-vue. Those are all in the works but
+this setup already provides good defaults.
+
+Please also check "Lint HTML files" in your linter, that should lint
+'.vue' files.
+
+## Existing codebase setup
+
+If you have a lot of files already written and wants to now use
+our linting tools, you might have a lot of errors. There's hope!
+
+Just reformat all the files automatically and then manually fix remaining
+errors.
+
+**terminal**
+```sh
+npm run lint:fix
+```
+
+That line is overly complicated, should get easier when prettier new
+version is released.
+
+## Setup autofix in IDE
+
+Don't overlook this part, autofixing on save is a huge productivity boost.
+
+Use any [ESLint integration](http://eslint.org/docs/user-guide/integrations)
+and activate "Fix on save" option.
+
+Also activate "Lint HTML files" when dealing with `.vue` components.
 
 ## Ignoring files
 
 See "Ignoring Files and Directories" on [ESLint website](http://eslint.org/docs/user-guide/configuring.html#ignoring-files-and-directories).
 
-## Test
+## Contibuting
+
+### Test
 
 We have a [sample-project](sample-project).
 
@@ -86,7 +203,7 @@ We have a [sample-project](sample-project).
 yarn test
 ```
 
-## Release
+### Release
 
 ```sh
 npm run release

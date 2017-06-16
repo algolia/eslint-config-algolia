@@ -6,7 +6,7 @@ module.exports = {
     node: true,
     jest: true,
   },
-  parser: 'babel-eslint', // https://github.com/babel/babel-eslint#why-use-babel-eslint
+  parser: 'babel-eslint', // allows both flowtype and static class properties
   parserOptions: {
     ecmaVersion: 6,
     sourceType: 'module',
@@ -16,15 +16,13 @@ module.exports = {
       jsx: true,
     },
   },
-  plugins: ['react', 'import', 'jest', 'prettier'],
+  plugins: ['import', 'jest', 'prettier'],
   extends: [
     'eslint:recommended',
-    'plugin:react/recommended',
     'plugin:import/errors',
     'plugin:jest/recommended',
-    './rules.js',
-    'prettier', // enforce prettier rules to pass after our rules, so it disables useless rules
-    'prettier/react',
+    './rules/base.js',
+    'prettier',
   ],
   settings: {
     'import/extensions': ['.js'],

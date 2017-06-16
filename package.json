@@ -6,13 +6,8 @@
   "scripts": {
     "test": "./scripts/test.sh",
     "release": "./scripts/release.sh",
-    "precommit": "lint-staged"
-  },
-  "lint-staged": {
-    "*.js": [
-      "eslint --fix",
-      "git add"
-    ]
+    "lint": "eslint . --ignore-pattern sample-project",
+    "lint:fix": "npm run lint -- --fix"
   },
   "keywords": [
     "eslint",
@@ -20,28 +15,22 @@
     "es6",
     "algolia"
   ],
-  "main": "index.js",
-  "author": "Algolia <support@algolia.com>",
+  "main": "base.js",
+  "author": "Algolia, Inc.",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/algolia/eslint-config-algolia"
   },
   "homepage": "https://github.com/algolia/eslint-config-algolia",
-  "dependencies": {
-    "babel-eslint": "^7.2.3",
-    "eslint": "^4.0.0",
-    "eslint-config-prettier": "^2.1.1",
-    "eslint-plugin-import": "^2.3.0",
-    "eslint-plugin-jest": "^20.0.3",
-    "eslint-plugin-prettier": "^2.1.1",
-    "eslint-plugin-react": "^7.0.1",
-    "prettier": "^1.4.4"
-  },
   "devDependencies": {
     "conventional-changelog-cli": "^1.2.0",
     "doctoc": "^1.2.0",
-    "husky": "^0.13.4",
-    "json": "^9.0.4",
-    "lint-staged": "^3.6.1"
+    "eslint": "^4.0.0",
+    "eslint-config-algolia": "^10.1.0",
+    "eslint-config-prettier": "^2.1.1",
+    "eslint-plugin-import": "^2.3.0",
+    "eslint-plugin-jest": "^20.0.3",
+    "eslint-plugin-prettier": "^2.1.2",
+    "json": "^9.0.4"
   }
 }
