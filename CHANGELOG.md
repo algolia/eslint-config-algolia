@@ -1,3 +1,13 @@
+<a name="11.0.0"></a>
+# [11.0.0](https://github.com/algolia/eslint-config-algolia/compare/v10.1.0...v11.0.0) (2017-06-16)
+
+
+### Features
+
+* **confs:** Base, React, Flowtype & Vue confs ([9d0a17c](https://github.com/algolia/eslint-config-algolia/commit/9d0a17c))
+
+
+
 <a name="10.1.0"></a>
 # [10.1.0](https://github.com/algolia/eslint-config-algolia/compare/v10.0.0...v10.1.0) (2017-06-13)
 

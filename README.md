@@ -22,14 +22,14 @@ Just **focus** on coding.
   - [Vanilla](#vanilla)
   - [React](#react)
   - [Flow](#flow)
+  - [Flow with React](#flow-with-react)
   - [Vue](#vue)
 - [Existing codebase setup](#existing-codebase-setup)
-- [Automatically fixing errors](#automatically-fixing-errors)
-  - [In your editor](#in-your-editor)
-  - [Before committing](#before-committing)
+- [Setup autofix in IDE](#setup-autofix-in-ide)
 - [Ignoring files](#ignoring-files)
-- [Test](#test)
-- [Release](#release)
+- [Contibuting](#contibuting)
+  - [Test](#test)
+  - [Release](#release)
 
 <!-- END doctoc generated TOC please keep comment here to allow auto update -->
 
