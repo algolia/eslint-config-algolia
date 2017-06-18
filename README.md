@@ -60,7 +60,7 @@ module.exports = {
   "scripts": {
     "test": "npm run lint",
     "lint": "eslint .",
-    "lint:fix": "npm run lint -- --fix",
+    "lint:fix": "npm run lint -- --fix"
   }
 }
 ```
@@ -85,7 +85,7 @@ module.exports = {
   "scripts": {
     "test": "npm run lint",
     "lint": "eslint .",
-    "lint:fix": "npm run lint -- --fix",
+    "lint:fix": "npm run lint -- --fix"
   }
 }
 ```
@@ -124,7 +124,7 @@ module.exports = {
   "scripts": {
     "test": "npm run lint",
     "lint": "eslint .",
-    "lint:fix": "npm run lint -- --fix",
+    "lint:fix": "npm run lint -- --fix"
   }
 }
 ```
@@ -149,7 +149,7 @@ module.exports = {
   "scripts": {
     "test": "npm run lint",
     "lint": "eslint --ext .js,.vue .",
-    "lint:fix": "eslint --ext .js,.vue . --fix",
+    "lint:fix": "eslint --ext .js,.vue . --fix"
   }
 }
 ```
