@@ -24,6 +24,7 @@ Just **focus** on coding.
   - [Flow](#flow)
   - [Flow with React](#flow-with-react)
   - [Vue](#vue)
+  - [Node.js](#nodejs)
 - [Existing codebase setup](#existing-codebase-setup)
 - [Setup autofix in IDE](#setup-autofix-in-ide)
 - [Ignoring files](#ignoring-files)
@@ -152,6 +153,29 @@ module.exports = {
     "lint:fix": "eslint --ext .js,.vue . --fix"
   }
 }
+```
+
+### Node.js
+
+**package.json**
+```json
+{
+  "scripts": {
+    "test": "npm run lint",
+    "lint": "eslint --ext .js,.vue .",
+    "lint:fix": "eslint --ext .js,.vue . --fix"
+  }
+}
+```
+
+**.eslintrc.js**
+```js
+module.exports = {
+  extends: 'algolia',
+  rules: {
+    'import/no-commonjs': 'off'
+  }
+};
 ```
 
 Drawbacks: prettier will format first line of script tags badly,
