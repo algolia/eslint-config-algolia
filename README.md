@@ -201,9 +201,6 @@ errors.
 npm run lint:fix
 ```
 
-That line is overly complicated, should get easier when prettier new
-version is released.
-
 ## Setup autofix in IDE
 
 Don't overlook this part, autofixing on save is a huge productivity boost.
