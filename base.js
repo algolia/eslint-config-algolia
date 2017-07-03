@@ -15,13 +15,13 @@ module.exports = {
       jsx: true,
     },
   },
-  plugins: ['import', 'prettier'],
   extends: [
     'eslint:recommended',
     'plugin:import/errors',
     './rules/base.js',
     'prettier',
   ],
+  plugins: ['import', 'prettier'],
   settings: {
     'import/extensions': ['.js'],
   },
