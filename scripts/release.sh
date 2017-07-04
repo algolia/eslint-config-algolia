@@ -41,7 +41,8 @@ read -p "=> Release: press [ENTER] to view changes since latest version.."
 conventional-changelog --preset angular --output-unreleased | less
 
 # choose and bump new version
-# printf "\n\nRelease: Please enter the new chosen version > "
+printf "\n=> Release: please type the new tag (latest or beta)> "
+read -e npm_tag
 printf "\n=> Release: please type the new chosen version > "
 read -e newVersion
 
@@ -70,7 +71,7 @@ printf "\n\nRelease: push to github, publish on npm\n"
 git push origin master
 git push origin --tags
 
-npm publish
+npm publish --tag="${npm_tag}"
 
 printf "\n\nRelease:
 Package was published to npm.\n\n"

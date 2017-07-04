@@ -242,22 +242,6 @@ Also activate "Lint HTML files" when dealing with `.vue` components.
 
 See "Ignoring Files and Directories" on [ESLint website](http://eslint.org/docs/user-guide/configuring.html#ignoring-files-and-directories).
 
-## Contibuting
-
-### Test
-
-We have a [sample-project](sample-project).
-
-```sh
-yarn test
-```
-
-### Release
-
-```sh
-npm run release
-```
-
 [version-svg]: https://img.shields.io/npm/v/eslint-config-algolia.svg?style=flat-square
 [package-url]: https://npmjs.org/package/eslint-config-algolia
 [travis-svg]: https://img.shields.io/travis/algolia/eslint-config-algolia/master.svg?style=flat-square
