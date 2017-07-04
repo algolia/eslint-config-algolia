@@ -20,6 +20,7 @@ Just **focus** on coding.
 - [Setup your project](#setup-your-project)
   - [Base requirements](#base-requirements)
   - [Vanilla](#vanilla)
+  - [Jest](#jest)
   - [React](#react)
   - [Flow](#flow)
   - [Flow with React](#flow-with-react)
