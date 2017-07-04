@@ -1,3 +1,13 @@
+<a name="12.0.0"></a>
+# [12.0.0](https://github.com/algolia/eslint-config-algolia/compare/v11.0.0...v12.0.0) (2017-07-04)
+
+
+### Features
+
+* **jest:** move into its own file ([2259ed6](https://github.com/algolia/eslint-config-algolia/commit/2259ed6))
+
+
+
 <a name="11.0.0"></a>
 # [11.0.0](https://github.com/algolia/eslint-config-algolia/compare/v10.1.0...v11.0.0) (2017-06-16)
 
