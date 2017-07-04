@@ -1,5 +1,6 @@
 // eslint-disable-next-line import/no-commonjs
 module.exports = {
-  extends: ['./base.js', 'prettier'],
+  // later we add vue-specific prettier extends here
+  extends: ['./base.js'],
   plugins: ['html'],
 };

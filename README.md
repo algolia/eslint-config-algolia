@@ -66,6 +66,33 @@ module.exports = {
 }
 ```
 
+### Jest
+
+We recommend using Jest as a test runner.
+
+**terminal**
+```sh
+yarn add eslint-plugin-jest --dev
+```
+
+**.eslintrc.js**
+```js
+module.exports = {
+  extends: 'algolia/jest'
+};
+```
+
+**package.json**
+```json
+{
+  "scripts": {
+    "test": "npm run lint",
+    "lint": "eslint .",
+    "lint:fix": "npm run lint -- --fix"
+  }
+}
+```
+
 ### React
 
 **terminal**
