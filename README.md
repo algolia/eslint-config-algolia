@@ -43,7 +43,7 @@ Just **focus** on coding.
 yarn add \
 eslint babel-eslint prettier \
 eslint-config-algolia eslint-config-prettier \
-eslint-plugin-import eslint-plugin-jest eslint-plugin-prettier \
+eslint-plugin-import eslint-plugin-prettier \
 --dev
 ```
 
