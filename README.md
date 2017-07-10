@@ -162,7 +162,7 @@ module.exports = {
 
 **terminal**
 ```sh
-yarn add eslint-plugin-html --dev
+yarn add eslint-plugin-vue@beta --dev
 ```
 
 **.eslintrc.js**
