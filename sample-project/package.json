@@ -16,6 +16,17 @@
     "react": "^16.0.0",
     "react-addons-shallow-compare": "^15.5.2"
   },
+  "renovate": {
+    "extends": [
+      ":lib"
+    ],
+    "semanticCommits": true,
+    "rebaseStalePrs": true,
+    "patch": {
+      "automerge": true,
+      "automergeType": "branch-push"
+    }
+  },
   "devDependencies": {
     "babel-eslint": "8.0.2",
     "eslint": "4.11.0",
