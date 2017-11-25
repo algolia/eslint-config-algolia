@@ -12,9 +12,9 @@
   "author": "Algolia <support@algolia.com> (https://github.com/algolia/)",
   "license": "MIT",
   "dependencies": {
-    "prop-types": "^15.5.10",
-    "react": "^16.0.0",
-    "react-addons-shallow-compare": "^15.5.2"
+    "prop-types": "15.6.0",
+    "react": "16.1.1",
+    "react-addons-shallow-compare": "15.6.2"
   },
   "renovate": {
     "extends": [
