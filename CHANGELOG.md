@@ -1,3 +1,19 @@
+<a name="13.0.0"></a>
+# [13.0.0](https://github.com/algolia/eslint-config-algolia/compare/v11.0.0...v13.0.0) (2017-11-25)
+
+
+### Bug Fixes
+
+* **deps:** update dependency react to v^16.0.0 ([52f6213](https://github.com/algolia/eslint-config-algolia/commit/52f6213))
+
+
+### Features
+
+* **jest:** move into its own file ([2259ed6](https://github.com/algolia/eslint-config-algolia/commit/2259ed6))
+* **react:** disallow binding in render ([a1d725a](https://github.com/algolia/eslint-config-algolia/commit/a1d725a))
+
+
+
 <a name="12.0.0"></a>
 # [12.0.0](https://github.com/algolia/eslint-config-algolia/compare/v11.0.0...v12.0.0) (2017-07-04)
 
