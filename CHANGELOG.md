@@ -1,3 +1,13 @@
+<a name="13.0.1"></a>
+## [13.0.1](https://github.com/algolia/eslint-config-algolia/compare/v13.0.0...v13.0.1) (2017-11-27)
+
+
+### Bug Fixes
+
+* **react:** allow arrow functions in JSX ([3d5daff](https://github.com/algolia/eslint-config-algolia/commit/3d5daff))
+
+
+
 <a name="13.0.0"></a>
 # [13.0.0](https://github.com/algolia/eslint-config-algolia/compare/v11.0.0...v13.0.0) (2017-11-25)
 
