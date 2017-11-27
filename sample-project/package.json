@@ -18,7 +18,7 @@
   },
   "renovate": {
     "extends": [
-      ":lib"
+      "config:base"
     ],
     "semanticCommits": true,
     "rebaseStalePrs": true,
