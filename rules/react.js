@@ -4,6 +4,11 @@ module.exports = {
     'react/no-danger': ['off'],
     'react/display-name': ['off'],
     'react/jsx-key': ['error'],
-    'react/jsx-no-bind': ['error'],
+    'react/jsx-no-bind': [
+      'error',
+      {
+        allowArrowFunctions: true,
+      },
+    ],
   },
 };
