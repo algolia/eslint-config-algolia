@@ -18,14 +18,15 @@
   },
   "renovate": {
     "extends": [
-      "config:base"
+      "config:library"
     ],
     "semanticCommits": true,
     "rebaseStalePrs": true,
-    "patch": {
-      "automerge": true,
-      "automergeType": "branch-push"
-    }
+    "automerge": true,
+    "major": {
+      "automerge": false
+    },
+    "automergeType": "branch-push"
   },
   "devDependencies": {
     "babel-eslint": "8.0.2",
