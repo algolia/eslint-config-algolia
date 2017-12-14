@@ -1,3 +1,3 @@
 module.exports = {
-  extends: '../react.js'
+  extends: ['algolia/react']
 }
