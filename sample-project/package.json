@@ -29,7 +29,7 @@
     "automergeType": "branch-push"
   },
   "devDependencies": {
-    "babel-eslint": "8.1.2",
+    "babel-eslint": "8.2.1",
     "eslint": "4.15.0",
     "eslint-config-algolia": "file:../",
     "eslint-config-prettier": "2.8.0",
