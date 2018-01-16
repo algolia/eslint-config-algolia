@@ -42,7 +42,7 @@
     "eslint-config-prettier": "2.8.0",
     "eslint-plugin-import": "2.8.0",
     "eslint-plugin-jest": "21.6.2",
-    "eslint-plugin-prettier": "2.4.0",
+    "eslint-plugin-prettier": "2.5.0",
     "json": "9.0.6"
   }
 }
