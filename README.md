@@ -178,7 +178,7 @@ module.exports = {
   "scripts": {
     "test": "npm run lint",
     "lint": "eslint --ext .js,.vue .",
-    "lint:fix": "eslint --ext .js,.vue . --fix"
+    "lint:fix": "npm run lint -- --fix"
   }
 }
 ```
@@ -200,8 +200,8 @@ Please also check "Lint HTML files" in your linter, that should lint
 {
   "scripts": {
     "test": "npm run lint",
-    "lint": "eslint --ext .js,.vue .",
-    "lint:fix": "eslint --ext .js,.vue . --fix"
+    "lint": "eslint .",
+    "lint:fix": "npm run lint -- --fix"
   }
 }
 ```
