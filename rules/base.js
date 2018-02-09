@@ -83,7 +83,7 @@ module.exports = {
     'no-proto': ['error'],
     'no-redeclare': ['error'],
     'no-return-assign': ['error'],
-    'no-return-await': ['error'],
+    'no-return-await': ['off'],
     'no-script-url': ['error'],
     'no-self-assign': ['error'],
     'no-self-compare': ['error'],
