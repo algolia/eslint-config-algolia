@@ -365,7 +365,7 @@ escape-string-regexp@^1.0.2, escape-string-regexp@^1.0.5:
   resolved "https://registry.yarnpkg.com/escape-string-regexp/-/escape-string-regexp-1.0.5.tgz#1b61c0562190a8dff6ae3bb2cf0200ca130b86d4"
 
 "eslint-config-algolia@file:..":
-  version "13.0.1"
+  version "13.1.0"
 
 eslint-config-prettier@2.8.0:
   version "2.8.0"
@@ -402,9 +402,9 @@ eslint-plugin-import@2.8.0:
     minimatch "^3.0.3"
     read-pkg-up "^2.0.0"
 
-eslint-plugin-jest@21.9.0:
-  version "21.9.0"
-  resolved "https://registry.yarnpkg.com/eslint-plugin-jest/-/eslint-plugin-jest-21.9.0.tgz#04d5687d8faa4dde3252b49bf76bd6fd73528102"
+eslint-plugin-jest@21.12.0:
+  version "21.12.0"
+  resolved "https://registry.yarnpkg.com/eslint-plugin-jest/-/eslint-plugin-jest-21.12.0.tgz#60d5e1c39bab37385ba123941352aed90bc784a5"
 
 eslint-plugin-prettier@2.6.0:
   version "2.6.0"
