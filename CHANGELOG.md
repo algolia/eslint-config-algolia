@@ -1,3 +1,18 @@
+<a name="13.1.0"></a>
+# [13.1.0](https://github.com/algolia/eslint-config-algolia/compare/v13.0.1...v13.1.0) (2018-02-12)
+
+
+### Bug Fixes
+
+* **deps:** update dependency react to v16.2.0 ([144e42f](https://github.com/algolia/eslint-config-algolia/commit/144e42f))
+
+
+### Features
+
+* **rules:** disable no-return-await ([a46f401](https://github.com/algolia/eslint-config-algolia/commit/a46f401)), closes [#78](https://github.com/algolia/eslint-config-algolia/issues/78)
+
+
+
 <a name="13.0.1"></a>
 ## [13.0.1](https://github.com/algolia/eslint-config-algolia/compare/v13.0.0...v13.0.1) (2017-11-27)
 
