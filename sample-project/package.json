@@ -34,7 +34,7 @@
     "eslint-config-algolia": "file:../",
     "eslint-config-prettier": "2.8.0",
     "eslint-plugin-import": "2.8.0",
-    "eslint-plugin-jest": "21.8.0",
+    "eslint-plugin-jest": "21.9.0",
     "eslint-plugin-prettier": "2.6.0",
     "eslint-plugin-react": "7.6.1",
     "prettier": "1.10.2"
