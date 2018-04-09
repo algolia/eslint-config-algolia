@@ -42,7 +42,7 @@ module.exports = {
     'class-methods-use-this': ['off'],
     complexity: ['error'],
     'consistent-return': ['error'],
-    curly: ['off'],
+    curly: ['error'],
     'default-case': ['error'],
     'dot-location': ['off'],
     'dot-notation': ['error'],
