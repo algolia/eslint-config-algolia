@@ -16,18 +16,6 @@
     "react": "16.3.1",
     "react-addons-shallow-compare": "15.6.2"
   },
-  "renovate": {
-    "extends": [
-      "config:library"
-    ],
-    "semanticCommits": true,
-    "rebaseStalePrs": true,
-    "automerge": true,
-    "major": {
-      "automerge": false
-    },
-    "automergeType": "branch-push"
-  },
   "devDependencies": {
     "babel-eslint": "8.2.3",
     "eslint": "4.19.1",
