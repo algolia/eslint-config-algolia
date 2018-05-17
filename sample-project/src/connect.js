@@ -34,7 +34,7 @@ export default function connect(mapStateToProps) {
         }
       }
 
-      componentWillReceiveProps(nextProps) {
+      UNSAFE_componentWillReceiveProps(nextProps) {
         this.setState(
           mapStateToProps(this.context.algoliaStore.getState(), nextProps)
         );
