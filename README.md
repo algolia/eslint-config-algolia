@@ -162,7 +162,7 @@ module.exports = {
 
 **terminal**
 ```sh
-yarn add eslint-plugin-html --dev
+yarn add eslint-plugin-vue --dev
 ```
 
 **.eslintrc.js**
@@ -182,16 +182,6 @@ module.exports = {
   }
 }
 ```
-
-Drawbacks: prettier will format first line of script tags badly,
-they are working on it.
-
-We will soon afterwards switch to good prettier formatting for vue
-and proper eslint-plugin-vue. Those are all in the works but
-this setup already provides good defaults.
-
-Please also check "Lint HTML files" in your linter, that should lint
-'.vue' files.
 
 ### Node.js
 
