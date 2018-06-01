@@ -183,6 +183,18 @@ module.exports = {
 }
 ```
 
+**VSCode**
+```json
+{
+  "eslint.validate": [
+    {
+      "language": "vue",
+      "autoFix": true
+    }
+  ]
+}
+```
+
 ### Node.js
 
 **package.json**
