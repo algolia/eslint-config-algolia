@@ -120,7 +120,7 @@ module.exports = {
     'no-shadow-restricted-names': ['error'],
     'no-undef': ['error'],
     'no-undefined': ['off'],
-    'no-unused-vars': ['error'],
+    'no-unused-vars': ['error', { ignoreRestSiblings: true }],
     'no-use-before-define': ['error', { functions: false }],
 
     // Node.js and Common.js
