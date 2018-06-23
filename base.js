@@ -7,10 +7,9 @@ module.exports = {
   },
   parser: 'babel-eslint', // allows both flowtype and static class properties
   parserOptions: {
-    ecmaVersion: 6,
+    ecmaVersion: 2018,
     sourceType: 'module',
     ecmaFeatures: {
-      experimentalObjectRestSpread: true,
       impliedStrict: true,
       jsx: true,
     },
