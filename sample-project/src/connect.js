@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import shallowCompare from 'react-addons-shallow-compare';
 
-import storeShape from './storeShape.js';
+import storeShape from './storeShape';
 
 const getDisplayName = WrappedComponent =>
   WrappedComponent.displayName || WrappedComponent.name || 'UnknownComponent';
