@@ -18,7 +18,7 @@
   },
   "devDependencies": {
     "babel-eslint": "8.2.5",
-    "eslint": "5.0.1",
+    "eslint": "5.1.0",
     "eslint-config-algolia": "file:../",
     "eslint-config-prettier": "2.8.0",
     "eslint-plugin-import": "2.13.0",
