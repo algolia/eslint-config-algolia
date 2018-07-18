@@ -1,4 +1,4 @@
-import connect from './src/connect.js';
-import Provider from './src/Provider.js';
+import connect from './src/connect';
+import Provider from './src/Provider';
 
 export { Provider, connect };

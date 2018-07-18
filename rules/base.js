@@ -261,6 +261,7 @@ module.exports = {
     'import/no-commonjs': ['error'],
     'import/no-extraneous-dependencies': ['error'],
     'import/no-duplicates': ['error'],
+    'import/extensions': [2, 'always', { js: 'never' }],
     'prettier/prettier': [
       'error',
       { trailingComma: 'es5', singleQuote: true, printWidth: 80 },

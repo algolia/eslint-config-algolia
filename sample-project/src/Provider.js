@@ -1,8 +1,8 @@
 import { Component, Children } from 'react';
 import PropTypes from 'prop-types';
 
-import createStore from './createStore.js';
-import storeShape from './storeShape.js';
+import createStore from './createStore';
+import storeShape from './storeShape';
 
 class Provider extends Component {
   static propTypes = {
