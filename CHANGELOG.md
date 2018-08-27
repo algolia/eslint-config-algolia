@@ -1,3 +1,24 @@
+<a name="13.2.0"></a>
+# [13.2.0](https://github.com/algolia/eslint-config-algolia/compare/v13.1.0...v13.2.0) (2018-08-27)
+
+
+### Bug Fixes
+
+* remove nested renovate project configuration ([a6d9765](https://github.com/algolia/eslint-config-algolia/commit/a6d9765))
+* **vue:** avoid extends from base ([5cdeb22](https://github.com/algolia/eslint-config-algolia/commit/5cdeb22))
+
+
+### Features
+
+* enable curly rules ([dca43ad](https://github.com/algolia/eslint-config-algolia/commit/dca43ad))
+* **base:** allow unused var with rest ([b9c579a](https://github.com/algolia/eslint-config-algolia/commit/b9c579a))
+* replace experimentalObjectRestSpread for ecmaVersion ([76e5d1d](https://github.com/algolia/eslint-config-algolia/commit/76e5d1d))
+* **import:** enforce no extensions for js files ([#92](https://github.com/algolia/eslint-config-algolia/issues/92)) ([b24e9b2](https://github.com/algolia/eslint-config-algolia/commit/b24e9b2))
+* **vue:** add rules override ([ac98c1a](https://github.com/algolia/eslint-config-algolia/commit/ac98c1a))
+* **vue:** use Vue plugin instead of the HTML one ([a0d733a](https://github.com/algolia/eslint-config-algolia/commit/a0d733a))
+
+
+
 <a name="13.1.0"></a>
 # [13.1.0](https://github.com/algolia/eslint-config-algolia/compare/v13.0.1...v13.1.0) (2018-02-12)
 
@@ -429,6 +450,3 @@
 
 <a name="2.0.0"></a>
 # 2.0.0 (2015-07-05)
-
-
-
