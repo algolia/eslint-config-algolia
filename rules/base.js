@@ -257,14 +257,30 @@ module.exports = {
     'template-curly-spacing': ['error'],
     'yield-star-spacing': ['error'],
 
+    // Import
+    // https://github.com/benmosher/eslint-plugin-import
     'import/no-amd': ['error'],
     'import/no-commonjs': ['error'],
     'import/no-extraneous-dependencies': ['error'],
     'import/no-duplicates': ['error'],
-    'import/extensions': [2, 'always', { js: 'never' }],
+    'import/extensions': [
+      'error',
+      'always',
+      {
+        js: 'never',
+        vue: 'ignorePackages',
+      },
+    ],
+
+    // Prettier
+    // https://github.com/prettier/eslint-plugin-prettier
     'prettier/prettier': [
       'error',
-      { trailingComma: 'es5', singleQuote: true, printWidth: 80 },
+      {
+        trailingComma: 'es5',
+        singleQuote: true,
+        printWidth: 80,
+      },
     ],
   },
 };
