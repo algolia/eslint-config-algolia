@@ -1,3 +1,14 @@
+<a name="13.2.1"></a>
+## [13.2.1](https://github.com/algolia/eslint-config-algolia/compare/v13.2.0...v13.2.1) (2018-08-27)
+
+
+### Bug Fixes
+
+* **extensions:** disable for packages in Vue ([37c0ba4](https://github.com/algolia/eslint-config-algolia/commit/37c0ba4))
+* **Vue:** add Vue plugin to the list ([f42bc1d](https://github.com/algolia/eslint-config-algolia/commit/f42bc1d))
+
+
+
 <a name="13.2.0"></a>
 # [13.2.0](https://github.com/algolia/eslint-config-algolia/compare/v13.1.0...v13.2.0) (2018-08-27)
 
