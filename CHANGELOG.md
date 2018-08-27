@@ -1,3 +1,12 @@
+<a name="13.2.2"></a>
+## [13.2.2](https://github.com/algolia/eslint-config-algolia/compare/v13.2.1...v13.2.2) (2018-08-27)
+
+
+
+Remove the `sample-project/node_modules` folder from the published package.
+
+
+
 <a name="13.2.1"></a>
 ## [13.2.1](https://github.com/algolia/eslint-config-algolia/compare/v13.2.0...v13.2.1) (2018-08-27)
 
