@@ -28,7 +28,7 @@ module.exports = {
     'prettier',
     './rules/vue.js',
   ],
-  plugins: ['import', 'prettier'],
+  plugins: ['import', 'prettier', 'vue'],
   settings: {
     'import/extensions': ['.js'],
   },
