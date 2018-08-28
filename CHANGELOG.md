@@ -1,3 +1,13 @@
+<a name="13.2.3"></a>
+## [13.2.3](https://github.com/algolia/eslint-config-algolia/compare/v13.2.2...v13.2.3) (2018-08-28)
+
+
+### Bug Fixes
+
+* **extensions:** ignorePackages by default + JS override ([b8a5ff0](https://github.com/algolia/eslint-config-algolia/commit/b8a5ff0))
+
+
+
 <a name="13.2.2"></a>
 ## [13.2.2](https://github.com/algolia/eslint-config-algolia/compare/v13.2.1...v13.2.2) (2018-08-27)
 
