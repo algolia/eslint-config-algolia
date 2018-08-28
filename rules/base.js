@@ -265,10 +265,9 @@ module.exports = {
     'import/no-duplicates': ['error'],
     'import/extensions': [
       'error',
-      'always',
+      'ignorePackages',
       {
         js: 'never',
-        vue: 'ignorePackages',
       },
     ],
 
