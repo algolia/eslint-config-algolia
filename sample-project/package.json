@@ -17,7 +17,7 @@
     "react-addons-shallow-compare": "15.6.2"
   },
   "devDependencies": {
-    "babel-eslint": "9.0.0",
+    "babel-eslint": "10.0.1",
     "eslint": "5.6.1",
     "eslint-config-algolia": "file:../",
     "eslint-config-prettier": "3.1.0",
