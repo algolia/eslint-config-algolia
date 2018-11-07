@@ -1202,10 +1202,10 @@ prelude-ls@~1.1.2:
   resolved "https://registry.yarnpkg.com/prelude-ls/-/prelude-ls-1.1.2.tgz#21932a549f5e52ffd9a827f570e04be62a97da54"
   integrity sha1-IZMqVJ9eUv/ZqCf1cOBL5iqX2lQ=
 
-prettier@1.15.0:
-  version "1.15.0"
-  resolved "https://registry.yarnpkg.com/prettier/-/prettier-1.15.0.tgz#c6191a50fbc9056ff770577d64ebd9987cca1dd7"
-  integrity sha512-NtSOnDRmJaNuruoX0KhDdQ3UGyLNJaSuP2eJn6Q6uSvzQBAJQHZbXgraFPbv8sYbNaMR9nz7scMy55WC+78E6w==
+prettier@1.15.1:
+  version "1.15.1"
+  resolved "https://registry.yarnpkg.com/prettier/-/prettier-1.15.1.tgz#06c67106afb1b40e74b002353b2079cc7e0e67bf"
+  integrity sha512-4rgV2hyc/5Pk0XHH4VjJWHRgVjgRbpMfLQjREAhHBtyW1UvTFkjJEsueGYNYYZd9mn97K+1qv0EBwm11zoaSgA==
 
 progress@^2.0.0:
   version "2.0.0"
