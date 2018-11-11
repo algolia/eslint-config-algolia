@@ -20,7 +20,7 @@
     "babel-eslint": "10.0.1",
     "eslint": "5.9.0",
     "eslint-config-algolia": "file:../",
-    "eslint-config-prettier": "3.2.0",
+    "eslint-config-prettier": "3.3.0",
     "eslint-plugin-import": "2.14.0",
     "eslint-plugin-jest": "21.27.2",
     "eslint-plugin-prettier": "2.7.0",
