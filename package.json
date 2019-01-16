@@ -39,7 +39,7 @@
     "doctoc": "1.4.0",
     "eslint": "5.12.0",
     "eslint-config-algolia": "10.1.0",
-    "eslint-config-prettier": "3.4.0",
+    "eslint-config-prettier": "3.5.0",
     "eslint-plugin-import": "2.14.0",
     "eslint-plugin-jest": "21.27.2",
     "eslint-plugin-prettier": "2.7.0",
