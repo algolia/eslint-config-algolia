@@ -37,7 +37,7 @@
   "devDependencies": {
     "conventional-changelog-cli": "2.0.12",
     "doctoc": "1.4.0",
-    "eslint": "5.14.0",
+    "eslint": "5.14.1",
     "eslint-config-algolia": "10.1.0",
     "eslint-config-prettier": "3.6.0",
     "eslint-plugin-import": "2.16.0",
