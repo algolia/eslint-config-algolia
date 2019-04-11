@@ -120,8 +120,8 @@ module.exports = {
     'no-shadow-restricted-names': ['error'],
     'no-undef': ['error'],
     'no-undefined': ['off'],
-    'no-unused-vars': ['error', { ignoreRestSiblings: true }],
-    'no-use-before-define': ['error', { functions: false }],
+    'no-unused-vars': ['off'], // Superset by @typescript-eslint/no-unused-vars
+    'no-use-before-define': ['off'], // Superset by @typescript-eslint/no-use-before-define
 
     // Node.js and Common.js
     // http://eslint.org/docs/rules/#nodejs-and-commonjs
@@ -141,7 +141,7 @@ module.exports = {
     'array-bracket-spacing': ['error'],
     'block-spacing': ['error'],
     'brace-style': ['error', '1tbs', { allowSingleLine: true }],
-    camelcase: ['error'],
+    camelcase: ['off'], // Superset by @typescript-eslint/camelcase
     'comma-dangle': ['error', 'always-multiline'],
     'comma-spacing': ['error'],
     'comma-style': ['error'],
@@ -181,7 +181,7 @@ module.exports = {
     'newline-after-var': ['off'],
     'newline-before-return': ['off'],
     'newline-per-chained-call': ['off'],
-    'no-array-constructor': ['error'],
+    'no-array-constructor': ['off'], // Superset by @typescript-eslint/no-array-constructor
     'no-bitwise': ['error'],
     'no-continue': ['error'],
     'no-inline-comments': ['off'],
@@ -240,7 +240,7 @@ module.exports = {
     'no-restricted-imports': ['off'],
     'no-this-before-super': ['error'],
     'no-useless-computed-key': ['error'],
-    'no-useless-constructor': ['error'],
+    'no-useless-constructor': ['off'], // Superset by @typescript-eslint/no-useless-constructor
     'no-useless-rename': ['error'],
     'no-var': ['error'],
     'object-shorthand': ['error'],

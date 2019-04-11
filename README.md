@@ -19,7 +19,7 @@ Just **focus** on coding.
 
 - [Setup your project](#setup-your-project)
   - [Base requirements](#base-requirements)
-  - [Vanilla](#vanilla)
+  - [Vanilla or TypeScript](#vanilla-or-typescript)
   - [Jest](#jest)
   - [React](#react)
   - [Flow](#flow)
@@ -41,13 +41,14 @@ Just **focus** on coding.
 
 ```sh
 yarn add \
-eslint babel-eslint prettier \
+eslint @typescript-eslint/parser prettier \
 eslint-config-algolia eslint-config-prettier \
 eslint-plugin-import eslint-plugin-prettier \
+@typescript-eslint/eslint-plugin typescript \
 --dev
 ```
 
-### Vanilla
+### Vanilla or TypeScript
 
 **.eslintrc.js**
 ```js
@@ -61,7 +62,7 @@ module.exports = {
 {
   "scripts": {
     "test": "npm run lint",
-    "lint": "eslint .",
+    "lint": "eslint --ext .js,.ts,.tsx .",
     "lint:fix": "npm run lint -- --fix"
   }
 }
@@ -88,7 +89,7 @@ module.exports = {
 {
   "scripts": {
     "test": "npm run lint",
-    "lint": "eslint .",
+    "lint": "eslint --ext .js,.ts,.tsx .",
     "lint:fix": "npm run lint -- --fix"
   }
 }
@@ -113,7 +114,7 @@ module.exports = {
 {
   "scripts": {
     "test": "npm run lint",
-    "lint": "eslint .",
+    "lint": "eslint --ext .js,.ts,.tsx .",
     "lint:fix": "npm run lint -- --fix"
   }
 }
@@ -152,7 +153,7 @@ module.exports = {
 {
   "scripts": {
     "test": "npm run lint",
-    "lint": "eslint .",
+    "lint": "eslint --ext .js,.ts,.tsx .",
     "lint:fix": "npm run lint -- --fix"
   }
 }
@@ -202,7 +203,7 @@ module.exports = {
 {
   "scripts": {
     "test": "npm run lint",
-    "lint": "eslint .",
+    "lint": "eslint --ext .js,.ts,.tsx .",
     "lint:fix": "npm run lint -- --fix"
   }
 }

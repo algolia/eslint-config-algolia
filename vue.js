@@ -11,7 +11,7 @@ module.exports = {
     node: true,
   },
   parserOptions: {
-    parser: 'babel-eslint', // allows both flowtype and static class properties
+    parser: '@typescript-eslint/parser',
     ecmaVersion: 2018,
     sourceType: 'module',
     ecmaFeatures: {
@@ -23,6 +23,7 @@ module.exports = {
     'plugin:vue/strongly-recommended',
     'eslint:recommended',
     'plugin:import/errors',
+    './rules/typescript.js',
     './rules/base.js',
     'prettier',
     './rules/vue.js',
