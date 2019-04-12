@@ -11,7 +11,7 @@ module.exports = {
     node: true,
   },
   parserOptions: {
-    parser: 'babel-eslint',
+    parser: 'babel-eslint', // allows both flowtype and static class properties
     ecmaVersion: 2018,
     sourceType: 'module',
     ecmaFeatures: {
