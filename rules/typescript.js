@@ -57,5 +57,12 @@ module.exports = {
     '@typescript-eslint/type-annotation-spacing': ['error'],
     '@typescript-eslint/unbound-method': ['off'],
     '@typescript-eslint/unified-signatures': ['error'],
+
+    // Disable rules superset by @typescript-eslint
+    'no-unused-vars': ['off'],
+    'no-use-before-define': ['off'],
+    camelcase: ['off'],
+    'no-array-constructor': ['off'],
+    'no-useless-constructor': ['off'],
   },
 };

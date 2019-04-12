@@ -19,17 +19,19 @@ Just **focus** on coding.
 
 - [Setup your project](#setup-your-project)
   - [Base requirements](#base-requirements)
-  - [Vanilla or TypeScript](#vanilla-or-typescript)
+  - [Vanilla](#vanilla)
   - [Jest](#jest)
   - [React](#react)
   - [Flow](#flow)
   - [Flow with React](#flow-with-react)
+  - [TypeScript](#typescript)
+  - [TypeScript with React](#typescript-with-react)
   - [Vue](#vue)
   - [Node.js](#nodejs)
 - [Existing codebase setup](#existing-codebase-setup)
 - [Setup autofix in IDE](#setup-autofix-in-ide)
 - [Ignoring files](#ignoring-files)
-- [Contibuting](#contibuting)
+- [Contributing](#contributing)
   - [Test](#test)
   - [Release](#release)
 
@@ -41,14 +43,13 @@ Just **focus** on coding.
 
 ```sh
 yarn add \
-eslint @typescript-eslint/parser prettier \
+eslint babel-eslint prettier \
 eslint-config-algolia eslint-config-prettier \
 eslint-plugin-import eslint-plugin-prettier \
-@typescript-eslint/eslint-plugin typescript \
 --dev
 ```
 
-### Vanilla or TypeScript
+### Vanilla
 
 **.eslintrc.js**
 ```js
@@ -62,7 +63,7 @@ module.exports = {
 {
   "scripts": {
     "test": "npm run lint",
-    "lint": "eslint --ext .js,.ts,.tsx .",
+    "lint": "eslint .",
     "lint:fix": "npm run lint -- --fix"
   }
 }
@@ -89,7 +90,7 @@ module.exports = {
 {
   "scripts": {
     "test": "npm run lint",
-    "lint": "eslint --ext .js,.ts,.tsx .",
+    "lint": "eslint .",
     "lint:fix": "npm run lint -- --fix"
   }
 }
@@ -114,7 +115,7 @@ module.exports = {
 {
   "scripts": {
     "test": "npm run lint",
-    "lint": "eslint --ext .js,.ts,.tsx .",
+    "lint": "eslint .",
     "lint:fix": "npm run lint -- --fix"
   }
 }
@@ -153,11 +154,63 @@ module.exports = {
 {
   "scripts": {
     "test": "npm run lint",
+    "lint": "eslint .",
+    "lint:fix": "npm run lint -- --fix"
+  }
+}
+```
+
+### TypeScript
+
+**terminal**
+```sh
+yarn add @typescript-eslint/parser @typescript-eslint/eslint-plugin typescript --dev
+```
+
+**.eslintrc.js**
+```js
+module.exports = {
+  extends: 'algolia/typescript'
+};
+```
+
+**package.json**
+```json
+{
+  "scripts": {
+    "test": "npm run lint",
     "lint": "eslint --ext .js,.ts,.tsx .",
     "lint:fix": "npm run lint -- --fix"
   }
 }
 ```
+
+### TypeScript with React
+
+**terminal**
+```sh
+yarn add @typescript-eslint/parser @typescript-eslint/eslint-plugin typescript eslint-plugin-react --dev
+```
+
+**.eslintrc.js**
+```js
+module.exports = {
+  extends: ['algolia/react', 'algolia/typescript']
+};
+```
+**Note**: Be sure to put the `algolia/typescript` configuration last so the parser is properly set for TypeScript files.
+
+**package.json**
+```json
+{
+  "scripts": {
+    "test": "npm run lint",
+    "lint": "eslint --ext .js,.ts,.tsx .",
+    "lint:fix": "npm run lint -- --fix"
+  }
+}
+```
+
 
 ### Vue
 
@@ -203,7 +256,7 @@ module.exports = {
 {
   "scripts": {
     "test": "npm run lint",
-    "lint": "eslint --ext .js,.ts,.tsx .",
+    "lint": "eslint .",
     "lint:fix": "npm run lint -- --fix"
   }
 }
@@ -245,7 +298,7 @@ Also activate "Lint HTML files" when dealing with `.vue` components.
 
 See "Ignoring Files and Directories" on [ESLint website](http://eslint.org/docs/user-guide/configuring.html#ignoring-files-and-directories).
 
-## Contibuting
+## Contributing
 
 ### Test
 

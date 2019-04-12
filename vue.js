@@ -11,7 +11,7 @@ module.exports = {
     node: true,
   },
   parserOptions: {
-    parser: '@typescript-eslint/parser',
+    parser: 'babel-eslint',
     ecmaVersion: 2018,
     sourceType: 'module',
     ecmaFeatures: {
@@ -23,7 +23,6 @@ module.exports = {
     'plugin:vue/strongly-recommended',
     'eslint:recommended',
     'plugin:import/errors',
-    './rules/typescript.js',
     './rules/base.js',
     'prettier',
     './rules/vue.js',

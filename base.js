@@ -5,7 +5,7 @@ module.exports = {
     es6: true,
     node: true,
   },
-  parser: '@typescript-eslint/parser',
+  parser: 'babel-eslint',
   parserOptions: {
     ecmaVersion: 2018,
     sourceType: 'module',
@@ -17,7 +17,6 @@ module.exports = {
   extends: [
     'eslint:recommended',
     'plugin:import/errors',
-    './rules/typescript.js',
     './rules/base.js',
     'prettier',
   ],
