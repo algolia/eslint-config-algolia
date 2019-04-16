@@ -1,3 +1,17 @@
+# [13.3.0](https://github.com/algolia/eslint-config-algolia/compare/v13.2.3...v13.3.0) (2019-04-16)
+
+
+### Bug Fixes
+
+* **vue:** config compatible with eslint v5 ([5cbcec1](https://github.com/algolia/eslint-config-algolia/commit/5cbcec1))
+
+
+### Features
+
+* add TypeScript support ([#106](https://github.com/algolia/eslint-config-algolia/issues/106)) ([eef247f](https://github.com/algolia/eslint-config-algolia/commit/eef247f))
+
+
+
 <a name="13.2.3"></a>
 ## [13.2.3](https://github.com/algolia/eslint-config-algolia/compare/v13.2.2...v13.2.3) (2018-08-28)
 
