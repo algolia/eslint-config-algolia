@@ -24,12 +24,14 @@ Just **focus** on coding.
   - [React](#react)
   - [Flow](#flow)
   - [Flow with React](#flow-with-react)
+  - [TypeScript](#typescript)
+  - [TypeScript with React](#typescript-with-react)
   - [Vue](#vue)
   - [Node.js](#nodejs)
 - [Existing codebase setup](#existing-codebase-setup)
 - [Setup autofix in IDE](#setup-autofix-in-ide)
 - [Ignoring files](#ignoring-files)
-- [Contibuting](#contibuting)
+- [Contributing](#contributing)
   - [Test](#test)
   - [Release](#release)
 
@@ -158,6 +160,58 @@ module.exports = {
 }
 ```
 
+### TypeScript
+
+**terminal**
+```sh
+yarn add @typescript-eslint/parser @typescript-eslint/eslint-plugin typescript --dev
+```
+
+**.eslintrc.js**
+```js
+module.exports = {
+  extends: 'algolia/typescript'
+};
+```
+
+**package.json**
+```json
+{
+  "scripts": {
+    "test": "npm run lint",
+    "lint": "eslint --ext .js,.ts,.tsx .",
+    "lint:fix": "npm run lint -- --fix"
+  }
+}
+```
+
+### TypeScript with React
+
+**terminal**
+```sh
+yarn add @typescript-eslint/parser @typescript-eslint/eslint-plugin typescript eslint-plugin-react --dev
+```
+
+**.eslintrc.js**
+```js
+module.exports = {
+  extends: ['algolia/react', 'algolia/typescript']
+};
+```
+**Note**: Be sure to put the `algolia/typescript` configuration last so the parser is properly set for TypeScript files.
+
+**package.json**
+```json
+{
+  "scripts": {
+    "test": "npm run lint",
+    "lint": "eslint --ext .js,.ts,.tsx .",
+    "lint:fix": "npm run lint -- --fix"
+  }
+}
+```
+
+
 ### Vue
 
 **terminal**
@@ -244,7 +298,7 @@ Also activate "Lint HTML files" when dealing with `.vue` components.
 
 See "Ignoring Files and Directories" on [ESLint website](http://eslint.org/docs/user-guide/configuring.html#ignoring-files-and-directories).
 
-## Contibuting
+## Contributing
 
 ### Test
 
