@@ -8,7 +8,13 @@ module.exports = {
     '@typescript-eslint/ban-ts-ignore': ['off'],
     '@typescript-eslint/camelcase': ['error'],
     '@typescript-eslint/class-name-casing': ['error'],
-    '@typescript-eslint/explicit-function-return-type': ['off'],
+    '@typescript-eslint/explicit-function-return-type': [
+      'error',
+      {
+        allowExpressions: true,
+        allowTypedFunctionExpressions: true,
+      },
+    ],
     '@typescript-eslint/explicit-member-accessibility': ['error'],
     '@typescript-eslint/generic-type-naming': ['off'],
     '@typescript-eslint/indent': ['off'],
