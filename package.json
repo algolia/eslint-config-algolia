@@ -35,7 +35,7 @@
   },
   "homepage": "https://github.com/algolia/eslint-config-algolia",
   "devDependencies": {
-    "conventional-changelog-cli": "2.0.12",
+    "conventional-changelog-cli": "2.0.17",
     "doctoc": "1.4.0",
     "eslint": "5.16.0",
     "eslint-config-algolia": "10.1.0",
