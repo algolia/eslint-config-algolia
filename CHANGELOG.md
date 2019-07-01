@@ -1,3 +1,12 @@
+# [13.4.0](https://github.com/algolia/eslint-config-algolia/compare/v13.3.0...v13.4.0) (2019-07-01)
+
+
+### Features
+
+* **rules:** disable @typescript-eslint/explicit-function-return-type ([#110](https://github.com/algolia/eslint-config-algolia/issues/110)) ([eb77e5f](https://github.com/algolia/eslint-config-algolia/commit/eb77e5f))
+
+
+
 # [13.3.0](https://github.com/algolia/eslint-config-algolia/compare/v13.2.3...v13.3.0) (2019-04-16)
 
 
