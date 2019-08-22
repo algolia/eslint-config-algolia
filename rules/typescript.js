@@ -12,8 +12,8 @@ module.exports = {
       'error',
       {
         assertionStyle: 'as',
-        objectLiteralTypeAssertions: 'allow-as-parameter'
-      }
+        objectLiteralTypeAssertions: 'allow-as-parameter',
+      },
     ],
     '@typescript-eslint/explicit-function-return-type': ['off'],
     '@typescript-eslint/explicit-member-accessibility': ['error'],
