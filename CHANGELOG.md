@@ -1,3 +1,25 @@
+# [14.0.0](https://github.com/algolia/eslint-config-algolia/compare/v13.4.0...v14.0.0) (2019-09-10)
+
+
+### Bug Fixes
+
+* **deps:** update dependency react to v16.9.0 ([bdb4cfd](https://github.com/algolia/eslint-config-algolia/commit/bdb4cfd))
+
+
+### Features
+
+* **ts:** compat for typescript-eslint 2 ([#114](https://github.com/algolia/eslint-config-algolia/issues/114)) ([170a113](https://github.com/algolia/eslint-config-algolia/commit/170a113)), closes [/github.com/typescript-eslint/typescript-eslint/blob/master/CHANGELOG.md#200-2019-08-13](https://github.com//github.com/typescript-eslint/typescript-eslint/blob/master/CHANGELOG.md/issues/200-2019-08-13) [#113](https://github.com/algolia/eslint-config-algolia/issues/113)
+* **typescript:** allow unused vars starting with underscores ([#111](https://github.com/algolia/eslint-config-algolia/issues/111)) ([b3fcb88](https://github.com/algolia/eslint-config-algolia/commit/b3fcb88))
+
+
+### BREAKING CHANGES
+
+* **ts:** /typescript requires typescript-eslint v2 now
+
+* haha prettier you old chap
+
+
+
 # [13.4.0](https://github.com/algolia/eslint-config-algolia/compare/v13.3.0...v13.4.0) (2019-07-01)
 
 
