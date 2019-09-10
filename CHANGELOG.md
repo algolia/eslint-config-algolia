@@ -1,3 +1,12 @@
+## [14.0.1](https://github.com/algolia/eslint-config-algolia/compare/v14.0.0...v14.0.1) (2019-09-10)
+
+
+### Bug Fixes
+
+* **typescript:** correct rule name ([1752458](https://github.com/algolia/eslint-config-algolia/commit/1752458))
+
+
+
 # [14.0.0](https://github.com/algolia/eslint-config-algolia/compare/v13.4.0...v14.0.0) (2019-09-10)
 
 
