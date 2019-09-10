@@ -40,7 +40,7 @@ module.exports = {
     '@typescript-eslint/no-parameter-properties': ['off'],
     '@typescript-eslint/no-require-imports': ['off'],
     '@typescript-eslint/no-this-alias': ['off'],
-    '@typescript-eslint/no-triple-slash-reference': ['error'],
+    '@typescript-eslint/triple-slash-reference': ['error'],
     '@typescript-eslint/no-type-alias': ['off'],
     '@typescript-eslint/no-unnecessary-qualifier': ['off'],
     '@typescript-eslint/no-unnecessary-type-assertion': ['off'],
