@@ -17,7 +17,10 @@ module.exports = {
     ],
     '@typescript-eslint/explicit-function-return-type': ['off'],
     '@typescript-eslint/explicit-member-accessibility': ['error'],
-    '@typescript-eslint/generic-type-naming': ['error', '^T[A-Z][a-zA-Z]+$'],
+    '@typescript-eslint/generic-type-naming': [
+      'error',
+      '^(T|K)[A-Z][a-zA-Z]+$',
+    ],
     '@typescript-eslint/indent': ['off'],
     '@typescript-eslint/interface-name-prefix': ['error', 'never'],
     '@typescript-eslint/member-delimiter-style': ['off'],
