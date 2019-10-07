@@ -20,7 +20,7 @@ module.exports = {
     './rules/base.js',
     'prettier',
   ],
-  plugins: ['import', 'prettier'],
+  plugins: ['eslint-comments', 'import', 'prettier'],
   settings: {
     'import/extensions': ['.js'],
   },

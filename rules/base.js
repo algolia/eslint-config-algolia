@@ -257,6 +257,15 @@ module.exports = {
     'template-curly-spacing': ['error'],
     'yield-star-spacing': ['error'],
 
+    // Comments
+    // https://mysticatea.github.io/eslint-plugin-eslint-comments
+    'eslint-comments/disable-enable-pair': ['error'],
+    'eslint-comments/no-aggregating-enable': ['error'],
+    'eslint-comments/no-duplicate-disable': ['error'],
+    'eslint-comments/no-unlimited-disable': ['error'],
+    'eslint-comments/no-unused-disable': ['error'],
+    'eslint-comments/no-unused-enable': ['error'],
+
     // Import
     // https://github.com/benmosher/eslint-plugin-import
     'import/no-amd': ['error'],
