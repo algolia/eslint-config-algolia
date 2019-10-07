@@ -46,6 +46,7 @@ yarn add \
 eslint babel-eslint prettier \
 eslint-config-algolia eslint-config-prettier \
 eslint-plugin-import eslint-plugin-prettier \
+eslint-plugin-eslint-comments \
 --dev
 ```
 
