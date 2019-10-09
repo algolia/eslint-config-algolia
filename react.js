@@ -6,5 +6,5 @@ module.exports = {
     './base.js',
     'prettier/react',
   ],
-  plugins: ['react'],
+  plugins: ['react', 'react-hooks'],
 };

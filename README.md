@@ -100,7 +100,7 @@ module.exports = {
 
 **terminal**
 ```sh
-yarn add eslint-plugin-react --dev
+yarn add eslint-plugin-react eslint-plugin-react-hooks --dev
 ```
 
 **.eslintrc.js**
@@ -139,7 +139,7 @@ module.exports = {
 
 **terminal**
 ```sh
-yarn add eslint-plugin-flowtype eslint-plugin-react --dev
+yarn add eslint-plugin-flowtype eslint-plugin-react eslint-plugin-react-hooks --dev
 ```
 
 **.eslintrc.js**
@@ -189,7 +189,7 @@ module.exports = {
 
 **terminal**
 ```sh
-yarn add @typescript-eslint/parser @typescript-eslint/eslint-plugin typescript eslint-plugin-react --dev
+yarn add @typescript-eslint/parser @typescript-eslint/eslint-plugin typescript eslint-plugin-react eslint-plugin-react-hooks --dev
 ```
 
 **.eslintrc.js**
