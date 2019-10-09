@@ -1,3 +1,18 @@
+# [15.0.0](https://github.com/algolia/eslint-config-algolia/compare/v14.0.1...v15.0.0) (2019-10-09)
+
+
+### Features
+
+* **typescript:** allow generic names starting with "K" ([#116](https://github.com/algolia/eslint-config-algolia/issues/116)) ([2148fe4](https://github.com/algolia/eslint-config-algolia/commit/2148fe467e00d5fd7eb61f33bdf71c2cb2f5fa83))
+
+
+### BREAKING CHANGES
+
+* **react:** add hooks rules ([#118](https://github.com/algolia/eslint-config-algolia/issues/118)) ([36492b3](https://github.com/algolia/eslint-config-algolia/commit/36492b3755fb9a1e68e984579c7c5a7829cfc340))
+* add eslint-plugin-eslint-comments plugin ([#117](https://github.com/algolia/eslint-config-algolia/issues/117)) ([47075c9](https://github.com/algolia/eslint-config-algolia/commit/47075c90d0f91526ac5a279a6335a07753dccbe6)), closes [#112](https://github.com/algolia/eslint-config-algolia/issues/112)
+
+
+
 ## [14.0.1](https://github.com/algolia/eslint-config-algolia/compare/v14.0.0...v14.0.1) (2019-09-10)
 
 
