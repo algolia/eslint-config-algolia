@@ -5,9 +5,28 @@ module.exports = {
     '@typescript-eslint/adjacent-overload-signatures': ['error'],
     '@typescript-eslint/array-type': ['error', { default: 'array-simple' }],
     '@typescript-eslint/ban-types': ['error'],
-    '@typescript-eslint/ban-ts-ignore': ['off'],
-    '@typescript-eslint/camelcase': ['error'],
-    '@typescript-eslint/class-name-casing': ['error'],
+    '@typescript-eslint/ban-ts-comment': ['off'],
+    '@typescript-eslint/naming-convention': [
+      'error',
+      {
+        selector: 'variable',
+        format: ['camelCase', 'PascalCase', 'UPPER_CASE'],
+        leadingUnderscore: 'allow',
+      },
+      {
+        selector: 'typeParameter',
+        format: ['PascalCase'],
+        prefix: ['T', 'K'],
+      },
+      {
+        selector: 'interface',
+        format: ['PascalCase'],
+        custom: {
+          regex: '^I[A-Z]',
+          match: false,
+        },
+      },
+    ],
     '@typescript-eslint/consistent-type-assertions': [
       'error',
       {
@@ -17,14 +36,8 @@ module.exports = {
     ],
     '@typescript-eslint/explicit-function-return-type': ['off'],
     '@typescript-eslint/explicit-member-accessibility': ['error'],
-    '@typescript-eslint/generic-type-naming': [
-      'error',
-      '^(T|K)[A-Z][a-zA-Z]+$',
-    ],
     '@typescript-eslint/indent': ['off'],
-    '@typescript-eslint/interface-name-prefix': ['error', 'never'],
     '@typescript-eslint/member-delimiter-style': ['off'],
-    '@typescript-eslint/member-naming': ['off'],
     '@typescript-eslint/member-ordering': [
       'error',
       {
@@ -59,7 +72,7 @@ module.exports = {
     '@typescript-eslint/no-var-requires': ['off'],
     '@typescript-eslint/prefer-for-of': ['off'],
     '@typescript-eslint/prefer-function-type': ['error'],
-    '@typescript-eslint/prefer-interface': ['off'],
+    '@typescript-eslint/consistent-type-definitions': ['off'],
     '@typescript-eslint/prefer-namespace-keyword': ['error'],
     '@typescript-eslint/promise-function-async': ['off'],
     '@typescript-eslint/restrict-plus-operands': ['off'],
