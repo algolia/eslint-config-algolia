@@ -22,6 +22,6 @@ module.exports = {
   ],
   plugins: ['eslint-comments', 'import', 'prettier'],
   settings: {
-    'import/extensions': ['.js'],
+    'import/extensions': ['.js', '.jsx', '.ts', '.tsx'],
   },
 };
