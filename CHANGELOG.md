@@ -1,3 +1,12 @@
+# [16.0.0](https://github.com/algolia/eslint-config-algolia/compare/v15.0.0...v16.0.0) (2020-06-02)
+
+
+### BREAKING CHANGES
+
+* **typescript:** add support for @typescript-eslint/eslint-plugin 3.x ([#125](https://github.com/algolia/eslint-config-algolia/issues/125)) ([60d2ad1](https://github.com/algolia/eslint-config-algolia/commit/60d2ad1b3990ead90aacee36064b9b3fd879b1c2))
+
+
+
 # [15.0.0](https://github.com/algolia/eslint-config-algolia/compare/v14.0.1...v15.0.0) (2019-10-09)
 
 
