@@ -288,9 +288,14 @@ module.exports = {
     'prettier/prettier': [
       'error',
       {
-        trailingComma: 'es5',
-        singleQuote: true,
+        arrowParens: 'always',
+        bracketSpacing: true,
+        jsxBracketSameLine: false,
         printWidth: 80,
+        singleQuote: true,
+        trailingComma: 'es5',
+        useTabs: false,
+        quoteProps: 'as-needed',
       },
     ],
   },

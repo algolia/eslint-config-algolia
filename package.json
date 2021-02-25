@@ -3,7 +3,6 @@
   "scripts": {
     "test": "./scripts/test.sh",
     "release": "./scripts/release.sh",
-    "lint": "eslint . --ignore-pattern sample-project",
     "lint:fix": "npm run lint -- --fix"
   },
   "private": "true",
