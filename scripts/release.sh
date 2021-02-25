@@ -50,17 +50,20 @@ read -e newVersion
 printf "\n\nRelease: generate TOCS"
 doctoc README.md --maxlevel 3
 
+cd eslint-config-algolia
 npm version "$newVersion" --no-git-tag-version
+cd ..
 
 # update changelog
 printf "\n\nRelease: update changelog"
 conventional-changelog --preset angular --infile CHANGELOG.md --same-file
 
 # git add and tag
+cd eslint-config-algolia
 commitMessage="release v$newVersion
 
 See https://github.com/algolia/eslint-config-algolia/blob/master/CHANGELOG.md"
-git add package.json CHANGELOG.md README.md
+git add package.json ../CHANGELOG.md ../README.md
 printf %s "$commitMessage" | git commit --file -
 git tag "v$newVersion"
 

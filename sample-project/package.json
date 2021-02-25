@@ -16,17 +16,11 @@
     "react": "17.0.1",
     "react-addons-shallow-compare": "15.6.3"
   },
+  "engines": {
+    "node": "14.15.4",
+    "yarn": "^1.22.10"
+  },
   "devDependencies": {
-    "babel-eslint": "10.1.0",
-    "eslint": "5.16.0",
-    "eslint-config-algolia": "file:../",
-    "eslint-config-prettier": "7.2.0",
-    "eslint-plugin-eslint-comments": "3.2.0",
-    "eslint-plugin-import": "2.22.1",
-    "eslint-plugin-jest": "21.27.2",
-    "eslint-plugin-prettier": "2.7.0",
-    "eslint-plugin-react": "7.7.0",
-    "eslint-plugin-react-hooks": "4.2.0",
-    "prettier": "1.19.1"
+    "eslint-config-algolia": "file:../eslint-config-algolia/"
   }
 }
