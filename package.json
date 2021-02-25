@@ -10,7 +10,7 @@
   },
   "engines": {
     "node": "14.15.4",
-    "yarn": "^1.22.10"
+    "yarn": "^1.22.0"
   },
   "renovate": {
     "extends": [

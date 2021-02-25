@@ -11,10 +11,6 @@
   },
   "author": "Algolia <support@algolia.com> (https://github.com/algolia/)",
   "license": "MIT",
-  "engines": {
-    "node": "14.15.4",
-    "yarn": "^1.22.10"
-  },
   "devDependencies": {
     "eslint-config-algolia": "16.0.0",
     "prop-types": "15.7.2",
