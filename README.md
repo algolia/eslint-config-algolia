@@ -82,7 +82,7 @@ yarn add eslint-plugin-jest --dev
 **.eslintrc.js**
 ```js
 module.exports = {
-  extends: 'algolia/jest'
+  extends: ['algolia', 'algolia/jest']
 };
 ```
 
@@ -107,7 +107,7 @@ yarn add eslint-plugin-react eslint-plugin-react-hooks --dev
 **.eslintrc.js**
 ```js
 module.exports = {
-  extends: 'algolia/react'
+  extends: ['algolia', 'algolia/react']
 };
 ```
 
@@ -132,7 +132,7 @@ yarn add eslint-plugin-flowtype --dev
 **.eslintrc.js**
 ```js
 module.exports = {
-  extends: 'algolia/flowtype'
+  extends: ['algolia', 'algolia/flowtype']
 };
 ```
 
@@ -146,7 +146,7 @@ yarn add eslint-plugin-flowtype eslint-plugin-react eslint-plugin-react-hooks --
 **.eslintrc.js**
 ```js
 module.exports = {
-  extends: ['algolia/flowtype', 'algolia/react']
+  extends: ['algolia', 'algolia/flowtype', 'algolia/react']
 };
 ```
 
@@ -171,7 +171,7 @@ yarn add @typescript-eslint/parser @typescript-eslint/eslint-plugin typescript -
 **.eslintrc.js**
 ```js
 module.exports = {
-  extends: 'algolia/typescript'
+  extends: ['algolia', 'algolia/typescript']
 };
 ```
 
@@ -196,7 +196,7 @@ yarn add @typescript-eslint/parser @typescript-eslint/eslint-plugin typescript e
 **.eslintrc.js**
 ```js
 module.exports = {
-  extends: ['algolia/react', 'algolia/typescript']
+  extends: ['algolia', 'algolia/react', 'algolia/typescript']
 };
 ```
 **Note**: Be sure to put the `algolia/typescript` configuration last so the parser is properly set for TypeScript files.
@@ -223,7 +223,7 @@ yarn add eslint-plugin-vue --dev
 **.eslintrc.js**
 ```js
 module.exports = {
-  extends: 'algolia/vue'
+  extends: ['algolia', 'algolia/vue']
 };
 ```
 

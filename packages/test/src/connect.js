@@ -3,11 +3,11 @@ import shallowCompare from 'react-addons-shallow-compare';
 
 import storeShape from './storeShape';
 
-const getDisplayName = WrappedComponent =>
+const getDisplayName = (WrappedComponent) =>
   WrappedComponent.displayName || WrappedComponent.name || 'UnknownComponent';
 
 export default function connect(mapStateToProps) {
-  return WrappedComponent =>
+  return (WrappedComponent) =>
     class Connect extends Component {
       static contextTypes = { algoliaStore: storeShape.isRequired };
       static displayName = `AlgoliaSearchHelperConnect(${getDisplayName(
@@ -34,7 +34,8 @@ export default function connect(mapStateToProps) {
         }
       }
 
-      componentWillReceiveProps(nextProps) {
+      // eslint-disable-next-line camelcase
+      UNSAFE_componentWillReceiveProps(nextProps) {
         this.setState(
           mapStateToProps(this.context.algoliaStore.getState(), nextProps)
         );

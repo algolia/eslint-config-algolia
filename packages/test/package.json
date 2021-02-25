@@ -16,7 +16,7 @@
     "yarn": "^1.22.10"
   },
   "devDependencies": {
-    "eslint-config-algolia": "file:../eslint-config-algolia/",
+    "eslint-config-algolia": "16.0.0",
     "prop-types": "15.7.2",
     "react-addons-shallow-compare": "15.6.3",
     "react": "17.0.1"

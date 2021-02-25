@@ -11,7 +11,6 @@ module.exports = {
     experimentalObjectRestSpread: true,
     ecmaFeatures: {
       impliedStrict: true,
-      jsx: true,
     },
   },
   extends: [

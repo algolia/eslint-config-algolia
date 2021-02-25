@@ -1,14 +1,13 @@
 {
   "version": "1.0.0",
-  "scripts": {
-    "test": "./scripts/test.sh",
-    "release": "./scripts/release.sh",
-    "lint:fix": "npm run lint -- --fix"
-  },
   "private": "true",
   "main": "base.js",
   "author": "Algolia, Inc.",
   "license": "MIT",
+  "scripts": {
+    "test": "./scripts/test.sh",
+    "release": "./scripts/release.sh"
+  },
   "engines": {
     "node": "14.15.4",
     "yarn": "^1.22.10"
@@ -31,7 +30,6 @@
     "json": "10.0.0"
   },
   "workspaces": [
-    "eslint-config-algolia",
-    "sample-project"
+    "packages/*"
   ]
 }

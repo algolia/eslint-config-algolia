@@ -7,10 +7,10 @@ export default function createStore(helper) {
   };
   const listeners = [];
   const dispatch = () => {
-    listeners.forEach(listener => listener());
+    listeners.forEach((listener) => listener());
   };
 
-  helper.on('change', searchParameters => {
+  helper.on('change', (searchParameters) => {
     const { coucou, ...otherProps } = searchParameters;
     dispatch(coucou, otherProps);
   });
@@ -23,7 +23,7 @@ export default function createStore(helper) {
     dispatch();
   });
 
-  helper.on('result', searchResults => {
+  helper.on('result', (searchResults) => {
     state = {
       ...state,
       searching: false,
@@ -32,7 +32,7 @@ export default function createStore(helper) {
     dispatch();
   });
 
-  helper.on('error', searchError => {
+  helper.on('error', (searchError) => {
     state = {
       ...state,
       searching: false,
@@ -44,7 +44,7 @@ export default function createStore(helper) {
   return {
     getHelper: () => helper,
     getState: () => state,
-    subscribe: listener => {
+    subscribe: (listener) => {
       listeners.push(listener);
       return function unsubscribe() {
         listeners.splice(listeners.indexOf(listener));
