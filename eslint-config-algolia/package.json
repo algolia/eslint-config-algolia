@@ -5,7 +5,7 @@
   "repository": "algolia/eslint-config-algolia",
   "private": false,
   "scripts": {
-    "lint": "eslint . --ignore-pattern sample-project",
+    "lint": "eslint .",
     "lint:fix": "npm run lint -- --fix"
   },
   "keywords": [
@@ -38,12 +38,18 @@
   },
   "homepage": "https://github.com/algolia/eslint-config-algolia",
   "devDependencies": {
-    "eslint": "5.16.0",
-    "eslint-config-algolia": "10.1.0",
-    "eslint-config-prettier": "7.2.0",
-    "eslint-plugin-eslint-comments": "3.2.0",
-    "eslint-plugin-import": "2.22.1",
-    "eslint-plugin-jest": "21.27.2",
-    "eslint-plugin-prettier": "2.7.0"
+    "eslint": "^5.16.0 || ^6.8.0 || ^7.2.0",
+    "eslint-config-prettier": "^8.1.0",
+    "eslint-plugin-eslint-comments": "^3.2.0",
+    "eslint-plugin-import": "^2.22.1",
+    "eslint-plugin-jest": "^24.1.5",
+    "eslint-plugin-prettier": "^3.3.1",
+    "eslint-plugin-react": "^7.22.0",
+    "prettier": "^2.2.1"
+  },
+  "peerDependencies": {
+    "babel-eslint": "^10.1.0",
+    "eslint": "^5.16.0 || ^6.8.0 || ^7.2.0",
+    "prettier": "^2.2.1"
   }
 }

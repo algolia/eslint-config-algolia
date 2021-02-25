@@ -11,16 +11,14 @@
   },
   "author": "Algolia <support@algolia.com> (https://github.com/algolia/)",
   "license": "MIT",
-  "dependencies": {
-    "prop-types": "15.7.2",
-    "react": "17.0.1",
-    "react-addons-shallow-compare": "15.6.3"
-  },
   "engines": {
     "node": "14.15.4",
     "yarn": "^1.22.10"
   },
   "devDependencies": {
-    "eslint-config-algolia": "file:../eslint-config-algolia/"
+    "eslint-config-algolia": "file:../eslint-config-algolia/",
+    "prop-types": "15.7.2",
+    "react-addons-shallow-compare": "15.6.3",
+    "react": "17.0.1"
   }
 }

@@ -5,10 +5,10 @@ module.exports = {
     es6: true,
     node: true,
   },
-  parser: 'babel-eslint', // allows both flowtype and static class properties
   parserOptions: {
     ecmaVersion: 2018,
     sourceType: 'module',
+    experimentalObjectRestSpread: true,
     ecmaFeatures: {
       impliedStrict: true,
       jsx: true,
@@ -17,6 +17,7 @@ module.exports = {
   extends: [
     'eslint:recommended',
     'plugin:import/errors',
+    'plugin:import/warnings',
     './rules/base.js',
     'prettier',
   ],

@@ -2,4 +2,5 @@
 module.exports = {
   extends: ['plugin:flowtype/recommended', './base.js', 'prettier/flowtype'],
   plugins: ['flowtype'],
+  parser: 'babel-eslint',
 };
