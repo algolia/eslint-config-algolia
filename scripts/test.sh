@@ -2,5 +2,5 @@
 
 set -e # exit when error
 
-cd sample-project
+cd packages/test
 yarn lint

@@ -303,7 +303,7 @@ See "Ignoring Files and Directories" on [ESLint website](http://eslint.org/docs/
 
 ### Test
 
-We have a [sample-project](sample-project).
+We have a [sample-project](packages/test).
 
 ```sh
 yarn test
