@@ -288,7 +288,7 @@ module.exports = {
 
     // Comments
     // https://mysticatea.github.io/eslint-plugin-eslint-comments
-    'eslint-comments/disable-enable-pair': ['error'],
+    'eslint-comments/disable-enable-pair': ['error', { allowWholeFile: true }],
     'eslint-comments/no-aggregating-enable': ['error'],
     'eslint-comments/no-duplicate-disable': ['error'],
     'eslint-comments/no-unlimited-disable': ['error'],
@@ -301,16 +301,29 @@ module.exports = {
     'import/no-commonjs': ['error'],
     'import/no-extraneous-dependencies': ['error'],
     'import/no-duplicates': ['error'],
-    'import/extensions': [
+    'import/extensions': ['error', 'never'],
+    'import/first': 'error',
+    'import/no-named-as-default': 'error',
+    'import/no-unresolved': ['error'],
+    'import/no-unused-modules': ['off', { unusedExports: true }],
+    'import/order': [
       'error',
-      'ignorePackages',
       {
-        js: 'never',
-        jsx: 'never',
-        ts: 'never',
-        tsx: 'never',
+        groups: [
+          'builtin',
+          'external',
+          'internal',
+          'parent',
+          'sibling',
+          'index',
+        ],
+        'newlines-between': 'always',
+        alphabetize: {
+          order: 'asc',
+        },
       },
     ],
+    'import/no-useless-path-segments': ['error'],
 
     // Prettier
     // https://github.com/prettier/eslint-plugin-prettier
@@ -327,5 +340,43 @@ module.exports = {
         quoteProps: 'as-needed',
       },
     ],
+
+    // ---- JSDoc
+    'jsdoc/check-alignment': ['error'],
+    'jsdoc/check-examples': [
+      'error',
+      { checkEslintrc: true, exampleCodeRegex: '```js ([\\s\\S]*)```' },
+    ],
+    'jsdoc/check-indentation': ['off'],
+    'jsdoc/check-param-names': [
+      'error',
+      {
+        checkDestructured: true,
+        allowExtraTrailingParamDocs: true,
+      },
+    ],
+    'jsdoc/check-syntax': ['error'],
+    'jsdoc/check-tag-names': [
+      'error',
+      {
+        definedTags: ['required', 'swagger'],
+      },
+    ],
+    'jsdoc/check-types': ['error'],
+    'jsdoc/implements-on-classes': ['error'],
+    'jsdoc/match-description': ['error'],
+    'jsdoc/newline-after-description': ['error'],
+    'jsdoc/no-types': ['error'],
+    'jsdoc/no-undefined-types': ['error'],
+    'jsdoc/require-description': ['error'],
+    'jsdoc/require-description-complete-sentence': ['error'],
+    'jsdoc/require-example': ['off'],
+    'jsdoc/require-hyphen-before-param-description': ['error'],
+    'jsdoc/require-jsdoc': ['off'],
+    'jsdoc/require-param-description': ['error'],
+    'jsdoc/require-param-name': ['error'],
+    'jsdoc/require-returns-check': ['error'],
+    'jsdoc/require-returns-description': ['error'],
+    'jsdoc/valid-types': ['error'],
   },
 };

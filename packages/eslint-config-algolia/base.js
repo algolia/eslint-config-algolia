@@ -22,8 +22,14 @@ module.exports = {
     // prettier is set at the end to override our own rules
     'plugin:prettier/recommended',
   ],
-  plugins: ['eslint-comments', 'import'],
+  plugins: ['eslint-comments', 'import', 'jsdoc'],
   settings: {
     'import/extensions': ['.js', '.jsx', '.ts', '.tsx'],
+
+    'import/resolver': {
+      node: {
+        extensions: ['.js', '.jsx', '.ts', '.tsx'],
+      },
+    },
   },
 };
