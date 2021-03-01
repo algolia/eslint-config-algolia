@@ -1,3 +1,15 @@
+## [17.0.1](https://github.com/algolia/eslint-config-algolia/compare/v16.0.0...v17.0.1) (2021-03-01)
+
+
+### Bug Fixes
+
+* **node:** update version ([c084828](https://github.com/algolia/eslint-config-algolia/commit/c084828d1866ad12cc0ee8acaf7187ced0745d69))
+* specify node version ([80c2504](https://github.com/algolia/eslint-config-algolia/commit/80c25048b8c29d55c7c301931f7f4227014b25c4))
+* **deps:** update dependency react to v16.14.0 ([64ccb01](https://github.com/algolia/eslint-config-algolia/commit/64ccb018138f4ae1f2c6b120299b902539d03961))
+* **deps:** update dependency react-addons-shallow-compare to v15.6.3 ([2975e42](https://github.com/algolia/eslint-config-algolia/commit/2975e42ed3f1e17e665c04dc9256eec9c940d800))
+
+
+
 # [17.0.0](https://github.com/algolia/eslint-config-algolia/compare/v16.0.0...v17.0.0) (2021-03-01)
 
 ### BREAKING CHANGES

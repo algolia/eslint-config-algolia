@@ -10,7 +10,7 @@
   "author": "Algolia <support@algolia.com> (https://github.com/algolia/)",
   "license": "MIT",
   "devDependencies": {
-    "eslint-config-algolia": "16.0.0",
+    "eslint-config-algolia": "17.0.1",
     "prop-types": "15.7.2",
     "react": "17.0.1",
     "react-addons-shallow-compare": "15.6.3"
