@@ -60,6 +60,7 @@ doctoc README.md --maxlevel 3
 cd packages/eslint-config-algolia
 npm version "$newVersion" --no-git-tag-version
 cd ../..
+npm version "$newVersion" --no-git-tag-version
 
 # update changelog
 printf "\n\nRelease: update changelog"

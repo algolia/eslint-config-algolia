@@ -1,10 +1,8 @@
 {
   "name": "test",
   "version": "1.0.0",
-  "description": "",
   "main": "index.js",
   "private": true,
-  "keywords": [],
   "scripts": {
     "lint": "eslint .",
     "lint:fix": "eslint . --fix"

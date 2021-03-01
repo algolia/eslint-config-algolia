@@ -20,18 +20,6 @@
   "bugs": {
     "url": "https://github.com/algolia/eslint-config-algolia"
   },
-  "renovate": {
-    "extends": [
-      "config:library"
-    ],
-    "semanticCommits": true,
-    "rebaseStalePrs": true,
-    "automerge": true,
-    "major": {
-      "automerge": false
-    },
-    "automergeType": "branch-push"
-  },
   "homepage": "https://github.com/algolia/eslint-config-algolia",
   "devDependencies": {
     "eslint": "^5.16.0 || ^6.8.0 || ^7.2.0",
