@@ -59,6 +59,8 @@ doctoc README.md --maxlevel 3
 
 cd packages/eslint-config-algolia
 npm version "$newVersion" --no-git-tag-version
+cd ../test
+yarn add --dev eslint-config-algolia@"$newVersion"
 cd ../..
 npm version "$newVersion" --no-git-tag-version
 
