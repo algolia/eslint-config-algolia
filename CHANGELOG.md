@@ -1,3 +1,10 @@
+# [17.0.0](https://github.com/algolia/eslint-config-algolia/compare/v16.0.0...v17.0.0) (2021-03-01)
+
+### BREAKING CHANGES
+* sub-configs no longer extend base config ("algolia/jest" => "algolia", "algolia/jest")
+* update dependencies
+* add some missing rules
+
 # [16.0.0](https://github.com/algolia/eslint-config-algolia/compare/v15.0.0...v16.0.0) (2020-06-02)
 
 
