@@ -68,6 +68,7 @@ conventional-changelog --preset angular --infile CHANGELOG.md --same-file
 
 # git add and tag
 cd packages/eslint-config-algolia
+cp ../../README.md .
 commitMessage="release v$newVersion
 
 # See https://github.com/algolia/eslint-config-algolia/blob/master/CHANGELOG.md"
