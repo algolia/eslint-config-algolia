@@ -76,6 +76,9 @@ module.exports = {
         reservedFirst: false,
       },
     ],
+    'react/jsx-uses-react': 'error',
+    'react/jsx-uses-vars': 'error',
+    'react/react-in-jsx-scope': 'error',
 
     // ---- JSX-a11y
     'jsx-a11y/alt-text': ['error'],

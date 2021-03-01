@@ -297,15 +297,18 @@ module.exports = {
 
     // Import
     // https://github.com/benmosher/eslint-plugin-import
-    'import/no-amd': ['error'],
-    'import/no-commonjs': ['error'],
-    'import/no-extraneous-dependencies': ['error'],
-    'import/no-duplicates': ['error'],
+    'import/dynamic-import-chunkname': 'error',
     'import/extensions': ['error', 'never'],
     'import/first': 'error',
+    'import/newline-after-import': 'error',
+    'import/no-amd': ['error'],
+    'import/no-commonjs': ['error'],
+    'import/no-duplicates': ['error'],
+    'import/no-extraneous-dependencies': ['error'],
     'import/no-named-as-default': 'error',
     'import/no-unresolved': ['error'],
     'import/no-unused-modules': ['off', { unusedExports: true }],
+    'import/no-useless-path-segments': ['error'],
     'import/order': [
       'error',
       {
@@ -323,7 +326,6 @@ module.exports = {
         },
       },
     ],
-    'import/no-useless-path-segments': ['error'],
 
     // Prettier
     // https://github.com/prettier/eslint-plugin-prettier
