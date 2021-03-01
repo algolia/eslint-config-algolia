@@ -9,9 +9,5 @@ module.exports = {
       jsx: true,
     },
   },
-  extends: [
-    './base.js',
-    './rules/typescript.js',
-    'prettier/@typescript-eslint',
-  ],
+  extends: ['./rules/typescript.js'],
 };

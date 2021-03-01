@@ -19,15 +19,8 @@ module.exports = {
       jsx: true,
     },
   },
-  extends: [
-    'plugin:vue/strongly-recommended',
-    'eslint:recommended',
-    'plugin:import/errors',
-    './rules/base.js',
-    'prettier',
-    './rules/vue.js',
-  ],
-  plugins: ['import', 'prettier', 'vue'],
+  extends: ['plugin:vue/strongly-recommended', './rules/vue.js'],
+  plugins: ['import', 'vue'],
   settings: {
     'import/extensions': ['.js'],
   },

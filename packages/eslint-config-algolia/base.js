@@ -5,22 +5,24 @@ module.exports = {
     es6: true,
     node: true,
   },
-  parser: 'babel-eslint', // allows both flowtype and static class properties
   parserOptions: {
     ecmaVersion: 2018,
     sourceType: 'module',
+    experimentalObjectRestSpread: true,
     ecmaFeatures: {
       impliedStrict: true,
-      jsx: true,
     },
   },
   extends: [
     'eslint:recommended',
     'plugin:import/errors',
+    'plugin:import/warnings',
     './rules/base.js',
-    'prettier',
+
+    // prettier is set at the end to override our own rules
+    'plugin:prettier/recommended',
   ],
-  plugins: ['eslint-comments', 'import', 'prettier'],
+  plugins: ['eslint-comments', 'import'],
   settings: {
     'import/extensions': ['.js', '.jsx', '.ts', '.tsx'],
   },

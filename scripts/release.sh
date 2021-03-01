@@ -4,20 +4,24 @@ set -e # exit when error
 
 printf "\nReleasing\n"
 
-if ! npm owner ls | grep -q "$(npm whoami)"
+if ! npm owner ls 'eslint-config-algolia' | grep -q "$(npm whoami)"
 then
-  printf "Release: Not an owner of the npm repo, ask a contributor for access"
+  echo "Release: Not an owner of the npm repo, ask a contributor for access"
   exit 1
 fi
+
+echo '✅ Is owner'
 
 currentBranch=`git rev-parse --abbrev-ref HEAD`
 if [ $currentBranch != 'master' ]; then
-  printf "Release: You must be on master"
+  echo "Release: You must be on master"
   exit 1
 fi
 
+echo '✅ Is on main branch'
+
 if [[ -n $(git status --porcelain) ]]; then
-  printf "Release: Working tree is not clean (git status)"
+  echo "Release: Working tree is not clean (git status)"
   exit 1
 fi
 
@@ -28,7 +32,10 @@ git fetch origin --tags
 printf "Release: yarn"
 yarn
 
+
+cd packages/eslint-config-algolia
 currentVersion=`cat package.json | json version`
+cd ../..
 
 # header
 printf "\n\nRelease: current version is %s" $currentVersion
@@ -50,6 +57,9 @@ read -e newVersion
 printf "\n\nRelease: generate TOCS"
 doctoc README.md --maxlevel 3
 
+cd packages/eslint-config-algolia
+npm version "$newVersion" --no-git-tag-version
+cd ../..
 npm version "$newVersion" --no-git-tag-version
 
 # update changelog
@@ -57,10 +67,11 @@ printf "\n\nRelease: update changelog"
 conventional-changelog --preset angular --infile CHANGELOG.md --same-file
 
 # git add and tag
+cd packages/eslint-config-algolia
 commitMessage="release v$newVersion
 
 See https://github.com/algolia/eslint-config-algolia/blob/master/CHANGELOG.md"
-git add package.json CHANGELOG.md README.md
+git add package.json ../CHANGELOG.md ../README.md
 printf %s "$commitMessage" | git commit --file -
 git tag "v$newVersion"
 

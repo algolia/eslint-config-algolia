@@ -3,6 +3,6 @@ module.exports = {
   env: {
     jest: true,
   },
-  extends: ['plugin:jest/recommended', './base.js'],
+  extends: ['plugin:jest/recommended'],
   plugins: ['jest'],
 };
