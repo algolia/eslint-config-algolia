@@ -1,6 +1,6 @@
 {
   "name": "test",
-  "version": "1.0.0",
+  "version": "17.0.0",
   "main": "index.js",
   "private": true,
   "scripts": {
@@ -12,7 +12,7 @@
   "devDependencies": {
     "eslint-config-algolia": "17.0.0",
     "prop-types": "15.7.2",
-    "react-addons-shallow-compare": "15.6.3",
-    "react": "17.0.1"
+    "react": "17.0.1",
+    "react-addons-shallow-compare": "15.6.3"
   }
 }

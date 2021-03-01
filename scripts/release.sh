@@ -84,7 +84,11 @@ cp ../../README.md .
 commitMessage="release v$newVersion
 
 # See https://github.com/algolia/eslint-config-algolia/blob/master/CHANGELOG.md"
-git add package.json ../../package.json ../../CHANGELOG.md ../../README.md
+git add package.json
+
+cd ../../
+
+git add package.json packages/*/package.json CHANGELOG.md README.md
 printf %s "$commitMessage" | git commit --file -
 git tag "v$newVersion"
 
