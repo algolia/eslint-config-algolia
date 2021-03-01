@@ -57,10 +57,22 @@ read -e newVersion
 printf "\n\nRelease: generate TOCS"
 doctoc README.md --maxlevel 3
 
-cd packages/eslint-config-algolia
+cd packages/
+
+# Update packages versions
+cd eslint-config-algolia
 npm version "$newVersion" --no-git-tag-version
-cd ../..
+cd ../
+
+cd test/
 npm version "$newVersion" --no-git-tag-version
+yarn add -ED eslint-config-algolia@"$newVersion"
+cd ../
+
+# Update main version
+cd ../
+npm version "$newVersion" --no-git-tag-version
+
 
 # update changelog
 printf "\n\nRelease: update changelog"

@@ -14,7 +14,7 @@
   },
   "renovate": {
     "extends": [
-      "config:library"
+      "config:js-lib"
     ],
     "semanticCommits": true,
     "rebaseStalePrs": true,
