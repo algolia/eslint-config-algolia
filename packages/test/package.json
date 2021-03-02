@@ -13,7 +13,7 @@
     "@types/react": "17.0.2",
     "@typescript-eslint/eslint-plugin": "4.15.2",
     "@typescript-eslint/parser": "4.15.2",
-    "eslint-config-algolia": "17.0.1",
+    "eslint-config-algolia": "18.0.0",
     "prop-types": "15.7.2",
     "react": "17.0.1",
     "react-addons-shallow-compare": "15.6.3",

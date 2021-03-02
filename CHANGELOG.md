@@ -1,3 +1,12 @@
+# [18.0.0](https://github.com/algolia/eslint-config-algolia/compare/v17.0.1...v18.0.0) (2021-03-02)
+
+
+### Features
+
+* stricter configuration, add more rules ([#137](https://github.com/algolia/eslint-config-algolia/issues/137)) ([a9932b7](https://github.com/algolia/eslint-config-algolia/commit/a9932b7965f10732e7b27577d01937439ce201be))
+
+
+
 ## [17.0.1](https://github.com/algolia/eslint-config-algolia/compare/v16.0.0...v17.0.1) (2021-03-01)
 
 
