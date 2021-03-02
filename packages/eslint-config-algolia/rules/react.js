@@ -38,12 +38,7 @@ module.exports = {
     'react/no-unescaped-entities': ['error'],
     'react/no-unused-state': ['error'],
     'react/prop-types': ['off'],
-    'react/sort-comp': [
-      'off',
-      {
-        order: ['lifecycle', 'static-methods', 'everything-else', 'render'],
-      },
-    ],
+    'react/sort-comp': ['off'],
     'react/static-property-placement': ['error'],
     'react/function-component-definition': [
       'error',

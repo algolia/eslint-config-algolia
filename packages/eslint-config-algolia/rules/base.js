@@ -368,7 +368,6 @@ module.exports = {
     'jsdoc/implements-on-classes': ['error'],
     'jsdoc/match-description': ['error'],
     'jsdoc/newline-after-description': ['error'],
-    'jsdoc/no-types': ['error'],
     'jsdoc/no-undefined-types': ['error'],
     'jsdoc/require-description': ['error'],
     'jsdoc/require-description-complete-sentence': ['error'],
@@ -381,4 +380,15 @@ module.exports = {
     'jsdoc/require-returns-description': ['error'],
     'jsdoc/valid-types': ['error'],
   },
+
+  // Mixed codebase issues
+  overrides: [
+    {
+      // enable the rule specifically for TypeScript files
+      files: ['*.ts', '*.tsx'],
+      rules: {
+        'jsdoc/no-types': ['error'],
+      },
+    },
+  ],
 };
