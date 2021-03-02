@@ -1,5 +1,5 @@
-import { Component, Children } from 'react';
 import PropTypes from 'prop-types';
+import { Component, Children } from 'react';
 
 import createStore from './createStore';
 import storeShape from './storeShape';
@@ -14,6 +14,11 @@ class Provider extends Component {
     algoliaStore: storeShape.isRequired,
   };
 
+  /**
+   * The constructor.
+   *
+   * @param {Object} props - The props.
+   */
   constructor(props) {
     super(props);
 

@@ -46,7 +46,7 @@ yarn add \
 eslint babel-eslint prettier \
 eslint-config-algolia eslint-config-prettier \
 eslint-plugin-import eslint-plugin-prettier \
-eslint-plugin-eslint-comments \
+eslint-plugin-eslint-comments eslint-plugin-jsdoc \
 --dev
 ```
 
@@ -101,7 +101,7 @@ module.exports = {
 
 **terminal**
 ```sh
-yarn add eslint-plugin-react eslint-plugin-react-hooks --dev
+yarn add eslint-plugin-react eslint-plugin-react-hooks eslint-plugin-jsx-a11y --dev
 ```
 
 **.eslintrc.js**
@@ -190,7 +190,7 @@ module.exports = {
 
 **terminal**
 ```sh
-yarn add @typescript-eslint/parser @typescript-eslint/eslint-plugin typescript eslint-plugin-react eslint-plugin-react-hooks --dev
+yarn add @typescript-eslint/parser @typescript-eslint/eslint-plugin typescript eslint-plugin-react eslint-plugin-react-hooks eslint-plugin-jsx-a11y --dev
 ```
 
 **.eslintrc.js**
