@@ -9,5 +9,5 @@ module.exports = {
       jsx: true,
     },
   },
-  extends: ['./rules/typescript.js'],
+  extends: ['plugin:import/typescript', './rules/typescript.js'],
 };
