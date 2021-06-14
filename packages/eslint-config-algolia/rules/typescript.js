@@ -263,6 +263,9 @@ module.exports = {
     '@typescript-eslint/no-require-imports': ['off'],
     '@typescript-eslint/no-this-alias': ['off'], // to complicated for the small benefits
     '@typescript-eslint/no-type-alias': ['off'],
+
+    // Import
+    'import/extensions': ['error', 'never'],
   },
 
   // Mixed codebase issues
