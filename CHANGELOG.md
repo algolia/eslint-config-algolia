@@ -1,3 +1,12 @@
+## [19.0.2](https://github.com/algolia/eslint-config-algolia/compare/v19.0.1...v19.0.2) (2021-08-27)
+
+
+### Bug Fixes
+
+* **jest:** correctly test jest rules ([617d895](https://github.com/algolia/eslint-config-algolia/commit/617d895b2d5dc2a9161a6f7390fa25baac7ea519))
+
+
+
 ## [19.0.1](https://github.com/algolia/eslint-config-algolia/compare/v19.0.0...v19.0.1) (2021-08-27)
 
 

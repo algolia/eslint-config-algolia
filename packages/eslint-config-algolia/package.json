@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-algolia",
-  "version": "19.0.1",
+  "version": "19.0.2",
   "description": "Algolia's ESLint config.",
   "repository": "algolia/eslint-config-algolia",
   "private": false,
