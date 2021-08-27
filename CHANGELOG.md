@@ -1,3 +1,12 @@
+## [19.0.1](https://github.com/algolia/eslint-config-algolia/compare/v19.0.0...v19.0.1) (2021-08-27)
+
+
+### Bug Fixes
+
+* update rules ([de68f46](https://github.com/algolia/eslint-config-algolia/commit/de68f463bc55fb05f27d03c8b03b7f31addc312a))
+
+
+
 # [19.0.0](https://github.com/algolia/eslint-config-algolia/compare/v18.0.0...v19.0.0) (2021-08-27)
 
 
