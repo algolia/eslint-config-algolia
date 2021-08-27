@@ -170,6 +170,7 @@ module.exports = {
 
     // Disable rules superset by @typescript-eslint
     'no-redeclare': ['off'],
+    'no-undef': ['off'],
     'no-unused-vars': ['off'],
     'no-use-before-define': ['off'],
     'no-shadow': ['off'],
@@ -266,6 +267,7 @@ module.exports = {
 
     // Import
     'import/extensions': ['error', 'never'],
+    'import/no-cycle': 'off', // checked by ts
   },
 
   // Mixed codebase issues
