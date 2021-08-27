@@ -1,3 +1,13 @@
+# [19.0.0](https://github.com/algolia/eslint-config-algolia/compare/v18.0.0...v19.0.0) (2021-08-27)
+
+
+### Bug Fixes
+
+* **jest:** stricter configuration ([09ff1c2](https://github.com/algolia/eslint-config-algolia/commit/09ff1c230a7d47cb0f97ba86035bb9d2a6c81332))
+* **renovate:** use our own package ([8c3a50b](https://github.com/algolia/eslint-config-algolia/commit/8c3a50b4ed0349badca181e9ac3a9d267e18cf3c))
+
+
+
 # [18.0.0](https://github.com/algolia/eslint-config-algolia/compare/v17.0.1...v18.0.0) (2021-03-02)
 
 
