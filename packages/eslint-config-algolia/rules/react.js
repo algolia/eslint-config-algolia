@@ -10,8 +10,6 @@ module.exports = {
         allowArrowFunctions: true,
       },
     ],
-    'react-hooks/rules-of-hooks': ['error'],
-    'react-hooks/exhaustive-deps': ['warn'],
 
     'react/button-has-type': ['error'],
     'react/destructuring-assignment': ['off'],
@@ -74,6 +72,16 @@ module.exports = {
     'react/jsx-uses-react': 'error',
     'react/jsx-uses-vars': 'error',
     'react/react-in-jsx-scope': 'error',
+
+    // Handled by prettier
+    'react/jsx-curly-newline': 'off',
+    'react/jsx-one-expression-per-line': 'off',
+    'react/jsx-child-element-spacing': 'off',
+    'react/jsx-closing-tag-location': 'off',
+
+    // ---- React hooks
+    'react-hooks/rules-of-hooks': 'error',
+    'react-hooks/exhaustive-deps': 'error',
 
     // ---- JSX-a11y
     'jsx-a11y/alt-text': ['error'],
