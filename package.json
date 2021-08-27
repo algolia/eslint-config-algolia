@@ -14,20 +14,14 @@
   },
   "renovate": {
     "extends": [
-      "config:library"
-    ],
-    "semanticCommits": true,
-    "rebaseStalePrs": true,
-    "automerge": true,
-    "major": {
-      "automerge": false
-    },
-    "automergeType": "branch-push"
+      "algolia"
+    ]
   },
   "devDependencies": {
     "conventional-changelog-cli": "2.1.1",
     "doctoc": "2.0.1",
-    "json": "11.0.0"
+    "json": "11.0.0",
+    "renovate-config-algolia": "2.1.4"
   },
   "workspaces": [
     "packages/*"
