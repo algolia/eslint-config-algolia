@@ -21,7 +21,7 @@
     "conventional-changelog-cli": "2.1.1",
     "doctoc": "2.0.1",
     "json": "11.0.0",
-    "renovate-config-algolia": "2.1.4"
+    "renovate-config-algolia": "2.1.5"
   },
   "workspaces": [
     "packages/*"
