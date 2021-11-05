@@ -4206,10 +4206,10 @@ remark-parse@^5.0.0:
     vfile-location "^2.0.0"
     xtend "^4.0.1"
 
-renovate-config-algolia@2.1.6:
-  version "2.1.6"
-  resolved "https://registry.yarnpkg.com/renovate-config-algolia/-/renovate-config-algolia-2.1.6.tgz#1f6e50d40b2e961b5aaa836980658d399cb49dfb"
-  integrity sha512-OdgU5dZVEdLlBp8n4TYszKXdxGrBqOmYgrDU9sMnQlNkO9XC6hinwd4Y8UzaN5Or+gmH6DgFiaPCR+IWnajRYQ==
+renovate-config-algolia@2.1.8:
+  version "2.1.8"
+  resolved "https://registry.yarnpkg.com/renovate-config-algolia/-/renovate-config-algolia-2.1.8.tgz#b18e24df441abe6c6f5557622eaed5b4f9f0082d"
+  integrity sha512-KalyBHtwHMNDnJdixI8rmqsGkVnS82Ec7OyfXEOhZbN0DS4KyH7qixboPmpYu594Em8wA1U8MdWoZhxxiunBLw==
 
 repeat-string@^1.5.4:
   version "1.6.1"
