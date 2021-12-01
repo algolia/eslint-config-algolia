@@ -345,10 +345,11 @@ module.exports = {
 
     // ---- JSDoc
     'jsdoc/check-alignment': ['error'],
-    'jsdoc/check-examples': [
-      'error',
-      { checkEslintrc: true, exampleCodeRegex: '```js ([\\s\\S]*)```' },
-    ],
+    // error with eslint 8, add back once https://github.com/eslint/eslint/issues/14745 is done
+    // 'jsdoc/check-examples': [
+    //   'error',
+    //   { checkEslintrc: true, exampleCodeRegex: '```js ([\\s\\S]*)```' },
+    // ],
     'jsdoc/check-indentation': ['off'],
     'jsdoc/check-param-names': [
       'error',

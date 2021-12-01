@@ -3,7 +3,7 @@ module.exports = {
   extends: ['plugin:react/recommended', './rules/react.js'],
   plugins: ['react', 'react-hooks', 'jsx-a11y'],
 
-  parser: 'babel-eslint',
+  parser: '@babel/eslint-parser',
   parserOptions: {
     ecmaFeatures: {
       jsx: true,

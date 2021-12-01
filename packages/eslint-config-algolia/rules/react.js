@@ -1,5 +1,10 @@
 // eslint-disable-next-line import/no-commonjs
 module.exports = {
+  settings: {
+    react: {
+      version: 'detect',
+    },
+  },
   rules: {
     'react/no-danger': ['off'],
     'react/display-name': ['off'],
