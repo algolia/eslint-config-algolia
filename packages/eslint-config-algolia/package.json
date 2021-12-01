@@ -3,7 +3,6 @@
   "version": "19.0.2",
   "description": "Algolia's ESLint config.",
   "repository": "algolia/eslint-config-algolia",
-  "private": false,
   "scripts": {
     "lint": "eslint .",
     "lint:fix": "yarn lint --fix"
