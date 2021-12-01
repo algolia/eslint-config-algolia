@@ -1,3 +1,18 @@
+# [20.0.0](https://github.com/algolia/eslint-config-algolia/compare/v19.0.2...v20.0.0) (2021-12-01)
+
+
+### Bug Fixes
+
+* **breaking:** upgrade packages ([#199](https://github.com/algolia/eslint-config-algolia/issues/199)) ([8a05411](https://github.com/algolia/eslint-config-algolia/commit/8a05411eaaf4d97b0b145a5c4387f1ff952c82b7))
+* update deprecated property jsxBracketSameLine ([89694fb](https://github.com/algolia/eslint-config-algolia/commit/89694fbed5f5edfa6ab4284f4d0ef4be8857c300))
+
+
+### BREAKING CHANGES
+
+* **breaking:** different peer dependency "@babel/eslint-parser" is now used instead of "babel-parser"
+
+
+
 ## [19.0.2](https://github.com/algolia/eslint-config-algolia/compare/v19.0.1...v19.0.2) (2021-08-27)
 
 
