@@ -1958,9 +1958,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"conventional-changelog-cli@npm:2.1.1":
-  version: 2.1.1
-  resolution: "conventional-changelog-cli@npm:2.1.1"
+"conventional-changelog-cli@npm:2.2.2":
+  version: 2.2.2
+  resolution: "conventional-changelog-cli@npm:2.2.2"
   dependencies:
     add-stream: ^1.0.0
     conventional-changelog: ^3.1.24
@@ -1969,7 +1969,7 @@ __metadata:
     tempfile: ^3.0.0
   bin:
     conventional-changelog: cli.js
-  checksum: 631b84aa8c1f2f9118bd23e33ff5f86425ce85f8a6ea47bd0ef1452aee49e8f1c7737c560cccddfcefa96230ba5ca6cb3195fd8242a79a55716a98eb9ebf4dd1
+  checksum: 749562d3ebc48eaf8f37c79fa2c0502abb58ca52adda3a495058d995456f33e039d4f65555e95c7d88e313d2bf0afcef339c8b19a71ebe51bc8ee05340e9fffd
   languageName: node
   linkType: hard
 
@@ -5991,7 +5991,7 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "root-workspace-0b6124@workspace:."
   dependencies:
-    conventional-changelog-cli: 2.1.1
+    conventional-changelog-cli: 2.2.2
     doctoc: 2.1.0
     json: 11.0.0
     renovate-config-algolia: 2.1.8
