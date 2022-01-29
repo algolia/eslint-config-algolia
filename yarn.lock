@@ -6026,10 +6026,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"renovate-config-algolia@npm:2.1.8":
-  version: 2.1.8
-  resolution: "renovate-config-algolia@npm:2.1.8"
-  checksum: 3f6a464a6a440cb57106d599f385919c4bfd1c0d01cbbd2d6e4aabd2017da790afccac27d5638a6cb4c4c196e779b8ece920b2315420a70b44d9f5fbd2e0ee71
+"renovate-config-algolia@npm:2.1.9":
+  version: 2.1.9
+  resolution: "renovate-config-algolia@npm:2.1.9"
+  checksum: c92f55e861d5d5a532d21bdcf2ab27f1cc096a748b599b73f0bab73d285e041961d46aca35e5eeaf221a91f24e54acb9ccad1e3e48b707e4838c12ed9d62bcce
   languageName: node
   linkType: hard
 
@@ -6156,7 +6156,7 @@ __metadata:
     conventional-changelog-cli: 2.2.2
     doctoc: 2.1.0
     json: 11.0.0
-    renovate-config-algolia: 2.1.8
+    renovate-config-algolia: 2.1.9
   languageName: unknown
   linkType: soft
 
