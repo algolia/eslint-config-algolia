@@ -17,7 +17,7 @@ class Provider extends Component {
   /**
    * The constructor.
    *
-   * @param {Object} props - The props.
+   * @param {object} props - The props.
    */
   constructor(props) {
     super(props);
