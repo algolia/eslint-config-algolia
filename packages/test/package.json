@@ -13,7 +13,7 @@
     "@typescript-eslint/eslint-plugin": "5.5.0",
     "@typescript-eslint/parser": "5.5.0",
     "eslint": "8.3.0",
-    "eslint-config-algolia": "20.0.0",
+    "eslint-config-algolia": "20.1.0",
     "jest": "27.4.2",
     "prop-types": "15.7.2",
     "react": "17.0.2",

@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-algolia",
-  "version": "20.0.0",
+  "version": "20.1.0",
   "description": "Algolia's ESLint config.",
   "repository": "algolia/eslint-config-algolia",
   "scripts": {

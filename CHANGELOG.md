@@ -1,3 +1,12 @@
+# [20.1.0](https://github.com/algolia/eslint-config-algolia/compare/v20.0.0...v20.1.0) (2022-12-06)
+
+
+### Bug Fixes
+
+* remove private-abstract-* options from member-ordering ([c0ae1bf](https://github.com/algolia/eslint-config-algolia/commit/c0ae1bfbce5ea86af0722a8ec8a629a71d491ed7))
+
+
+
 # [20.0.0](https://github.com/algolia/eslint-config-algolia/compare/v19.0.2...v20.0.0) (2021-12-01)
 
 
