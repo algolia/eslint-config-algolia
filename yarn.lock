@@ -3103,7 +3103,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"eslint-config-algolia@20.0.0, eslint-config-algolia@workspace:packages/eslint-config-algolia":
+"eslint-config-algolia@20.1.0, eslint-config-algolia@workspace:packages/eslint-config-algolia":
   version: 0.0.0-use.local
   resolution: "eslint-config-algolia@workspace:packages/eslint-config-algolia"
   dependencies:
@@ -7348,7 +7348,7 @@ __metadata:
     "@typescript-eslint/eslint-plugin": 5.5.0
     "@typescript-eslint/parser": 5.5.0
     eslint: 8.3.0
-    eslint-config-algolia: 20.0.0
+    eslint-config-algolia: 20.1.0
     jest: 27.4.2
     prop-types: 15.7.2
     react: 17.0.2
