@@ -323,3 +323,4 @@ npm run release
 [license-url]: LICENSE
 [downloads-image]: https://img.shields.io/npm/dm/eslint-config-algolia.svg?style=flat-square
 [downloads-url]: http://npm-stat.com/charts.html?package=eslint-config-algolia
+test
