@@ -4,3 +4,4 @@ package-lock.json
 packages/eslint-config-algolia/README.md
 .yarn/cache
 install-state.gz
+.git/
