@@ -368,7 +368,7 @@ module.exports = {
     'jsdoc/check-types': ['error'],
     'jsdoc/implements-on-classes': ['error'],
     'jsdoc/match-description': ['error'],
-    'jsdoc/newline-after-description': ['error'],
+    'jsdoc/tag-lines': ['error', 'any', { startLines: 1, endLines: null }],
     'jsdoc/no-undefined-types': ['error'],
     'jsdoc/require-description': ['error'],
     'jsdoc/require-description-complete-sentence': ['error'],
