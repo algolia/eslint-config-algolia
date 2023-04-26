@@ -25,11 +25,11 @@ if [[ -n $(git status --porcelain) ]]; then
   exit 1
 fi
 
-printf "\n\nRelease: update working tree"
+printf "\n\nRelease: update working tree\n"
 git pull origin master
 git fetch origin --tags
 
-printf "Release: yarn"
+printf "Release: yarn\n"
 yarn
 
 
@@ -63,6 +63,9 @@ cd ../test
 yarn add --dev eslint-config-algolia@"$newVersion"
 cd ../..
 npm version "$newVersion" --no-git-tag-version
+
+# update yarn.lock
+yarn
 
 # update changelog
 printf "\n\nRelease: update changelog"
