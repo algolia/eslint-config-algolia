@@ -1,3 +1,12 @@
+# [21.0.0](https://github.com/algolia/eslint-config-algolia/compare/v20.1.0...v21.0.0) (2023-04-26)
+
+
+### Features
+
+* plugin jsdoc v43 ([#313](https://github.com/algolia/eslint-config-algolia/issues/313)) ([e0544c4](https://github.com/algolia/eslint-config-algolia/commit/e0544c4114749c0dae8f56094736dfec2a34b413))
+
+
+
 # [20.1.0](https://github.com/algolia/eslint-config-algolia/compare/v20.0.0...v20.1.0) (2022-12-06)
 
 
