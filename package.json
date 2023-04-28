@@ -18,7 +18,7 @@
   },
   "devDependencies": {
     "conventional-changelog-cli": "2.2.2",
-    "doctoc": "2.2.0",
+    "doctoc": "2.2.1",
     "json": "11.0.0",
     "renovate-config-algolia": "2.1.10"
   },
