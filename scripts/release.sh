@@ -4,7 +4,7 @@ set -e # exit when error
 
 printf "\nReleasing\n"
 
-if ! npm owner ls 'eslint-config-algolia' | grep -q "$(npm whoami)"
+if npm owner ls 'eslint-config-algolia' | grep -q "ENEEDAUTH"
 then
   echo "Release: Not an owner of the npm repo, ask a contributor for access"
   exit 1
@@ -59,8 +59,6 @@ doctoc README.md --maxlevel 3
 
 cd packages/eslint-config-algolia
 npm version "$newVersion" --no-git-tag-version
-cd ../test
-yarn add --dev eslint-config-algolia@"$newVersion"
 cd ../..
 npm version "$newVersion" --no-git-tag-version
 
