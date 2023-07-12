@@ -3,7 +3,7 @@
     "module": "commonjs",
     "esModuleInterop": true,
     "allowSyntheticDefaultImports": true,
-    "target": "es2017",
+    "target": "esnext",
     "moduleResolution": "node",
     "rootDir": "./src",
     "baseUrl": "./",
@@ -30,7 +30,6 @@
     "noImplicitAny": true,
     "noImplicitReturns": true,
     "noImplicitThis": true,
-    "noImplicitUseStrict": true,
     "noUnusedLocals": true,
     "noUnusedParameters": false,
     "preserveConstEnums": true,
@@ -42,5 +41,10 @@
     "strictFunctionTypes": true,
     "strictNullChecks": true,
     "strictPropertyInitialization": true,
-  }
+  },
+  "include": [
+    "index.js",
+    "src/*",
+    ".eslintrc.js"
+  ],
 }

@@ -17,13 +17,13 @@
     ]
   },
   "devDependencies": {
-    "conventional-changelog-cli": "2.2.2",
-    "doctoc": "2.2.0",
+    "conventional-changelog-cli": "3.0.0",
+    "doctoc": "2.2.1",
     "json": "11.0.0",
     "renovate-config-algolia": "2.1.10"
   },
   "workspaces": [
     "packages/*"
   ],
-  "packageManager": "yarn@3.2.3"
+  "packageManager": "yarn@3.6.1"
 }

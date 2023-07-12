@@ -172,6 +172,10 @@ yarn add @typescript-eslint/parser @typescript-eslint/eslint-plugin typescript -
 ```js
 module.exports = {
   extends: ['algolia', 'algolia/typescript']
+
+  parserOptions: {
+    project: '<path-to-tsconfig.json>',
+  },
 };
 ```
 
@@ -185,6 +189,8 @@ module.exports = {
   }
 }
 ```
+
+You also need to make sure that all the files you want to lint are also included in `tsconfig.json` with the `include` property.
 
 ### TypeScript with React
 
