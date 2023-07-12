@@ -1,3 +1,17 @@
+# [22.0.0](https://github.com/algolia/eslint-config-algolia/compare/v21.0.0...v22.0.0) (2023-07-12)
+
+
+### Bug Fixes
+
+* release script should update yarn.lock ([#314](https://github.com/algolia/eslint-config-algolia/issues/314)) ([4464168](https://github.com/algolia/eslint-config-algolia/commit/44641681cc00691a5995d2b8aabd6eeb5b905d1c))
+
+
+### Features
+
+* support typescript-eslint 6 ([#322](https://github.com/algolia/eslint-config-algolia/issues/322)) ([36e2ca9](https://github.com/algolia/eslint-config-algolia/commit/36e2ca9d1c26657ff5c08554db52c9963ef3804f))
+
+
+
 # [21.0.0](https://github.com/algolia/eslint-config-algolia/compare/v20.1.0...v21.0.0) (2023-04-26)
 
 
