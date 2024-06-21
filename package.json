@@ -9,7 +9,7 @@
   },
   "engines": {
     "node": "^16.0.0",
-    "yarn": "^3.0.0"
+    "yarn": "^4.0.0"
   },
   "renovate": {
     "extends": [
@@ -25,5 +25,5 @@
   "workspaces": [
     "packages/*"
   ],
-  "packageManager": "yarn@3.6.1"
+  "packageManager": "yarn@4.3.1"
 }
