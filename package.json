@@ -8,7 +8,7 @@
     "release": "./scripts/release.sh"
   },
   "engines": {
-    "node": "^16.0.0",
+    "node": "^18.0.0",
     "yarn": "^3.0.0"
   },
   "renovate": {
