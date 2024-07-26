@@ -2,7 +2,10 @@
   "name": "eslint-config-algolia",
   "version": "23.0.0",
   "description": "Algolia's ESLint config.",
-  "repository": "algolia/eslint-config-algolia",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/algolia/eslint-config-algolia.git"
+  },
   "scripts": {
     "lint": "eslint .",
     "lint:fix": "yarn lint --fix"
