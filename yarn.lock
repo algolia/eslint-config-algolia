@@ -2657,11 +2657,15 @@ __metadata:
   languageName: node
   linkType: hard
 
-"eslint-config-algolia@link:../eslint-config-algolia::locator=test%40workspace%3Apackages%2Ftest":
-  version: 0.0.0-use.local
-  resolution: "eslint-config-algolia@link:../eslint-config-algolia::locator=test%40workspace%3Apackages%2Ftest"
+"eslint-config-algolia@file:../eslint-config-algolia::locator=test%40workspace%3Apackages%2Ftest":
+  version: 22.0.0
+  resolution: "eslint-config-algolia@file:../eslint-config-algolia#../eslint-config-algolia::hash=c9e786&locator=test%40workspace%3Apackages%2Ftest"
+  peerDependencies:
+    eslint: ^5.16.0 || ^6.8.0 || ^7.2.0 || ^8.0.0
+    prettier: ^3.0.0
+  checksum: 10c0/662d1ae3c3866c1538014617b661cdf74fbffe9684c9db1aeddc6f4a930f90ebee3dd3ed317b0385481ea94d892ddd9accf46732790d6444bcedc25daf114527
   languageName: node
-  linkType: soft
+  linkType: hard
 
 "eslint-config-algolia@workspace:packages/eslint-config-algolia":
   version: 0.0.0-use.local
@@ -6539,8 +6543,9 @@ __metadata:
     "@typescript-eslint/eslint-plugin": "npm:7.17.0"
     "@typescript-eslint/parser": "npm:7.17.0"
     eslint: "npm:8.57.0"
-    eslint-config-algolia: "link:../eslint-config-algolia"
+    eslint-config-algolia: "file:../eslint-config-algolia"
     jest: "npm:29.7.0"
+    prettier: "npm:3.3.3"
     prop-types: "npm:15.8.1"
     react: "npm:17.0.2"
     react-addons-shallow-compare: "npm:15.6.3"
