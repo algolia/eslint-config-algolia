@@ -1,12 +1,12 @@
 version: 2.1
 
 orbs:
-  node: circleci/node@5.0.2
+  node: circleci/node@5.2.0
 
 jobs:
   test:
     docker:
-      - image: cimg/node:16.17.0
+      - image: cimg/node:20.16.0
 
     working_directory: ~/repo
 
@@ -14,12 +14,11 @@ jobs:
       - checkout
 
       - node/install-packages:
-                pkg-manager: yarn
+          pkg-manager: yarn
 
       - run:
           name: Test
           command: yarn test
-
 
 workflows:
   suite:
