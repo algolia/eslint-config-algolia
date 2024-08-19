@@ -43,10 +43,7 @@ module.exports = {
     'no-unreachable': ['error'],
     'no-unsafe-finally': ['error'],
     'no-unsafe-negation': ['error'],
-    'no-unsafe-optional-chaining': [
-      'error',
-      { disallowArithmeticOperators: true },
-    ],
+    'no-unsafe-optional-chaining': ['error', { disallowArithmeticOperators: true }],
     'no-useless-backreference': ['error'],
     'require-atomic-updates': ['off'],
     'use-isnan': ['error'],
@@ -190,7 +187,7 @@ module.exports = {
     '@stylistic/max-len': [
       'error',
       {
-        code: 80,
+        code: 120,
         ignoreComments: true,
         ignoreTrailingComments: true,
         ignoreUrls: true,
@@ -223,8 +220,8 @@ module.exports = {
     '@stylistic/operator-assignment': ['off'],
     '@stylistic/operator-linebreak': ['off'],
     '@stylistic/padded-blocks': ['error', 'never'],
-    '@stylistic/quote-props': ['error', 'consistent-as-needed'],
-    '@stylistic/quotes': ['error', 'single'],
+    '@stylistic/quote-props': ['error', 'as-needed'],
+    '@stylistic/quotes': ['error', 'single', { avoidEscape: true }],
     '@stylistic/require-jsdoc': ['off'],
     '@stylistic/semi': ['error'],
     '@stylistic/semi-spacing': ['error'],
@@ -238,7 +235,7 @@ module.exports = {
     '@stylistic/spaced-comment': ['error'],
     '@stylistic/wrap-regex': ['error'],
 
-    'camelcase': ['error'],
+    camelcase: ['error'],
     'consistent-this': ['error'],
     'max-depth': ['error'],
     'max-nested-callbacks': ['error'],
@@ -313,14 +310,7 @@ module.exports = {
     'import/order': [
       'error',
       {
-        groups: [
-          'builtin',
-          'external',
-          'internal',
-          'parent',
-          'sibling',
-          'index',
-        ],
+        groups: ['builtin', 'external', 'internal', 'parent', 'sibling', 'index'],
         'newlines-between': 'always',
         alphabetize: {
           order: 'asc',
@@ -336,7 +326,7 @@ module.exports = {
         arrowParens: 'always',
         bracketSpacing: true,
         bracketSameLine: false,
-        printWidth: 80,
+        printWidth: 120,
         singleQuote: true,
         trailingComma: 'es5',
         useTabs: false,

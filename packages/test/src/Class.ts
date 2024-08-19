@@ -12,6 +12,7 @@ class Provider {
   }
 
   isStart(): boolean {
+    "test with 'quote";
     return this.#name.startsWith('foo');
   }
 }

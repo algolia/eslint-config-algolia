@@ -49,10 +49,7 @@ module.exports = {
         },
       },
     ],
-    '@typescript-eslint/consistent-type-imports': [
-      'error',
-      { prefer: 'type-imports' },
-    ],
+    '@typescript-eslint/consistent-type-imports': ['error', { prefer: 'type-imports' }],
     '@typescript-eslint/naming-convention': [
       'error',
       {
@@ -178,23 +175,6 @@ module.exports = {
     'no-array-constructor': ['off'],
     'no-useless-constructor': ['off'],
 
-    // Handled by prettier
-    '@typescript-eslint/brace-style': ['off'],
-    '@typescript-eslint/comma-dangle': ['off'],
-    '@typescript-eslint/indent': ['off'],
-    '@typescript-eslint/keyword-spacing': ['off'],
-    '@typescript-eslint/member-delimiter-style': ['off'],
-    '@typescript-eslint/no-extra-parens': ['off'],
-    '@typescript-eslint/no-extra-semi': ['off'],
-    '@typescript-eslint/quotes': ['off'],
-    '@typescript-eslint/semi': ['off'],
-    '@typescript-eslint/space-before-function-paren': ['off'],
-    '@typescript-eslint/space-infix-ops': ['off'],
-    '@typescript-eslint/ban-tslint-comment': ['off'],
-    '@typescript-eslint/class-literal-property-style': ['off'], // useless
-    '@typescript-eslint/consistent-indexed-object-style': ['off'], // Also modify type and interface
-    '@typescript-eslint/method-signature-style': ['error'],
-
     // disabled => because will warn to every explicit "any"
     '@typescript-eslint/explicit-module-boundary-types': ['off'],
     '@typescript-eslint/no-explicit-any': ['off'],
@@ -286,10 +266,7 @@ module.exports = {
             // allowExpressions: true,
           },
         ],
-        '@typescript-eslint/explicit-member-accessibility': [
-          'error',
-          { accessibility: 'no-public' },
-        ],
+        '@typescript-eslint/explicit-member-accessibility': ['error', { accessibility: 'no-public' }],
       },
     },
   ],
