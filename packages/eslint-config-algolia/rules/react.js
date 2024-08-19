@@ -78,8 +78,7 @@ module.exports = {
     'react/jsx-uses-vars': 'error',
     'react/react-in-jsx-scope': 'error',
 
-    // Handled by prettier
-    'react/jsx-curly-newline': 'off',
+    'react/jsx-curly-newline': 'error',
     'react/jsx-one-expression-per-line': 'off',
     'react/jsx-child-element-spacing': 'off',
     'react/jsx-closing-tag-location': 'off',

@@ -42,12 +42,7 @@ Just **focus** on coding.
 ### Base requirements
 
 ```sh
-yarn add \
-eslint @babel/eslint-parser prettier \
-eslint-config-algolia eslint-config-prettier \
-eslint-plugin-import eslint-plugin-prettier \
-eslint-plugin-eslint-comments eslint-plugin-jsdoc \
---dev
+yarn add eslint @babel/eslint-parser eslint-plugin-eslint-comments eslint-plugin-jsdoc --dev
 ```
 
 ### Vanilla

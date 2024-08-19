@@ -18,9 +18,6 @@ module.exports = {
     'plugin:import/errors',
     'plugin:import/warnings',
     './rules/base.js',
-
-    // prettier is set at the end to override our own rules
-    'plugin:prettier/recommended',
   ],
   plugins: ['eslint-comments', 'import', 'jsdoc', '@stylistic'],
   settings: {

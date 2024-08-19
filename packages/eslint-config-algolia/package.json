@@ -28,20 +28,16 @@
     "@babel/eslint-parser": "7.25.1",
     "@stylistic/eslint-plugin": "2.6.4",
     "eslint": "8.57.0",
-    "eslint-config-prettier": "8.10.0",
     "eslint-plugin-eslint-comments": "3.2.0",
     "eslint-plugin-import": "2.29.1",
     "eslint-plugin-jest": "28.8.0",
     "eslint-plugin-jsdoc": "50.2.2",
     "eslint-plugin-jsx-a11y": "6.9.0",
-    "eslint-plugin-prettier": "5.2.1",
     "eslint-plugin-react": "7.35.0",
-    "eslint-plugin-react-hooks": "4.6.2",
-    "prettier": "3.3.3"
+    "eslint-plugin-react-hooks": "4.6.2"
   },
   "peerDependencies": {
     "@stylistic/eslint-plugin": "^2.6.4",
-    "eslint": "^5.16.0 || ^6.8.0 || ^7.2.0 || ^8.0.0",
-    "prettier": "^3.0.0"
+    "eslint": "^5.16.0 || ^6.8.0 || ^7.2.0 || ^8.0.0"
   }
 }
