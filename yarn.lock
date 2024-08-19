@@ -2738,12 +2738,12 @@ __metadata:
   linkType: hard
 
 "eslint-config-algolia@file:../eslint-config-algolia::locator=test%40workspace%3Apackages%2Ftest":
-  version: 23.1.1
-  resolution: "eslint-config-algolia@file:../eslint-config-algolia#../eslint-config-algolia::hash=df5a97&locator=test%40workspace%3Apackages%2Ftest"
+  version: 24.0.0-alpha.0
+  resolution: "eslint-config-algolia@file:../eslint-config-algolia#../eslint-config-algolia::hash=5f25b4&locator=test%40workspace%3Apackages%2Ftest"
   peerDependencies:
     "@stylistic/eslint-plugin": ^2.6.4
     eslint: ^5.16.0 || ^6.8.0 || ^7.2.0 || ^8.0.0
-  checksum: 10c0/1019e88b2a57d639a413ab986e94b9e0f90073755ed75ef194fae5ee633bed798e09ec202910f4ed34e6a88882a30617e81c5ee32d843e9cb08806e57b0f40da
+  checksum: 10c0/97fcd7f3937eb06284dca6a95fef20030314fa294b2317a8ab7329a26fa047240fd332e99108f2de360f9465a40d5c65c94329e12868eaf4fac90b6fa0ead735
   languageName: node
   linkType: hard
 
