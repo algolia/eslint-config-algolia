@@ -233,7 +233,7 @@ module.exports = {
     '@stylistic/space-infix-ops': ['error'],
     '@stylistic/space-unary-ops': ['error'],
     '@stylistic/spaced-comment': ['error'],
-    '@stylistic/wrap-regex': ['error'],
+    '@stylistic/wrap-regex': ['off'], // conflicts with prettier
 
     camelcase: ['error'],
     'consistent-this': ['error'],
