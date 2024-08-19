@@ -10,7 +10,7 @@ module.exports = {
   rules: {
     '@typescript-eslint/adjacent-overload-signatures': ['error'],
     '@typescript-eslint/array-type': ['error', { default: 'array-simple' }],
-    '@typescript-eslint/ban-types': [
+    '@typescript-eslint/no-restricted-types': [
       'error',
       {
         types: {
@@ -146,8 +146,8 @@ module.exports = {
         args: 'after-used',
       },
     ],
-    '@typescript-eslint/comma-spacing': ['error'],
-    '@typescript-eslint/func-call-spacing': ['error'],
+    '@stylistic/comma-spacing': ['error'],
+    '@stylistic/func-call-spacing': ['error'],
     '@typescript-eslint/no-confusing-non-null-assertion': ['error'],
     '@typescript-eslint/no-extra-non-null-assertion': ['error'],
     '@typescript-eslint/no-non-null-asserted-optional-chain': ['error'],
@@ -163,7 +163,7 @@ module.exports = {
     '@typescript-eslint/prefer-optional-chain': ['error'],
     '@typescript-eslint/prefer-ts-expect-error': ['error'],
     '@typescript-eslint/sort-type-constituents': ['error'],
-    '@typescript-eslint/type-annotation-spacing': ['error'],
+    '@stylistic/type-annotation-spacing': ['error'],
     '@typescript-eslint/unified-signatures': ['error'],
     '@typescript-eslint/no-redeclare': ['error'],
     '@typescript-eslint/no-shadow': ['error'],
