@@ -15,6 +15,7 @@
     "eslint": "8.57.0",
     "eslint-config-algolia": "file:../eslint-config-algolia",
     "jest": "29.7.0",
+    "prettier": "3.3.3",
     "prop-types": "15.8.1",
     "react": "18.3.1",
     "react-addons-shallow-compare": "15.6.3",

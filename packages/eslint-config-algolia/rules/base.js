@@ -254,7 +254,7 @@ module.exports = {
     // ECMAScript 6
     // http://eslint.org/docs/rules/#ecmascript-6
     'arrow-body-style': ['error'],
-    'arrow-parens': ['error'],
+    'arrow-parens': ['error', 'as-needed'],
     'arrow-spacing': ['error'],
     'constructor-super': ['error'],
     'generator-star-spacing': ['error'],
@@ -315,6 +315,22 @@ module.exports = {
         alphabetize: {
           order: 'asc',
         },
+      },
+    ],
+
+    // Prettier
+    // https://github.com/prettier/eslint-plugin-prettier
+    'prettier/prettier': [
+      'error',
+      {
+        arrowParens: 'always',
+        bracketSpacing: true,
+        bracketSameLine: false,
+        printWidth: 120,
+        singleQuote: true,
+        trailingComma: 'es5',
+        useTabs: false,
+        quoteProps: 'as-needed',
       },
     ],
 
