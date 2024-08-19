@@ -1,3 +1,18 @@
+# [23.1.0](https://github.com/algolia/eslint-config-algolia/compare/v22.0.0...v23.1.0) (2024-08-19)
+
+
+### Bug Fixes
+
+* link using "file" ([f5aef8f](https://github.com/algolia/eslint-config-algolia/commit/f5aef8f0fb29404a9d25b28510905a0421f15a9d))
+* remove deprecated rules ([b77da32](https://github.com/algolia/eslint-config-algolia/commit/b77da3296e68ac0178a8a3da3850dccb2ff0e3f9))
+
+
+### Features
+
+* upgrade all deps ([#343](https://github.com/algolia/eslint-config-algolia/issues/343)) ([5b6895e](https://github.com/algolia/eslint-config-algolia/commit/5b6895e3b04ae293cdbb32e9b9df210794cb89cf))
+
+
+
 # [23.0.0](https://github.com/algolia/eslint-config-algolia/compare/v22.0.0...v23.0.0) (2024-07-26)
 
 
