@@ -1,3 +1,12 @@
+## [23.1.3](https://github.com/algolia/eslint-config-algolia/compare/v23.1.2...v23.1.3) (2024-08-19)
+
+
+### Bug Fixes
+
+* revert prettier remove ([fb5f0f5](https://github.com/algolia/eslint-config-algolia/commit/fb5f0f58bff3df84863b4744c8a480f5edf04070))
+
+
+
 ## [23.1.2](https://github.com/algolia/eslint-config-algolia/compare/v24.0.0-alpha.0...v23.1.2) (2024-08-19)
 
 
