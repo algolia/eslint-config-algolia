@@ -1,3 +1,12 @@
+## [23.1.2](https://github.com/algolia/eslint-config-algolia/compare/v24.0.0-alpha.0...v23.1.2) (2024-08-19)
+
+
+### Bug Fixes
+
+* conflict with prettier ([9f14907](https://github.com/algolia/eslint-config-algolia/commit/9f1490715eaeaa2ae52a8d94c483f85b0c671af6))
+
+
+
 # [24.0.0-alpha.0](https://github.com/algolia/eslint-config-algolia/compare/v23.1.1...v24.0.0-alpha.0) (2024-08-19)
 
 

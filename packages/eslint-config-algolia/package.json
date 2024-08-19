@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-algolia",
-  "version": "24.0.0-alpha.0",
+  "version": "23.1.2",
   "description": "Algolia's ESLint config.",
   "repository": {
     "type": "git",
