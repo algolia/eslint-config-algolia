@@ -145,6 +145,7 @@ module.exports = {
     ],
     '@stylistic/comma-spacing': ['error'],
     '@stylistic/func-call-spacing': ['error'],
+    '@stylistic/indent': ['error', 2],
     '@typescript-eslint/no-confusing-non-null-assertion': ['error'],
     '@typescript-eslint/no-extra-non-null-assertion': ['error'],
     '@typescript-eslint/no-non-null-asserted-optional-chain': ['error'],
