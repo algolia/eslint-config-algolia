@@ -145,7 +145,8 @@ module.exports = {
     ],
     '@stylistic/comma-spacing': ['error'],
     '@stylistic/func-call-spacing': ['error'],
-    '@stylistic/indent': ['error', 2],
+    '@stylistic/indent': 'off', // handled by prettier
+    '@stylistic/max-len': 'off', // handled by prettier
     '@typescript-eslint/no-confusing-non-null-assertion': ['error'],
     '@typescript-eslint/no-extra-non-null-assertion': ['error'],
     '@typescript-eslint/no-non-null-asserted-optional-chain': ['error'],
