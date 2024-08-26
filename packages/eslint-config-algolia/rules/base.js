@@ -166,8 +166,7 @@ module.exports = {
     // http://eslint.org/docs/rules/#stylistic-issues
     '@stylistic/array-bracket-spacing': ['error'],
     '@stylistic/block-spacing': ['error'],
-    '@stylistic/brace-style': ['error', '1tbs', { allowSingleLine: true }],
-    '@stylistic/comma-dangle': ['error', 'always-multiline'],
+    '@stylistic/comma-dangle': 'off',
     '@stylistic/comma-spacing': ['error'],
     '@stylistic/comma-style': ['error'],
     '@stylistic/computed-property-spacing': ['error'],
@@ -254,12 +253,8 @@ module.exports = {
     // ECMAScript 6
     // http://eslint.org/docs/rules/#ecmascript-6
     'arrow-body-style': ['error'],
-    'arrow-parens': ['error', 'as-needed'],
-    'arrow-spacing': ['error'],
     'constructor-super': ['error'],
-    'generator-star-spacing': ['error'],
     'no-class-assign': ['error'],
-    'no-confusing-arrow': ['off'],
     'no-const-assign': ['error'],
     'no-dupe-class-members': ['error'],
     'no-duplicate-imports': ['off'],
@@ -273,16 +268,12 @@ module.exports = {
     'object-shorthand': ['error'],
     'prefer-arrow-callback': ['error'],
     'prefer-const': ['error'],
-    'prefer-reflect': ['off'],
     'prefer-rest-params': ['error'],
     'prefer-spread': ['error'],
     'prefer-template': ['error'],
     'require-yield': ['error'],
-    'rest-spread-spacing': ['error'],
     'sort-imports': ['off'],
     'symbol-description': ['error'],
-    'template-curly-spacing': ['error'],
-    'yield-star-spacing': ['error'],
 
     // Comments
     // https://mysticatea.github.io/eslint-plugin-eslint-comments
@@ -328,7 +319,7 @@ module.exports = {
         bracketSameLine: false,
         printWidth: 120,
         singleQuote: true,
-        trailingComma: 'es5',
+        trailingComma: 'all',
         useTabs: false,
         quoteProps: 'as-needed',
       },
