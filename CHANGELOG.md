@@ -1,3 +1,7 @@
+## [23.1.5](https://github.com/algolia/eslint-config-algolia/compare/v23.1.4...v23.1.5) (2024-08-26)
+
+
+
 ## [23.1.4](https://github.com/algolia/eslint-config-algolia/compare/v23.1.3...v23.1.4) (2024-08-23)
 
 
