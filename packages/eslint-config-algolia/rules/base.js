@@ -276,13 +276,13 @@ module.exports = {
     'symbol-description': ['error'],
 
     // Comments
-    // https://mysticatea.github.io/eslint-plugin-eslint-comments
-    'eslint-comments/disable-enable-pair': ['error', { allowWholeFile: true }],
-    'eslint-comments/no-aggregating-enable': ['error'],
-    'eslint-comments/no-duplicate-disable': ['error'],
-    'eslint-comments/no-unlimited-disable': ['error'],
-    'eslint-comments/no-unused-disable': ['error'],
-    'eslint-comments/no-unused-enable': ['error'],
+    // https://eslint-community.github.io/eslint-plugin-eslint-comments/
+    '@eslint-community/eslint-comments/disable-enable-pair': ['error', { allowWholeFile: true }],
+    '@eslint-community/eslint-comments/no-aggregating-enable': ['error'],
+    '@eslint-community/eslint-comments/no-duplicate-disable': ['error'],
+    '@eslint-community/eslint-comments/no-unlimited-disable': ['error'],
+    '@eslint-community/eslint-comments/no-unused-disable': ['error'],
+    '@eslint-community/eslint-comments/no-unused-enable': ['error'],
 
     // Import
     // https://github.com/benmosher/eslint-plugin-import

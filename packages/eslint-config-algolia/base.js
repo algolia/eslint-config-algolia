@@ -15,6 +15,7 @@ module.exports = {
   },
   extends: [
     'eslint:recommended',
+    'plugin:@eslint-community/eslint-comments/recommended',
     'plugin:import/errors',
     'plugin:import/warnings',
     './rules/base.js',
@@ -22,7 +23,7 @@ module.exports = {
     // prettier is set at the end to override our own rules
     'plugin:prettier/recommended',
   ],
-  plugins: ['eslint-comments', 'import', 'jsdoc', '@stylistic'],
+  plugins: ['import', 'jsdoc', '@stylistic'],
   settings: {
     'import/extensions': ['.js', '.jsx', '.ts', '.tsx'],
 

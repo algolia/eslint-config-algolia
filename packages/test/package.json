@@ -9,9 +9,9 @@
   "author": "Algolia <support@algolia.com> (https://github.com/algolia/)",
   "license": "MIT",
   "devDependencies": {
-    "@types/react": "18.3.4",
-    "@typescript-eslint/eslint-plugin": "8.2.0",
-    "@typescript-eslint/parser": "8.2.0",
+    "@types/react": "18.3.5",
+    "@typescript-eslint/eslint-plugin": "8.3.0",
+    "@typescript-eslint/parser": "8.3.0",
     "eslint": "8.57.0",
     "eslint-config-algolia": "file:../eslint-config-algolia",
     "jest": "29.7.0",

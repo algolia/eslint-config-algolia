@@ -46,7 +46,7 @@ yarn add \
 eslint @babel/eslint-parser prettier \
 eslint-config-algolia eslint-config-prettier \
 eslint-plugin-import eslint-plugin-prettier \
-eslint-plugin-eslint-comments eslint-plugin-jsdoc \
+@eslint-community/eslint-plugin-eslint-comments eslint-plugin-jsdoc \
 --dev
 ```
 
