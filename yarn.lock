@@ -2682,12 +2682,12 @@ __metadata:
 
 "eslint-config-algolia@file:../eslint-config-algolia::locator=test%40workspace%3Apackages%2Ftest":
   version: 23.1.7
-  resolution: "eslint-config-algolia@file:../eslint-config-algolia#../eslint-config-algolia::hash=1b945a&locator=test%40workspace%3Apackages%2Ftest"
+  resolution: "eslint-config-algolia@file:../eslint-config-algolia#../eslint-config-algolia::hash=914e57&locator=test%40workspace%3Apackages%2Ftest"
   peerDependencies:
     "@stylistic/eslint-plugin": ^2.6.4
     eslint: ^5.16.0 || ^6.8.0 || ^7.2.0 || ^8.0.0
     prettier: ^3.0.0
-  checksum: 10c0/803e65bc961c7c7489d401759e387d442bc60f13fdbe1231210642ad81b2b81ae5a5e099f2e554f80a39a1bd8dad7966b20ec47c7d4e5055ec56c117670550a3
+  checksum: 10c0/d724b21781dc5578b5453206b5016b26909a06ed6c358b21f7b51830dcfed3212a080ee9020a2f73deb14be7a7160d1fc42505782b6fc7d049accab05f912210
   languageName: node
   linkType: hard
 
@@ -2702,7 +2702,7 @@ __metadata:
     eslint: "npm:8.57.0"
     eslint-config-prettier: "npm:8.10.0"
     eslint-plugin-import: "npm:2.29.1"
-    eslint-plugin-jest: "npm:28.8.2"
+    eslint-plugin-jest: "npm:28.8.3"
     eslint-plugin-jsdoc: "npm:50.2.2"
     eslint-plugin-jsx-a11y: "npm:6.9.0"
     eslint-plugin-prettier: "npm:5.2.1"
@@ -2777,9 +2777,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"eslint-plugin-jest@npm:28.8.2":
-  version: 28.8.2
-  resolution: "eslint-plugin-jest@npm:28.8.2"
+"eslint-plugin-jest@npm:28.8.3":
+  version: 28.8.3
+  resolution: "eslint-plugin-jest@npm:28.8.3"
   dependencies:
     "@typescript-eslint/utils": "npm:^6.0.0 || ^7.0.0 || ^8.0.0"
   peerDependencies:
@@ -2791,7 +2791,7 @@ __metadata:
       optional: true
     jest:
       optional: true
-  checksum: 10c0/c3c8e45cf71bbc06e8f93e01db17dd48e53840804e5e6fa41d198ca2652343c06f865559f5e69f2ee26764bf22b27f0ccb85d28b7783c0ea9ee43ce7cc04be83
+  checksum: 10c0/beacf85c2fbb39ef9b9839472a8a837cdbab6549b29abaff8999034ac41021e1f06d1779db3ea9d0f966be52e5daeacfd05c239d686370d8b8cb9c68d60e59b6
   languageName: node
   linkType: hard
 
