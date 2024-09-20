@@ -6,7 +6,7 @@ orbs:
 jobs:
   test:
     docker:
-      - image: cimg/node:20.16.0
+      - image: cimg/node:22.9.0
 
     working_directory: ~/repo
 
