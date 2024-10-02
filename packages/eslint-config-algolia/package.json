@@ -27,6 +27,7 @@
     "@babel/core": "7.25.2",
     "@babel/eslint-parser": "7.25.1",
     "@eslint-community/eslint-plugin-eslint-comments": "4.4.0",
+    "@eslint/js": "9.11.1",
     "@stylistic/eslint-plugin": "2.7.2",
     "eslint": "8.57.0",
     "eslint-config-prettier": "8.10.0",
@@ -37,6 +38,7 @@
     "eslint-plugin-prettier": "5.2.1",
     "eslint-plugin-react": "7.35.0",
     "eslint-plugin-react-hooks": "4.6.2",
+    "globals": "15.10.0",
     "prettier": "3.3.3"
   },
   "peerDependencies": {
