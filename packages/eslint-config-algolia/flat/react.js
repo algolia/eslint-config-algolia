@@ -1,5 +1,4 @@
 /* eslint-disable import/no-commonjs */
-const babelParser = require('@babel/eslint-parser');
 const jsxA11yPlugin = require('eslint-plugin-jsx-a11y');
 const reactPlugin = require('eslint-plugin-react');
 const reactHooksPlugin = require('eslint-plugin-react-hooks');
@@ -18,7 +17,6 @@ module.exports = [
     },
 
     languageOptions: {
-      parser: babelParser,
       parserOptions: {
         ecmaFeatures: {
           jsx: true,

@@ -6,8 +6,8 @@ const algoliaTypescript = require('eslint-config-algolia/flat/typescript');
 
 module.exports = [
   ...algolia,
-  ...algoliaReact,
   ...algoliaTypescript,
+  ...algoliaReact,
   ...algoliaJest,
   {
     languageOptions: {
