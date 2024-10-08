@@ -10,10 +10,6 @@ module.exports = [
   ...algoliaTypescript,
   ...algoliaJest,
   {
-    rules: {
-      // Re-enable when this is released: https://github.com/import-js/eslint-plugin-import/commit/186f248357437ef46889f3eab7fda8e6030ba874
-      'import/no-named-as-default': 'off',
-    },
     languageOptions: {
       parserOptions: {
         project: 'tsconfig.json',
