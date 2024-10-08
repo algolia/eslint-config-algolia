@@ -29,10 +29,9 @@ module.exports = [
       },
     },
   },
-  // Mixed codebase issues
   {
     // enable the rule specifically for TypeScript files
-    files: ['*.ts', '*.tsx'],
+    files: ['**/*.ts', '**/*.tsx'],
     rules: {
       '@typescript-eslint/explicit-function-return-type': [
         'error',

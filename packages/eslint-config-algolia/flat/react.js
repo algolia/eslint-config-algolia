@@ -8,7 +8,10 @@ const rules = require('../rules/react');
 
 module.exports = [
   reactPlugin.configs.flat.recommended,
+  rules,
   {
+    files: ['**/*.{js,mjs,cjs,jsx,mjsx,ts,tsx,mtsx}'],
+
     plugins: {
       'react-hooks': reactHooksPlugin,
       'jsx-a11y': jsxA11yPlugin,
@@ -24,5 +27,4 @@ module.exports = [
       },
     },
   },
-  rules,
 ];
