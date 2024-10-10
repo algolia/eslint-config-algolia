@@ -1,3 +1,12 @@
+# [23.2.0](https://github.com/algolia/eslint-config-algolia/compare/v23.1.7...v23.2.0) (2024-10-10)
+
+
+### Features
+
+* introduce flat config ([#361](https://github.com/algolia/eslint-config-algolia/issues/361)) ([31c4572](https://github.com/algolia/eslint-config-algolia/commit/31c45721bcf643c150f8296df94ea33b03d08ff8))
+
+
+
 ## [23.1.7](https://github.com/algolia/eslint-config-algolia/compare/v23.1.6...v23.1.7) (2024-09-02)
 
 
