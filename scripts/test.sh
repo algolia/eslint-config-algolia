@@ -4,3 +4,4 @@ set -e # exit when error
 
 cd packages/test
 yarn lint
+yarn lint:legacy

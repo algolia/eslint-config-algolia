@@ -59,6 +59,14 @@ module.exports = {
 };
 ```
 
+**eslint.config.js**
+```js
+const algolia = require('eslint-config-algolia/flat/base');
+module.exports = [
+  ...algolia,
+];
+```
+
 **package.json**
 ```json
 {
@@ -86,6 +94,16 @@ module.exports = {
 };
 ```
 
+**eslint.config.js**
+```js
+const algolia = require('eslint-config-algolia/flat/base');
+const algoliaJest = require('eslint-config-algolia/flat/jest');
+module.exports = [
+  ...algolia,
+  ...algoliaJest,
+];
+```
+
 **package.json**
 ```json
 {
@@ -111,6 +129,16 @@ module.exports = {
 };
 ```
 
+**eslint.config.js**
+```js
+const algolia = require('eslint-config-algolia/flat/base');
+const algoliaReact = require('eslint-config-algolia/flat/react');
+module.exports = [
+  ...algolia,
+  ...algoliaReact,
+];
+```
+
 **package.json**
 ```json
 {
@@ -122,7 +150,7 @@ module.exports = {
 }
 ```
 
-### Flow
+### Flow (deprecated)
 
 **terminal**
 ```sh
@@ -136,7 +164,7 @@ module.exports = {
 };
 ```
 
-### Flow with React
+### Flow with React (deprecated)
 
 **terminal**
 ```sh
@@ -171,12 +199,29 @@ yarn add @typescript-eslint/parser @typescript-eslint/eslint-plugin typescript -
 **.eslintrc.js**
 ```js
 module.exports = {
-  extends: ['algolia', 'algolia/typescript']
+  extends: ['algolia', 'algolia/typescript'],
 
   parserOptions: {
     project: '<path-to-tsconfig.json>',
   },
 };
+```
+
+**eslint.config.js**
+```js
+const algolia = require('eslint-config-algolia/flat/base');
+const algoliaTypescript = require('eslint-config-algolia/flat/typescript');
+module.exports = [
+  ...algolia,
+  ...algoliaTypescript,
+  {
+    languageOptions: {
+      parserOptions: {
+        project: '<path-to-tsconfig.json>',
+      },
+    },
+  },
+];
 ```
 
 **package.json**
@@ -207,6 +252,18 @@ module.exports = {
 ```
 **Note**: Be sure to put the `algolia/typescript` configuration last so the parser is properly set for TypeScript files.
 
+**eslint.config.js**
+```js
+const algolia = require('eslint-config-algolia/flat/base');
+const algoliaReact = require('eslint-config-algolia/flat/react');
+const algoliaTypescript = require('eslint-config-algolia/flat/typescript');
+module.exports = [
+  ...algolia,
+  ...algoliaReact,
+  ...algoliaTypescript,
+];
+```
+
 **package.json**
 ```json
 {
@@ -231,6 +288,16 @@ yarn add eslint-plugin-vue --dev
 module.exports = {
   extends: ['algolia', 'algolia/vue']
 };
+```
+
+**eslint.config.js**
+```js
+const algolia = require('eslint-config-algolia/flat/base');
+const algoliaVue = require('eslint-config-algolia/flat/vue');
+module.exports = [
+  ...algolia,
+  ...algoliaVue,
+];
 ```
 
 **package.json**
@@ -275,8 +342,21 @@ module.exports = {
   extends: 'algolia',
   rules: {
     'import/no-commonjs': 'off'
-  }
+  },
 };
+```
+
+**eslint.config.js**
+```js
+const algolia = require('eslint-config-algolia/flat/base');
+module.exports = [
+  ...algolia,
+  {
+    rules: {
+      'import/no-commonjs': 'off'
+    }
+  },
+];
 ```
 
 ## Existing codebase setup

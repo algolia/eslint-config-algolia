@@ -10,9 +10,7 @@ export default function connect(mapStateToProps) {
   return (WrappedComponent) =>
     class Connect extends Component {
       static contextTypes = { algoliaStore: storeShape.isRequired };
-      static displayName = `AlgoliaSearchHelperConnect(${getDisplayName(
-        WrappedComponent
-      )})`;
+      static displayName = `AlgoliaSearchHelperConnect(${getDisplayName(WrappedComponent)})`;
 
       constructor(props, context) {
         super();
@@ -21,9 +19,7 @@ export default function connect(mapStateToProps) {
           this.state = mapStateToProps(context.algoliaStore.getState(), props);
 
           this.unsubscribe = context.algoliaStore.subscribe(() => {
-            this.setState(
-              mapStateToProps(context.algoliaStore.getState(), this.props)
-            );
+            this.setState(mapStateToProps(context.algoliaStore.getState(), this.props));
           });
         }
       }
@@ -36,9 +32,7 @@ export default function connect(mapStateToProps) {
 
       // eslint-disable-next-line camelcase
       UNSAFE_componentWillReceiveProps(nextProps) {
-        this.setState(
-          mapStateToProps(this.context.algoliaStore.getState(), nextProps)
-        );
+        this.setState(mapStateToProps(this.context.algoliaStore.getState(), nextProps));
       }
 
       shouldComponentUpdate(nextProps, nextState) {
@@ -46,13 +40,7 @@ export default function connect(mapStateToProps) {
       }
 
       render() {
-        return (
-          <WrappedComponent
-            {...this.props}
-            {...this.state}
-            helper={this.context.algoliaStore.getHelper()}
-          />
-        );
+        return <WrappedComponent {...this.props} {...this.state} helper={this.context.algoliaStore.getHelper()} />;
       }
     };
 }

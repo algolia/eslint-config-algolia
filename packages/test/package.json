@@ -4,6 +4,7 @@
   "main": "index.js",
   "scripts": {
     "lint": "eslint .",
+    "lint:legacy": "ESLINT_USE_FLAT_CONFIG=false eslint .",
     "lint:fix": "eslint . --fix"
   },
   "author": "Algolia <support@algolia.com> (https://github.com/algolia/)",

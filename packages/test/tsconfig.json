@@ -45,6 +45,7 @@
   "include": [
     "index.js",
     "src/*",
-    ".eslintrc.js"
+    ".eslintrc.js",
+    "eslint.config.js"
   ],
 }
