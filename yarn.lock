@@ -2779,12 +2779,12 @@ __metadata:
 
 "eslint-config-algolia@file:../eslint-config-algolia::locator=test%40workspace%3Apackages%2Ftest":
   version: 23.2.0
-  resolution: "eslint-config-algolia@file:../eslint-config-algolia#../eslint-config-algolia::hash=34d9dc&locator=test%40workspace%3Apackages%2Ftest"
+  resolution: "eslint-config-algolia@file:../eslint-config-algolia#../eslint-config-algolia::hash=61f0fa&locator=test%40workspace%3Apackages%2Ftest"
   peerDependencies:
     "@stylistic/eslint-plugin": ^2.6.4
     eslint: ^5.16.0 || ^6.8.0 || ^7.2.0 || ^8.0.0
     prettier: ^3.0.0
-  checksum: 10c0/29beca682a700592949e5f83ea085ea498a530a48748d56791e903d1ae0437df316b10513140f087707eab76f63a5cf9c008ff0d6628521e000e2ee48754c75b
+  checksum: 10c0/2225994f50a848547018c986b226019e209c0b2dda38f377ceb6625a05d128d114683aa9f3def14cefb4ffb23842367813bfc94366418a9bcae37721e58f902e
   languageName: node
   linkType: hard
 
@@ -2804,7 +2804,7 @@ __metadata:
     eslint-plugin-jsdoc: "npm:50.2.2"
     eslint-plugin-jsx-a11y: "npm:6.9.0"
     eslint-plugin-prettier: "npm:5.2.1"
-    eslint-plugin-react: "npm:7.35.0"
+    eslint-plugin-react: "npm:7.37.1"
     eslint-plugin-react-hooks: "npm:4.6.2"
     globals: "npm:15.10.0"
     prettier: "npm:3.3.3"
@@ -2972,9 +2972,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"eslint-plugin-react@npm:7.35.0":
-  version: 7.35.0
-  resolution: "eslint-plugin-react@npm:7.35.0"
+"eslint-plugin-react@npm:7.37.1":
+  version: 7.37.1
+  resolution: "eslint-plugin-react@npm:7.37.1"
   dependencies:
     array-includes: "npm:^3.1.8"
     array.prototype.findlast: "npm:^1.2.5"
@@ -2996,7 +2996,7 @@ __metadata:
     string.prototype.repeat: "npm:^1.0.0"
   peerDependencies:
     eslint: ^3 || ^4 || ^5 || ^6 || ^7 || ^8 || ^9.7
-  checksum: 10c0/eedcc33de4b2cda91d56ae517a4f771a0c76da9c1e26c95543969012871381e11d4d6cffdf6fa8423036585c289eb3500f3f93fb1d314fb2624e0aa1e463305e
+  checksum: 10c0/13cf55666f16d2ca45b14aad1b0e14741d1817679c86d20aff0bc1e802439a8541f40a42c4c8e3486ffb710f1bcc2f3e56697f2b5f724306a7fca174e1ad6433
   languageName: node
   linkType: hard
 
