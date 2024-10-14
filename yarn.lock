@@ -2861,12 +2861,12 @@ __metadata:
 
 "eslint-config-algolia@file:../eslint-config-algolia::locator=test%40workspace%3Apackages%2Ftest":
   version: 23.2.0
-  resolution: "eslint-config-algolia@file:../eslint-config-algolia#../eslint-config-algolia::hash=a65c82&locator=test%40workspace%3Apackages%2Ftest"
+  resolution: "eslint-config-algolia@file:../eslint-config-algolia#../eslint-config-algolia::hash=792dff&locator=test%40workspace%3Apackages%2Ftest"
   peerDependencies:
     "@stylistic/eslint-plugin": ^2.6.4
     eslint: ^5.16.0 || ^6.8.0 || ^7.2.0 || ^8.0.0 || ^9.0.0
     prettier: ^3.0.0
-  checksum: 10c0/b44f38b5f85f7175c44afa291fd97c30623e222f8eb8441f435a6f8c2183812f4b9e52b649030603fcd0b9592fcf1c1f06c3d7dc5df2ecd34841a355b72412b9
+  checksum: 10c0/d01694d1a43cfce890f3f5b6dccad74e1e8ef5714f2a820d7f44caa6f8c36d58d51d33979a019d3dfcbc4c4bea272f3ab1b96a9d51f161e318c15380065dccd4
   languageName: node
   linkType: hard
 
@@ -2887,7 +2887,7 @@ __metadata:
     eslint-plugin-jsx-a11y: "npm:6.9.0"
     eslint-plugin-prettier: "npm:5.2.1"
     eslint-plugin-react: "npm:7.35.0"
-    eslint-plugin-react-hooks: "npm:4.6.2"
+    eslint-plugin-react-hooks: "npm:5.0.0"
     globals: "npm:15.10.0"
     prettier: "npm:3.3.3"
   peerDependencies:
@@ -3045,12 +3045,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"eslint-plugin-react-hooks@npm:4.6.2":
-  version: 4.6.2
-  resolution: "eslint-plugin-react-hooks@npm:4.6.2"
+"eslint-plugin-react-hooks@npm:5.0.0":
+  version: 5.0.0
+  resolution: "eslint-plugin-react-hooks@npm:5.0.0"
   peerDependencies:
-    eslint: ^3.0.0 || ^4.0.0 || ^5.0.0 || ^6.0.0 || ^7.0.0 || ^8.0.0-0
-  checksum: 10c0/4844e58c929bc05157fb70ba1e462e34f1f4abcbc8dd5bbe5b04513d33e2699effb8bca668297976ceea8e7ebee4e8fc29b9af9d131bcef52886feaa2308b2cc
+    eslint: ^3.0.0 || ^4.0.0 || ^5.0.0 || ^6.0.0 || ^7.0.0 || ^8.0.0-0 || ^9.0.0
+  checksum: 10c0/bcb74b421f32e4203a7100405b57aab85526be4461e5a1da01bc537969a30012d2ee209a2c2a6cac543833a27188ce1e6ad71e4628d0bb4a2e5365cad86c5002
   languageName: node
   linkType: hard
 
