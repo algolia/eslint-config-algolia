@@ -10,9 +10,6 @@ module.exports = [
   ...algoliaReact,
   ...algoliaJest,
   {
-    files: ['**/*.{js,ts,jsx,tsx}'],
-  },
-  {
     languageOptions: {
       parserOptions: {
         project: 'tsconfig.json',
