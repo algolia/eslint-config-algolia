@@ -1,3 +1,12 @@
+## [23.2.1](https://github.com/algolia/eslint-config-algolia/compare/v23.2.0...v23.2.1) (2024-10-15)
+
+
+### Bug Fixes
+
+* correctly import jest flat configs ([#365](https://github.com/algolia/eslint-config-algolia/issues/365)) ([4162bbf](https://github.com/algolia/eslint-config-algolia/commit/4162bbf77cc5cb4e109fbf5c8d034e58fa9a3689))
+
+
+
 # [23.2.0](https://github.com/algolia/eslint-config-algolia/compare/v23.1.7...v23.2.0) (2024-10-10)
 
 
