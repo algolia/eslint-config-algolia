@@ -30,7 +30,6 @@ export default function connect(mapStateToProps) {
         }
       }
 
-      // eslint-disable-next-line camelcase
       UNSAFE_componentWillReceiveProps(nextProps) {
         this.setState(mapStateToProps(this.context.algoliaStore.getState(), nextProps));
       }
