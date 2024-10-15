@@ -15,5 +15,8 @@ module.exports = [
         project: 'tsconfig.json',
       },
     },
+    linterOptions: {
+      reportUnusedDisableDirectives: 'error',
+    },
   },
 ];
