@@ -33,7 +33,7 @@
     "eslint-config-prettier": "9.1.2",
     "eslint-plugin-import": "2.32.0",
     "eslint-plugin-jest": "28.14.0",
-    "eslint-plugin-jsdoc": "50.2.2",
+    "eslint-plugin-jsdoc": "50.8.0",
     "eslint-plugin-jsx-a11y": "6.10.2",
     "eslint-plugin-prettier": "5.2.1",
     "eslint-plugin-react": "7.35.0",
