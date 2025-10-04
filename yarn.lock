@@ -1259,18 +1259,18 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@stylistic/eslint-plugin@npm:2.13.0":
-  version: 2.13.0
-  resolution: "@stylistic/eslint-plugin@npm:2.13.0"
+"@stylistic/eslint-plugin@npm:4.4.1":
+  version: 4.4.1
+  resolution: "@stylistic/eslint-plugin@npm:4.4.1"
   dependencies:
-    "@typescript-eslint/utils": "npm:^8.13.0"
+    "@typescript-eslint/utils": "npm:^8.32.1"
     eslint-visitor-keys: "npm:^4.2.0"
     espree: "npm:^10.3.0"
     estraverse: "npm:^5.3.0"
     picomatch: "npm:^4.0.2"
   peerDependencies:
-    eslint: ">=8.40.0"
-  checksum: 10c0/8a2bf15b4a29399d4a55f65385e380f30ba5ab029005f5ff119b71456d4df301d5b4bb30c635904d69dc19c50a337c7b2d991cd86092a94fe202655725659576
+    eslint: ">=9.0.0"
+  checksum: 10c0/94160bfc172a3934dd35be87887f43f7e3ffe9d1645096860a4e4c61877bb0fb62eb20a90e50ad74767ee794ed10f334f7165952cf9bcbd8bae6b80dc10c0d62
   languageName: node
   linkType: hard
 
@@ -1688,7 +1688,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@typescript-eslint/utils@npm:^8.13.0":
+"@typescript-eslint/utils@npm:^8.32.1":
   version: 8.45.0
   resolution: "@typescript-eslint/utils@npm:8.45.0"
   dependencies:
@@ -3369,12 +3369,12 @@ __metadata:
 
 "eslint-config-algolia@file:../eslint-config-algolia::locator=test%40workspace%3Apackages%2Ftest":
   version: 23.2.1
-  resolution: "eslint-config-algolia@file:../eslint-config-algolia#../eslint-config-algolia::hash=095068&locator=test%40workspace%3Apackages%2Ftest"
+  resolution: "eslint-config-algolia@file:../eslint-config-algolia#../eslint-config-algolia::hash=5ec35c&locator=test%40workspace%3Apackages%2Ftest"
   peerDependencies:
-    "@stylistic/eslint-plugin": ^2.6.4
+    "@stylistic/eslint-plugin": ^2.6.4 || ^4.0.0
     eslint: ^5.16.0 || ^6.8.0 || ^7.2.0 || ^8.0.0 || ^9.0.0
     prettier: ^3.0.0
-  checksum: 10c0/863816402b87d8fea2cbc2ebff4a35bcb57aae1dc49e26e6e718a921a740426c2ab3cb109a732720727ac6a192403a7e5f484a5e27206648e11120c3f52708b2
+  checksum: 10c0/4cd71f9269ce9c150968a573a82334a4c39b133f9d2cb432519e6356e0b79119df0a84d57ef2a8a54546e7a9501c13bd4df40dfe1648175199d52321bf073ede
   languageName: node
   linkType: hard
 
@@ -3386,7 +3386,7 @@ __metadata:
     "@babel/eslint-parser": "npm:7.28.4"
     "@eslint-community/eslint-plugin-eslint-comments": "npm:4.5.0"
     "@eslint/js": "npm:9.11.1"
-    "@stylistic/eslint-plugin": "npm:2.13.0"
+    "@stylistic/eslint-plugin": "npm:4.4.1"
     eslint: "npm:9.12.0"
     eslint-config-prettier: "npm:9.1.2"
     eslint-plugin-import: "npm:2.32.0"
@@ -3399,7 +3399,7 @@ __metadata:
     globals: "npm:15.10.0"
     prettier: "npm:3.3.3"
   peerDependencies:
-    "@stylistic/eslint-plugin": ^2.6.4
+    "@stylistic/eslint-plugin": ^2.6.4 || ^4.0.0
     eslint: ^5.16.0 || ^6.8.0 || ^7.2.0 || ^8.0.0 || ^9.0.0
     prettier: ^3.0.0
   languageName: unknown
