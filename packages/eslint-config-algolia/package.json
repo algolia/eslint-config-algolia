@@ -24,8 +24,8 @@
   },
   "homepage": "https://github.com/algolia/eslint-config-algolia",
   "devDependencies": {
-    "@babel/core": "7.28.4",
-    "@babel/eslint-parser": "7.28.4",
+    "@babel/core": "7.28.5",
+    "@babel/eslint-parser": "7.28.5",
     "@eslint-community/eslint-plugin-eslint-comments": "4.5.0",
     "@eslint/js": "9.38.0",
     "@stylistic/eslint-plugin": "2.13.0",
