@@ -1,4 +1,3 @@
-import PropTypes from 'prop-types';
 import React, { useEffect } from 'react';
 
 export const Component = ({ value }) => {
@@ -14,8 +13,4 @@ export const Component = ({ value }) => {
       <div role="button" tabIndex={0} onClick={onClick}></div>
     </div>
   );
-};
-
-Component.propTypes = {
-  value: PropTypes.string,
 };

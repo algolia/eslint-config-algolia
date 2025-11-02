@@ -144,7 +144,7 @@ module.exports = {
       },
     ],
     '@stylistic/comma-spacing': ['error'],
-    '@stylistic/func-call-spacing': ['error'],
+    '@stylistic/function-call-spacing': ['error'],
     '@stylistic/indent': 'off', // handled by prettier
     '@stylistic/max-len': 'off', // handled by prettier
     '@typescript-eslint/no-confusing-non-null-assertion': ['error'],
@@ -163,7 +163,7 @@ module.exports = {
     '@typescript-eslint/prefer-ts-expect-error': ['error'],
     '@typescript-eslint/sort-type-constituents': ['error'],
     '@stylistic/type-annotation-spacing': ['error'],
-    '@typescript-eslint/unified-signatures': ['error'],
+    '@typescript-eslint/unified-signatures': ['off'],
     '@typescript-eslint/no-redeclare': ['error'],
     '@typescript-eslint/no-shadow': ['error'],
 

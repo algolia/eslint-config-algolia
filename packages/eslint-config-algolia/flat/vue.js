@@ -11,7 +11,7 @@ const globals = require('globals');
 
 const rules = require('../rules/vue');
 
-module.exports.flat = [
+module.exports = [
   ...vuePlugin.configs['flat/recommended'],
   rules,
   {

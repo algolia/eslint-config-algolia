@@ -10,16 +10,11 @@
   "author": "Algolia <support@algolia.com> (https://github.com/algolia/)",
   "license": "MIT",
   "devDependencies": {
-    "@types/react": "18.3.5",
-    "@typescript-eslint/eslint-plugin": "8.3.0",
-    "@typescript-eslint/parser": "8.3.0",
-    "eslint": "8.57.0",
+    "@types/react": "19.2.2",
+    "eslint": "9.39.0",
     "eslint-config-algolia": "file:../eslint-config-algolia",
-    "jest": "29.7.0",
-    "prettier": "3.3.3",
-    "prop-types": "15.8.1",
-    "react": "18.3.1",
-    "react-addons-shallow-compare": "15.6.3",
-    "typescript": "5.5.4"
+    "jest": "30.2.0",
+    "react": "19.2.0",
+    "react-addons-shallow-compare": "^15.6.3"
   }
 }
