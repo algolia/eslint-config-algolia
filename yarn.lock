@@ -1327,9 +1327,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@stylistic/eslint-plugin@npm:2.13.0":
-  version: 2.13.0
-  resolution: "@stylistic/eslint-plugin@npm:2.13.0"
+"@stylistic/eslint-plugin@npm:3.1.0":
+  version: 3.1.0
+  resolution: "@stylistic/eslint-plugin@npm:3.1.0"
   dependencies:
     "@typescript-eslint/utils": "npm:^8.13.0"
     eslint-visitor-keys: "npm:^4.2.0"
@@ -1338,7 +1338,7 @@ __metadata:
     picomatch: "npm:^4.0.2"
   peerDependencies:
     eslint: ">=8.40.0"
-  checksum: 10c0/8a2bf15b4a29399d4a55f65385e380f30ba5ab029005f5ff119b71456d4df301d5b4bb30c635904d69dc19c50a337c7b2d991cd86092a94fe202655725659576
+  checksum: 10c0/e593d78103a89e0555c119625c0ba8c80c8d2c7add0e85215f6be9929002207067df53714785c2c75b8b9e6df774d25c7dead211aed89a57cb45b5cec902a19e
   languageName: node
   linkType: hard
 
@@ -3450,12 +3450,12 @@ __metadata:
 
 "eslint-config-algolia@file:../eslint-config-algolia::locator=test%40workspace%3Apackages%2Ftest":
   version: 23.2.1
-  resolution: "eslint-config-algolia@file:../eslint-config-algolia#../eslint-config-algolia::hash=38cfdb&locator=test%40workspace%3Apackages%2Ftest"
+  resolution: "eslint-config-algolia@file:../eslint-config-algolia#../eslint-config-algolia::hash=fccf22&locator=test%40workspace%3Apackages%2Ftest"
   peerDependencies:
-    "@stylistic/eslint-plugin": ^2.6.4
+    "@stylistic/eslint-plugin": ^2.6.4 || ^3.0.0
     eslint: ^5.16.0 || ^6.8.0 || ^7.2.0 || ^8.0.0 || ^9.0.0
     prettier: ^3.0.0
-  checksum: 10c0/953205ec1d2a077b61419fa54c51180751017b5365892133278c672d5cbd3ae0d6351d9b84ec44987413420a455e63e4d286b29169619378ffbc2bb18f3b63d4
+  checksum: 10c0/6d4420c8340cb1ea513334d74cc25550f89e8d4a88be6a3e6ac4ae1b87bb2236b2a72fc594e9d0f3ce16cc4b7f2d019733ee1f67b19356b902489d7acce43b37
   languageName: node
   linkType: hard
 
@@ -3467,7 +3467,7 @@ __metadata:
     "@babel/eslint-parser": "npm:7.28.5"
     "@eslint-community/eslint-plugin-eslint-comments": "npm:4.5.0"
     "@eslint/js": "npm:9.39.0"
-    "@stylistic/eslint-plugin": "npm:2.13.0"
+    "@stylistic/eslint-plugin": "npm:3.1.0"
     eslint: "npm:9.39.0"
     eslint-config-prettier: "npm:9.1.2"
     eslint-plugin-import: "npm:2.32.0"
@@ -3480,7 +3480,7 @@ __metadata:
     globals: "npm:15.15.0"
     prettier: "npm:3.6.2"
   peerDependencies:
-    "@stylistic/eslint-plugin": ^2.6.4
+    "@stylistic/eslint-plugin": ^2.6.4 || ^3.0.0
     eslint: ^5.16.0 || ^6.8.0 || ^7.2.0 || ^8.0.0 || ^9.0.0
     prettier: ^3.0.0
   languageName: unknown
