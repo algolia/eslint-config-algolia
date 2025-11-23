@@ -2959,12 +2959,12 @@ __metadata:
 
 "eslint-config-algolia@file:../eslint-config-algolia::locator=test%40workspace%3Apackages%2Ftest":
   version: 24.0.0
-  resolution: "eslint-config-algolia@file:../eslint-config-algolia#../eslint-config-algolia::hash=500366&locator=test%40workspace%3Apackages%2Ftest"
+  resolution: "eslint-config-algolia@file:../eslint-config-algolia#../eslint-config-algolia::hash=5ad4f6&locator=test%40workspace%3Apackages%2Ftest"
   peerDependencies:
     "@stylistic/eslint-plugin": ^5.0.0
     eslint: ^5.16.0 || ^6.8.0 || ^7.2.0 || ^8.0.0 || ^9.0.0
     prettier: ^3.0.0
-  checksum: 10c0/21f359dd34e8d6419a955eba60089a34a9e2b439f067f4ac53193aaa614685e1bc2aa8b6abce625109b40f0fad5ebaedf6a82859fb26c45569fa113e4bab70ec
+  checksum: 10c0/1b330f4010c5868f60664d4b72afe5322b9c4c27dfcc6c6c5ea627fc6b063606c240e291be2cb6d7823aeb620b432f19dfe09f71bcf613cd6fcd1c76892d7448
   languageName: node
   linkType: hard
 
@@ -2982,7 +2982,7 @@ __metadata:
     eslint: "npm:9.39.1"
     eslint-config-prettier: "npm:10.1.8"
     eslint-plugin-import: "npm:2.32.0"
-    eslint-plugin-jest: "npm:29.2.0"
+    eslint-plugin-jest: "npm:29.2.1"
     eslint-plugin-jsdoc: "npm:61.4.1"
     eslint-plugin-jsx-a11y: "npm:6.10.2"
     eslint-plugin-prettier: "npm:5.5.4"
@@ -3061,9 +3061,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"eslint-plugin-jest@npm:29.2.0":
-  version: 29.2.0
-  resolution: "eslint-plugin-jest@npm:29.2.0"
+"eslint-plugin-jest@npm:29.2.1":
+  version: 29.2.1
+  resolution: "eslint-plugin-jest@npm:29.2.1"
   dependencies:
     "@typescript-eslint/utils": "npm:^8.0.0"
   peerDependencies:
@@ -3075,7 +3075,7 @@ __metadata:
       optional: true
     jest:
       optional: true
-  checksum: 10c0/3880065bc4f8081fb7f5bc017fae65b383e35c72445619bb6037fa374a84c36c18503642353c4615ddba8c8781b0ff1724decbc9b9b2f45f0e279e199797aeb8
+  checksum: 10c0/9115e35a537d458b37236c0ebba2ce357226d24cc0a2345c29fd8b14a63681343fc71ef0d4f0bbb47575f5c6a76b21da6dee183db4d8e0ccf9d8f4bfbb8c743f
   languageName: node
   linkType: hard
 
