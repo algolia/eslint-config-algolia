@@ -3189,12 +3189,12 @@ __metadata:
 
 "eslint-config-algolia@file:../eslint-config-algolia::locator=test%40workspace%3Apackages%2Ftest":
   version: 24.0.0
-  resolution: "eslint-config-algolia@file:../eslint-config-algolia#../eslint-config-algolia::hash=931a23&locator=test%40workspace%3Apackages%2Ftest"
+  resolution: "eslint-config-algolia@file:../eslint-config-algolia#../eslint-config-algolia::hash=33e527&locator=test%40workspace%3Apackages%2Ftest"
   peerDependencies:
     "@stylistic/eslint-plugin": ^5.0.0
     eslint: ^5.16.0 || ^6.8.0 || ^7.2.0 || ^8.0.0 || ^9.0.0
     prettier: ^3.0.0
-  checksum: 10c0/b4c719d0ce3eea47fd3e238f888a1a2e9149341eeaf3c81f302714a14daab35bb042410ed87aebd33ecc59fa880133b3604347e8251a0f3de673872111d5dd3b
+  checksum: 10c0/eb051b58dc14efbec7bc2db9e998938a5721214354a4152974ed5a5cf808ae2777b2c6d0f177d3621379559b42865f4efe43f0ff4fbf97dd8361ac8c45a68056
   languageName: node
   linkType: hard
 
@@ -3212,7 +3212,7 @@ __metadata:
     eslint: "npm:9.39.2"
     eslint-config-prettier: "npm:10.1.8"
     eslint-plugin-import: "npm:2.32.0"
-    eslint-plugin-jest: "npm:29.12.1"
+    eslint-plugin-jest: "npm:29.12.2"
     eslint-plugin-jsdoc: "npm:61.7.1"
     eslint-plugin-jsx-a11y: "npm:6.10.2"
     eslint-plugin-prettier: "npm:5.5.5"
@@ -3291,21 +3291,24 @@ __metadata:
   languageName: node
   linkType: hard
 
-"eslint-plugin-jest@npm:29.12.1":
-  version: 29.12.1
-  resolution: "eslint-plugin-jest@npm:29.12.1"
+"eslint-plugin-jest@npm:29.12.2":
+  version: 29.12.2
+  resolution: "eslint-plugin-jest@npm:29.12.2"
   dependencies:
     "@typescript-eslint/utils": "npm:^8.0.0"
   peerDependencies:
     "@typescript-eslint/eslint-plugin": ^8.0.0
     eslint: ^8.57.0 || ^9.0.0
     jest: "*"
+    typescript: ">=4.8.4 <6.0.0"
   peerDependenciesMeta:
     "@typescript-eslint/eslint-plugin":
       optional: true
     jest:
       optional: true
-  checksum: 10c0/54c149328c97964a34958b7e32c56f24e9c9fb8eeb6892c357ae527d543cc766d960ef024baaa57be603befda8cb1e25f5cb9701993f554655143e199264ba7a
+    typescript:
+      optional: true
+  checksum: 10c0/e314b1171e7fa14c1cba9d02a1d88c0258f57ff00b4d45297ccb9d15d293378924afb4a402aa18c00c42500cdcd6f64acfc2a2210d2da17f19989bb591287194
   languageName: node
   linkType: hard
 
