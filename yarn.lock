@@ -3189,12 +3189,12 @@ __metadata:
 
 "eslint-config-algolia@file:../eslint-config-algolia::locator=test%40workspace%3Apackages%2Ftest":
   version: 24.0.0
-  resolution: "eslint-config-algolia@file:../eslint-config-algolia#../eslint-config-algolia::hash=33e527&locator=test%40workspace%3Apackages%2Ftest"
+  resolution: "eslint-config-algolia@file:../eslint-config-algolia#../eslint-config-algolia::hash=a3db55&locator=test%40workspace%3Apackages%2Ftest"
   peerDependencies:
     "@stylistic/eslint-plugin": ^5.0.0
     eslint: ^5.16.0 || ^6.8.0 || ^7.2.0 || ^8.0.0 || ^9.0.0
     prettier: ^3.0.0
-  checksum: 10c0/eb051b58dc14efbec7bc2db9e998938a5721214354a4152974ed5a5cf808ae2777b2c6d0f177d3621379559b42865f4efe43f0ff4fbf97dd8361ac8c45a68056
+  checksum: 10c0/d13b703d6b079ea24ce4d909c60011e4e770703876fc624768b77aebefe8ba488c150eb64fd0a21be806b53f69ef2028e5a55db814ea8772d786436b02cf51d6
   languageName: node
   linkType: hard
 
@@ -3212,7 +3212,7 @@ __metadata:
     eslint: "npm:9.39.2"
     eslint-config-prettier: "npm:10.1.8"
     eslint-plugin-import: "npm:2.32.0"
-    eslint-plugin-jest: "npm:29.12.2"
+    eslint-plugin-jest: "npm:29.14.0"
     eslint-plugin-jsdoc: "npm:61.7.1"
     eslint-plugin-jsx-a11y: "npm:6.10.2"
     eslint-plugin-prettier: "npm:5.5.5"
@@ -3291,14 +3291,14 @@ __metadata:
   languageName: node
   linkType: hard
 
-"eslint-plugin-jest@npm:29.12.2":
-  version: 29.12.2
-  resolution: "eslint-plugin-jest@npm:29.12.2"
+"eslint-plugin-jest@npm:29.14.0":
+  version: 29.14.0
+  resolution: "eslint-plugin-jest@npm:29.14.0"
   dependencies:
     "@typescript-eslint/utils": "npm:^8.0.0"
   peerDependencies:
     "@typescript-eslint/eslint-plugin": ^8.0.0
-    eslint: ^8.57.0 || ^9.0.0
+    eslint: ^8.57.0 || ^9.0.0 || ^10.0.0
     jest: "*"
     typescript: ">=4.8.4 <6.0.0"
   peerDependenciesMeta:
@@ -3308,7 +3308,7 @@ __metadata:
       optional: true
     typescript:
       optional: true
-  checksum: 10c0/e314b1171e7fa14c1cba9d02a1d88c0258f57ff00b4d45297ccb9d15d293378924afb4a402aa18c00c42500cdcd6f64acfc2a2210d2da17f19989bb591287194
+  checksum: 10c0/98e7dac3017d118a1e6a684f72b5d11be7bbc9c7ef12390af000dfb4096ac9988564522c2a664b89c33686597cdd0043a0c49152d2607f3251008d37167e09d8
   languageName: node
   linkType: hard
 
