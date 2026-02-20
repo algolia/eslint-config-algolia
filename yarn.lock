@@ -1932,12 +1932,13 @@ __metadata:
   languageName: node
   linkType: hard
 
-"anchor-markdown-header@npm:^0.6.0":
-  version: 0.6.0
-  resolution: "anchor-markdown-header@npm:0.6.0"
+"anchor-markdown-header@npm:^0.8.2":
+  version: 0.8.2
+  resolution: "anchor-markdown-header@npm:0.8.2"
   dependencies:
-    emoji-regex: "npm:~10.1.0"
-  checksum: 10c0/e6bfbf0e506b8dd6ed6f50e58e91a011f1a705efbceb32cb99d6d608548893695da55c68651e6e4b04b95a4822328d9f13352ffa144dbc4ca6c534bdab403728
+    emoji-regex: "npm:~10.6.0"
+    remove-markdown: "npm:^0.6.2"
+  checksum: 10c0/df4f7535ac6ca99a2461084551b7e1a3cd31fbbae95c91dec039d935484e1325d99acb531a901b0b19e8130df8798e68437f431d95062b04c3281d3ce3da8595
   languageName: node
   linkType: hard
 
@@ -2854,19 +2855,19 @@ __metadata:
   languageName: node
   linkType: hard
 
-"doctoc@npm:2.2.1":
-  version: 2.2.1
-  resolution: "doctoc@npm:2.2.1"
+"doctoc@npm:2.3.0":
+  version: 2.3.0
+  resolution: "doctoc@npm:2.3.0"
   dependencies:
     "@textlint/markdown-to-ast": "npm:^12.1.1"
-    anchor-markdown-header: "npm:^0.6.0"
+    anchor-markdown-header: "npm:^0.8.2"
     htmlparser2: "npm:^7.2.0"
     minimist: "npm:^1.2.6"
     underscore: "npm:^1.13.2"
     update-section: "npm:^0.3.3"
   bin:
     doctoc: doctoc.js
-  checksum: 10c0/92fd2d67111a19a29dab538b3cc6fe0f21ee4875dfbefa298a45720a7885c37f614fee24f7e22fbe0e7762b8789e8440ae5121767ebb42565a2f9f9aea81c2ea
+  checksum: 10c0/da4c5256132fbdd66717d5537b66fdea87ad578e36720b45d3ba06b1e46e78a2665666d108c6008d031329ebe93d12d4e762589a093d00f707e6ae5a031bd501
   languageName: node
   linkType: hard
 
@@ -2972,10 +2973,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"emoji-regex@npm:~10.1.0":
-  version: 10.1.0
-  resolution: "emoji-regex@npm:10.1.0"
-  checksum: 10c0/3b403b03f52d7ce1f095a76116b4bc18a46d418a8ef819a50b5fd2c4d121e152e98b6401149737a51ce7b7aeb67405f7ce05937712352665a174285fbc452bb1
+"emoji-regex@npm:~10.6.0":
+  version: 10.6.0
+  resolution: "emoji-regex@npm:10.6.0"
+  checksum: 10c0/1e4aa097bb007301c3b4b1913879ae27327fdc48e93eeefefe3b87e495eb33c5af155300be951b4349ff6ac084f4403dc9eff970acba7c1c572d89396a9a32d7
   languageName: node
   linkType: hard
 
@@ -6491,6 +6492,13 @@ __metadata:
   languageName: node
   linkType: hard
 
+"remove-markdown@npm:^0.6.2":
+  version: 0.6.3
+  resolution: "remove-markdown@npm:0.6.3"
+  checksum: 10c0/43203724cc9bba4960e0b7f5f99d266a9729dcd8a6bb915ca45ed4aaaf2402a52c6e03345463502cbd97a1d7121505c13026901672f9c1d3730b8266ccfc7fc0
+  languageName: node
+  linkType: hard
+
 "renovate-config-algolia@npm:2.2.0":
   version: 2.2.0
   resolution: "renovate-config-algolia@npm:2.2.0"
@@ -6613,7 +6621,7 @@ __metadata:
   resolution: "root-workspace-0b6124@workspace:."
   dependencies:
     conventional-changelog-cli: "npm:5.0.0"
-    doctoc: "npm:2.2.1"
+    doctoc: "npm:2.3.0"
     json: "npm:11.0.0"
     renovate-config-algolia: "npm:2.2.0"
   languageName: unknown
