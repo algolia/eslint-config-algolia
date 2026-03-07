@@ -668,15 +668,15 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@eslint-community/eslint-plugin-eslint-comments@npm:4.6.0":
-  version: 4.6.0
-  resolution: "@eslint-community/eslint-plugin-eslint-comments@npm:4.6.0"
+"@eslint-community/eslint-plugin-eslint-comments@npm:4.7.1":
+  version: 4.7.1
+  resolution: "@eslint-community/eslint-plugin-eslint-comments@npm:4.7.1"
   dependencies:
     escape-string-regexp: "npm:^4.0.0"
     ignore: "npm:^7.0.5"
   peerDependencies:
-    eslint: ^6.0.0 || ^7.0.0 || ^8.0.0 || ^9.0.0
-  checksum: 10c0/05d964f61aabb6ab0012608750605ac40cb32212858d291f4d10ac5ac66499f87e13c713da3719e7f5dd1460efd7d0805d27000fbc3d18f3326af83ddaad2bf3
+    eslint: ^6.0.0 || ^7.0.0 || ^8.0.0 || ^9.0.0 || ^10.0.0
+  checksum: 10c0/055cef9263ea4bd41eb7f96f9f9c679db4c699940e0fb604eec563ddde7f712fcab27c471735ec59fd7ea60f8cc3bf9908175e319cae1b1cd1cadce3c2244e65
   languageName: node
   linkType: hard
 
@@ -3206,12 +3206,12 @@ __metadata:
 
 "eslint-config-algolia@file:../eslint-config-algolia::locator=test%40workspace%3Apackages%2Ftest":
   version: 24.0.0
-  resolution: "eslint-config-algolia@file:../eslint-config-algolia#../eslint-config-algolia::hash=c6d139&locator=test%40workspace%3Apackages%2Ftest"
+  resolution: "eslint-config-algolia@file:../eslint-config-algolia#../eslint-config-algolia::hash=e78551&locator=test%40workspace%3Apackages%2Ftest"
   peerDependencies:
     "@stylistic/eslint-plugin": ^5.0.0
     eslint: ^5.16.0 || ^6.8.0 || ^7.2.0 || ^8.0.0 || ^9.0.0
     prettier: ^3.0.0
-  checksum: 10c0/bec9f3981d142573a54f8d2a0a8a9dc9d6493b8eb2806e1fa5eabbf75075c70eebba5954cd47b847a228d286c3103c5f113a335ed2fd13e9f421b23b31a1bc51
+  checksum: 10c0/14177bcff60d1817ba7998232342ef901e7e03507e03ebe80677864571a9cc45e7892463e40d2076562c5a842499d8540dc81de6c381d0901f5ed134e08997c4
   languageName: node
   linkType: hard
 
@@ -3221,7 +3221,7 @@ __metadata:
   dependencies:
     "@babel/core": "npm:7.29.0"
     "@babel/eslint-parser": "npm:7.28.6"
-    "@eslint-community/eslint-plugin-eslint-comments": "npm:4.6.0"
+    "@eslint-community/eslint-plugin-eslint-comments": "npm:4.7.1"
     "@eslint/js": "npm:9.39.3"
     "@stylistic/eslint-plugin": "npm:5.9.0"
     "@typescript-eslint/eslint-plugin": "npm:8.56.1"
