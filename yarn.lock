@@ -1318,18 +1318,18 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@textlint/ast-node-types@npm:15.5.4":
-  version: 15.5.4
-  resolution: "@textlint/ast-node-types@npm:15.5.4"
-  checksum: 10c0/755166612e160248e93fd63f4bd2e18ad303fd15055367634168679fb9c05f10346bdfa0093c02762106ed1d4383a87ef34fedfe5e338ba7a331d57b9a6d99e5
+"@textlint/ast-node-types@npm:15.7.1":
+  version: 15.7.1
+  resolution: "@textlint/ast-node-types@npm:15.7.1"
+  checksum: 10c0/360a66fe4ba0bbf0fd04688f1267e2e4a5b71538be03c6bf55103d55b62432886454f353ac032782cc4bd13bd407e460fe7a3e46bfeb1691b75048bbf68331ba
   languageName: node
   linkType: hard
 
-"@textlint/markdown-to-ast@npm:^15.5.2":
-  version: 15.5.4
-  resolution: "@textlint/markdown-to-ast@npm:15.5.4"
+"@textlint/markdown-to-ast@npm:^15.6.0":
+  version: 15.7.1
+  resolution: "@textlint/markdown-to-ast@npm:15.7.1"
   dependencies:
-    "@textlint/ast-node-types": "npm:15.5.4"
+    "@textlint/ast-node-types": "npm:15.7.1"
     debug: "npm:^4.4.3"
     mdast-util-gfm-autolink-literal: "npm:^0.1.3"
     neotraverse: "npm:^0.6.18"
@@ -1339,7 +1339,7 @@ __metadata:
     remark-parse: "npm:^9.0.0"
     structured-source: "npm:^4.0.0"
     unified: "npm:^9.2.2"
-  checksum: 10c0/a38bca937a3a8ffd3a4ab1fa3dc9d7f0d722665c7779b9a9f37448e55715ffbaee3bbd7696f01482a833cd2b53ae84737166f5aaf158432e560ae52931b65895
+  checksum: 10c0/097d844c68f3388ef348648cda2d035ec97a50b1e36e1a19c51a2ac79433806b7a8587e7cfadbddf88dc6d7a24bd73dc4233bdd6927b6c09c7eb4207a60a0fde
   languageName: node
   linkType: hard
 
@@ -1948,13 +1948,13 @@ __metadata:
   languageName: node
   linkType: hard
 
-"anchor-markdown-header@npm:^0.8.3":
-  version: 0.8.3
-  resolution: "anchor-markdown-header@npm:0.8.3"
+"anchor-markdown-header@npm:^0.8.4":
+  version: 0.8.4
+  resolution: "anchor-markdown-header@npm:0.8.4"
   dependencies:
     emoji-regex: "npm:~10.6.0"
     remove-markdown: "npm:^0.6.2"
-  checksum: 10c0/ab6d2cd0b6fd045237caa10df3e732a35d2a135cdcdf1469a2915080323d32651d9d4b7a7bf9cdb9bfb4c31d7fe724ca8d826ff6bd8c846524b857cfe317f3e1
+  checksum: 10c0/2419e988546f00c9a5678de024def02978215b211332a500003f8f1410ac41a5b4555975481800d30cec8710198228e73d9a3767a29ee666bfa613ef4f3c0152
   languageName: node
   linkType: hard
 
@@ -2894,18 +2894,18 @@ __metadata:
   languageName: node
   linkType: hard
 
-"doctoc@npm:2.4.1":
-  version: 2.4.1
-  resolution: "doctoc@npm:2.4.1"
+"doctoc@npm:2.5.0":
+  version: 2.5.0
+  resolution: "doctoc@npm:2.5.0"
   dependencies:
-    "@textlint/markdown-to-ast": "npm:^15.5.2"
-    anchor-markdown-header: "npm:^0.8.3"
+    "@textlint/markdown-to-ast": "npm:^15.6.0"
+    anchor-markdown-header: "npm:^0.8.4"
     htmlparser2: "npm:^7.2.0"
     loglevel: "npm:^1.9.2"
     minimist: "npm:^1.2.6"
   bin:
     doctoc: doctoc.js
-  checksum: 10c0/a548ae79b22558c35ca0bab41c653680dacb44afa53be0f865166ef7f092a75d2b7b4db9b32969bed9ada420c37404aef64e8653956b6aefe60b185afc5b2c3b
+  checksum: 10c0/31cd19b4a6861e72d43b88dc4f0f3d3bc2a9353ed5e5b3330f90bc99380512919a2d0d05397aa9e4a969e19a8ae02944706ca6b36fc4b9c4cad8f3f85bde7bc4
   languageName: node
   linkType: hard
 
@@ -6702,7 +6702,7 @@ __metadata:
   resolution: "root-workspace-0b6124@workspace:."
   dependencies:
     conventional-changelog-cli: "npm:5.0.0"
-    doctoc: "npm:2.4.1"
+    doctoc: "npm:2.5.0"
     json: "npm:11.0.0"
     renovate-config-algolia: "npm:2.2.0"
   languageName: unknown
