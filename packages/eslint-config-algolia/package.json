@@ -20,7 +20,7 @@
   "author": "Algolia, Inc.",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/algolia/eslint-config-algolia"
+    "url": "https://github.com/algolia/eslint-config-algolia/issues"
   },
   "homepage": "https://github.com/algolia/eslint-config-algolia",
   "devDependencies": {
