@@ -3228,12 +3228,12 @@ __metadata:
 
 "eslint-config-algolia@file:../eslint-config-algolia::locator=test%40workspace%3Apackages%2Ftest":
   version: 24.0.0
-  resolution: "eslint-config-algolia@file:../eslint-config-algolia#../eslint-config-algolia::hash=a0a45c&locator=test%40workspace%3Apackages%2Ftest"
+  resolution: "eslint-config-algolia@file:../eslint-config-algolia#../eslint-config-algolia::hash=ad97a1&locator=test%40workspace%3Apackages%2Ftest"
   peerDependencies:
     "@stylistic/eslint-plugin": ^5.0.0
     eslint: ^5.16.0 || ^6.8.0 || ^7.2.0 || ^8.0.0 || ^9.0.0
     prettier: ^3.0.0
-  checksum: 10c0/67c21d0be98894a62c5b2e77f2ee0fc163ae84d5888739e82f3e785b99f50474e00b64f78aa57dc622a7966a5b65b3429387f4ccb91b8bfab8c5d7e5f13b4677
+  checksum: 10c0/320bdda65d0344f077468bd97ba672aa4e2c905fec3b730cbdcfefc423f55f1c17798d2a924cf2f0e54fbd8b41965ad1b10c6d9db0e25e80a89be04df5bf1d9b
   languageName: node
   linkType: hard
 
@@ -3251,7 +3251,7 @@ __metadata:
     eslint: "npm:9.39.4"
     eslint-config-prettier: "npm:10.1.8"
     eslint-plugin-import: "npm:2.32.0"
-    eslint-plugin-jest: "npm:29.15.2"
+    eslint-plugin-jest: "npm:29.15.3"
     eslint-plugin-jsdoc: "npm:61.7.1"
     eslint-plugin-jsx-a11y: "npm:6.10.2"
     eslint-plugin-prettier: "npm:5.5.6"
@@ -3330,9 +3330,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"eslint-plugin-jest@npm:29.15.2":
-  version: 29.15.2
-  resolution: "eslint-plugin-jest@npm:29.15.2"
+"eslint-plugin-jest@npm:29.15.3":
+  version: 29.15.3
+  resolution: "eslint-plugin-jest@npm:29.15.3"
   dependencies:
     "@typescript-eslint/utils": "npm:^8.0.0"
   peerDependencies:
@@ -3347,7 +3347,7 @@ __metadata:
       optional: true
     typescript:
       optional: true
-  checksum: 10c0/be8d59b0d4c1ff1afd5294b227cdd190a3a7741fb28f8092d359eda1010cb87ef61c3db6c0a794e9612f745ae008c4d53ee78754d8faf87a22a823b71c9b14e4
+  checksum: 10c0/69638867203c16cd7e393741e2d1df66c2cfad2b3d91cc6be67f3f77cec6442881abe2a5adb6906311b2fbbff41ddd00ce51595c52010549a301be462d912cba
   languageName: node
   linkType: hard
 
