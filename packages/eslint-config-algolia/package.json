@@ -42,7 +42,7 @@
     "eslint-plugin-react-hooks": "7.1.1",
     "globals": "16.5.0",
     "prettier": "3.9.5",
-    "typescript": "5.9.3"
+    "typescript": "7.0.2"
   },
   "peerDependencies": {
     "@stylistic/eslint-plugin": "^5.0.0",
