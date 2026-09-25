@@ -87,9 +87,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@babel/eslint-parser@npm:7.29.7":
-  version: 7.29.7
-  resolution: "@babel/eslint-parser@npm:7.29.7"
+"@babel/eslint-parser@npm:7.29.9":
+  version: 7.29.9
+  resolution: "@babel/eslint-parser@npm:7.29.9"
   dependencies:
     "@nicolo-ribaudo/eslint-scope-5-internals": "npm:5.1.1-v1"
     eslint-visitor-keys: "npm:^2.1.0"
@@ -97,7 +97,7 @@ __metadata:
   peerDependencies:
     "@babel/core": ^7.11.0
     eslint: ^7.5.0 || ^8.0.0 || ^9.0.0
-  checksum: 10c0/c24dcd941b0a149b197a9e9c3297a01d621775ac71cdf2e1134b1097c1691b46ce969355e1be3676d83b88f62c43ed33cf3a499da21ea11a5eb07339ce64ac20
+  checksum: 10c0/f97d9eb23ad53e9263235e9efe204908494922fb89a4cf623e174d7e62a112c52850990cc19b9ef5043af6e2ca87b1772f998175571ac8cb9967689d6e036bd8
   languageName: node
   linkType: hard
 
@@ -3228,12 +3228,12 @@ __metadata:
 
 "eslint-config-algolia@file:../eslint-config-algolia::locator=test%40workspace%3Apackages%2Ftest":
   version: 24.0.0
-  resolution: "eslint-config-algolia@file:../eslint-config-algolia#../eslint-config-algolia::hash=4e2de7&locator=test%40workspace%3Apackages%2Ftest"
+  resolution: "eslint-config-algolia@file:../eslint-config-algolia#../eslint-config-algolia::hash=4b41c8&locator=test%40workspace%3Apackages%2Ftest"
   peerDependencies:
     "@stylistic/eslint-plugin": ^5.0.0
     eslint: ^5.16.0 || ^6.8.0 || ^7.2.0 || ^8.0.0 || ^9.0.0
     prettier: ^3.0.0
-  checksum: 10c0/25ff1c45db8a5ea7b323c2f2795bd113b30743a33a63c69f565303dab07ce9bf9d68c726d97efed182c0e542d08b8d72eed7a52f908d865430a67bdb59aa227d
+  checksum: 10c0/79cd3062de1b8af322bc883edc6d1f5f49f8c91f25be181bce1c547684170791fe93b822170f56db5b59f40f563d2164baa19a6a95b568215a276abe265f13c3
   languageName: node
   linkType: hard
 
@@ -3242,7 +3242,7 @@ __metadata:
   resolution: "eslint-config-algolia@workspace:packages/eslint-config-algolia"
   dependencies:
     "@babel/core": "npm:7.29.7"
-    "@babel/eslint-parser": "npm:7.29.7"
+    "@babel/eslint-parser": "npm:7.29.9"
     "@eslint-community/eslint-plugin-eslint-comments": "npm:4.7.2"
     "@eslint/js": "npm:9.39.5"
     "@stylistic/eslint-plugin": "npm:5.10.0"
